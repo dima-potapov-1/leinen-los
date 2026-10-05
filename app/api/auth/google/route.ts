@@ -1,10 +1,15 @@
 import { NextResponse } from "next/server";
+import { getAuthOrigin } from "@/lib/auth-origin";
 
 export async function GET(request: Request) {
-  const { origin } = new URL(request.url);
+  const origin = getAuthOrigin(request);
+
+  if (!process.env.GOOGLE_CLIENT_ID) {
+    return NextResponse.redirect(`${origin}/login?error=google_not_configured`);
+  }
 
   const params = new URLSearchParams({
-    client_id: process.env.GOOGLE_CLIENT_ID!,
+    client_id: process.env.GOOGLE_CLIENT_ID,
     redirect_uri: `${origin}/api/auth/google/callback`,
     response_type: "code",
     scope: "openid email profile",

@@ -33,8 +33,28 @@ function LoginForm() {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
+  const loginErrorMessage = (code: string | null): string | null => {
+    if (!code) return null;
+    switch (code) {
+      case "google_auth_cancelled":
+        return "Google sign-in was cancelled.";
+      case "token_exchange_failed":
+        return "Google sign-in failed (token exchange). Check OAuth redirect URI and client secret in Google Cloud Console.";
+      case "google_not_configured":
+        return "Google sign-in is not configured on this server.";
+      case "auth_failed":
+        return "Could not create a session. Is Supabase running and Google provider enabled?";
+      case "auth_callback_error":
+        return "Email link sign-in failed. Try again or use password.";
+      case "confirmation_failed":
+        return "Email confirmation failed or link expired.";
+      default:
+        return "Authentication failed. Please try again.";
+    }
+  };
+
   const [error, setError] = useState<string | null>(
-    callbackError ? "Authentication failed. Please try again." : null
+    loginErrorMessage(callbackError)
   );
 
   const handleEmailPassword = async (e: React.FormEvent) => {
