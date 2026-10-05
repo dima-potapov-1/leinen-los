@@ -2,6 +2,7 @@
 
 import { Columns2, BookOpen, ClipboardCheck } from "lucide-react";
 import Link from "next/link";
+import { LogIn } from "lucide-react";
 import { useProgressStore } from "@/hooks/useProgressStore";
 import { useAuth } from "@/hooks/useAuth";
 import { MasteryBar } from "@/components/dashboard/MasteryBar";
@@ -28,13 +29,21 @@ export default function HomePage() {
         </div>
         <div className="flex items-center gap-2">
           {hydrated && <StreakBadge />}
-          {user && (
+          {user ? (
             <div
               className="flex h-8 w-8 items-center justify-center rounded-full bg-ocean text-xs font-semibold text-white"
               title={user.email ?? "Signed in"}
             >
               {userInitial}
             </div>
+          ) : (
+            <Link
+              href="/login"
+              className="flex items-center gap-1.5 rounded-lg border border-sky px-3 py-1.5 text-xs font-semibold text-ocean transition-colors hover:bg-sky"
+            >
+              <LogIn className="h-3.5 w-3.5" />
+              Sign in
+            </Link>
           )}
         </div>
       </div>

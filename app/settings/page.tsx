@@ -1,6 +1,7 @@
 "use client";
 
-import { Settings as SettingsIcon, LogOut } from "lucide-react";
+import Link from "next/link";
+import { Settings as SettingsIcon, LogOut, LogIn } from "lucide-react";
 import { usePreferencesStore, type QuestionOrder } from "@/hooks/usePreferencesStore";
 import { useAuth } from "@/hooks/useAuth";
 import { trackEvent } from "@/lib/analytics";
@@ -207,9 +208,9 @@ export default function SettingsPage() {
         </div>
 
         {/* Account */}
-        {user && (
-          <div className="rounded-xl border border-sky bg-white p-5">
-            <label className="mb-2 block text-sm font-medium">Account</label>
+        <div className="rounded-xl border border-sky bg-white p-5">
+          <label className="mb-2 block text-sm font-medium">Account</label>
+          {user ? (
             <div className="flex items-center justify-between">
               <span className="text-sm text-muted">{user.email}</span>
               <button
@@ -223,8 +224,21 @@ export default function SettingsPage() {
                 Sign out
               </button>
             </div>
-          </div>
-        )}
+          ) : (
+            <div className="flex flex-col gap-2">
+              <p className="text-sm text-muted">
+                Sign in to sync progress across your devices.
+              </p>
+              <Link
+                href="/login"
+                className="flex items-center justify-center gap-2 rounded-lg bg-ocean px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-ocean/90"
+              >
+                <LogIn className="h-4 w-4" />
+                Sign in or create account
+              </Link>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

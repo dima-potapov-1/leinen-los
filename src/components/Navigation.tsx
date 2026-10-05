@@ -12,6 +12,7 @@ import {
   Settings,
   Info,
   LogOut,
+  LogIn,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/hooks/useAuth";
@@ -99,8 +100,8 @@ export function Sidebar() {
           );
         })}
       </nav>
-      {user && (
-        <div className="border-t border-sky px-3 py-3">
+      <div className="border-t border-sky px-3 py-3">
+        {user ? (
           <div className="flex items-center gap-2 px-3">
             <div className="flex h-7 w-7 items-center justify-center rounded-full bg-ocean text-xs font-semibold text-white">
               {initial}
@@ -116,8 +117,16 @@ export function Sidebar() {
               <LogOut className="h-4 w-4" />
             </button>
           </div>
-        </div>
-      )}
+        ) : (
+          <Link
+            href="/login"
+            className="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-ocean transition-colors hover:bg-sky/50"
+          >
+            <LogIn className="h-5 w-5" />
+            Sign in
+          </Link>
+        )}
+      </div>
     </aside>
   );
 }
