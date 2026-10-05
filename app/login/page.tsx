@@ -43,7 +43,7 @@ function LoginForm() {
       case "google_not_configured":
         return "Google sign-in is not configured on this server.";
       case "auth_failed":
-        return "Could not create a session. Is Supabase running and Google provider enabled?";
+        return "Could not create a session. Supabase may be offline — check that the project exists and Google is enabled under Authentication → Providers.";
       case "auth_callback_error":
         return "Email link sign-in failed. Try again or use password.";
       case "confirmation_failed":
@@ -63,30 +63,36 @@ function LoginForm() {
     setError(null);
     setMessage(null);
 
-    if (mode === "signup") {
-      const { error } = await supabase.auth.signUp({
-        email,
-        password,
-        options: {
-          emailRedirectTo: `${window.location.origin}/auth/confirm`,
-        },
-      });
-      if (error) {
-        setError(error.message);
+    try {
+      if (mode === "signup") {
+        const { error } = await supabase.auth.signUp({
+          email,
+          password,
+          options: {
+            emailRedirectTo: `${window.location.origin}/auth/confirm`,
+          },
+        });
+        if (error) {
+          setError(error.message);
+        } else {
+          setMessage("Check your email for a confirmation link.");
+        }
       } else {
-        setMessage("Check your email for a confirmation link.");
+        const { error } = await supabase.auth.signInWithPassword({
+          email,
+          password,
+        });
+        if (error) {
+          setError(error.message);
+        } else {
+          router.push("/");
+          router.refresh();
+        }
       }
-    } else {
-      const { error } = await supabase.auth.signInWithPassword({
-        email,
-        password,
-      });
-      if (error) {
-        setError(error.message);
-      } else {
-        router.push("/");
-        router.refresh();
-      }
+    } catch {
+      setError(
+        "Cannot reach Supabase. The hosted database project may be deleted or paused — update NEXT_PUBLIC_SUPABASE_URL on Vercel."
+      );
     }
 
     setLoading(false);
@@ -98,17 +104,23 @@ function LoginForm() {
     setError(null);
     setMessage(null);
 
-    const { error } = await supabase.auth.signInWithOtp({
-      email,
-      options: {
-        emailRedirectTo: `${window.location.origin}/auth/callback`,
-      },
-    });
+    try {
+      const { error } = await supabase.auth.signInWithOtp({
+        email,
+        options: {
+          emailRedirectTo: `${window.location.origin}/auth/callback`,
+        },
+      });
 
-    if (error) {
-      setError(error.message);
-    } else {
-      setMessage("Check your email for a magic link.");
+      if (error) {
+        setError(error.message);
+      } else {
+        setMessage("Check your email for a magic link.");
+      }
+    } catch {
+      setError(
+        "Cannot reach Supabase (network error). The database project may be deleted or paused — see docs/AUTH_SETUP_GUIDE.md to reconnect."
+      );
     }
 
     setLoading(false);
