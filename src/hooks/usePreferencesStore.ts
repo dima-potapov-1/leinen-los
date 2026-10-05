@@ -100,51 +100,65 @@ export const usePreferencesStore = create<PreferencesState>()(
     hydrated: false,
 
     hydrateFromServer: async (userId) => {
-      const supabase = createSupabaseBrowser();
+      const load = async () => {
+        const supabase = createSupabaseBrowser();
 
-      const profileResult = await supabase
-        .from("profiles")
-        .select("preferences")
-        .eq("id", userId)
-        .single();
+        const profileResult = await supabase
+          .from("profiles")
+          .select("preferences")
+          .eq("id", userId)
+          .single();
 
-      if (profileResult.error || !profileResult.data?.preferences) {
-        console.error("Failed to fetch preferences:", profileResult.error);
+        if (profileResult.error || !profileResult.data?.preferences) {
+          console.error("Failed to fetch preferences:", profileResult.error);
+          set({ userId, hydrated: true });
+          return;
+        }
+
+        const prefs = profileResult.data.preferences as Record<string, unknown>;
+        const today = new Date().toISOString().slice(0, 10);
+        const lastStudyDateOnServer = (prefs.last_study_date as string | null) ?? null;
+        const storedVersion = (prefs.counter_version as number) ?? 0;
+        const todayAnswered =
+          storedVersion >= COUNTER_VERSION && lastStudyDateOnServer === today
+            ? ((prefs.today_answered as number) ?? 0)
+            : 0;
+        const lastStudyDate = todayAnswered > 0
+          ? today
+          : lastStudyDateOnServer;
+
+        set({
+          primaryLanguage: (prefs.primary_language as Language) ?? "de",
+          secondaryLanguage: (prefs.secondary_language as Language) ?? "en",
+          sessionSize: (prefs.session_size as number) ?? 10,
+          questionOrder: (prefs.question_order as QuestionOrder) ?? "random",
+          shuffleAnswers: (prefs.shuffle_answers as boolean) ?? false,
+          examDate: (prefs.exam_date as string | null) ?? null,
+          streakCount: (prefs.streak_count as number) ?? 0,
+          lastStudyDate,
+          todayAnswered,
+          explorePositions: (prefs.explore_positions as ExplorePositions) ?? {},
+          learnResumePositions: (prefs.learn_resume_positions as LearnResumePositions) ?? {},
+          userId,
+          hydrated: true,
+        });
+      };
+
+      try {
+        await Promise.race([
+          load(),
+          new Promise((_, reject) =>
+            setTimeout(() => reject(new Error("preferences_hydrate_timeout")), 5000)
+          ),
+        ]);
+      } catch (e) {
+        console.error("Preferences hydration failed:", e);
         set({ userId, hydrated: true });
-        return;
       }
-
-      const prefs = profileResult.data.preferences as Record<string, unknown>;
-      const today = new Date().toISOString().slice(0, 10);
-      const lastStudyDateOnServer = (prefs.last_study_date as string | null) ?? null;
-      const storedVersion = (prefs.counter_version as number) ?? 0;
-      const todayAnswered =
-        storedVersion >= COUNTER_VERSION && lastStudyDateOnServer === today
-          ? ((prefs.today_answered as number) ?? 0)
-          : 0;
-      const lastStudyDate = todayAnswered > 0
-        ? today
-        : lastStudyDateOnServer;
-
-      set({
-        primaryLanguage: (prefs.primary_language as Language) ?? "de",
-        secondaryLanguage: (prefs.secondary_language as Language) ?? "en",
-        sessionSize: (prefs.session_size as number) ?? 10,
-        questionOrder: (prefs.question_order as QuestionOrder) ?? "random",
-        shuffleAnswers: (prefs.shuffle_answers as boolean) ?? false,
-        examDate: (prefs.exam_date as string | null) ?? null,
-        streakCount: (prefs.streak_count as number) ?? 0,
-        lastStudyDate,
-        todayAnswered,
-        explorePositions: (prefs.explore_positions as ExplorePositions) ?? {},
-        learnResumePositions: (prefs.learn_resume_positions as LearnResumePositions) ?? {},
-        userId,
-        hydrated: true,
-      });
     },
 
     clearForLogout: () => {
-      set({ userId: null, hydrated: false });
+      set({ userId: null, hydrated: true });
     },
 
     setPrimaryLanguage: (lang) => {

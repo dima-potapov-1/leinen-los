@@ -99,34 +99,48 @@ export const useProgressStore = create<ProgressState>()(
     hydrated: false,
 
     hydrateFromServer: async (userId) => {
-      const supabase = createSupabaseBrowser();
-      const { data, error } = await supabase
-        .from("user_progress")
-        .select("question_id, mastery, consecutive_correct, attempts, correct_count, bookmarked")
-        .eq("user_id", userId);
+      const load = async () => {
+        const supabase = createSupabaseBrowser();
+        const { data, error } = await supabase
+          .from("user_progress")
+          .select("question_id, mastery, consecutive_correct, attempts, correct_count, bookmarked")
+          .eq("user_id", userId);
 
-      if (error) {
-        console.error("Failed to fetch progress:", error);
+        if (error) {
+          console.error("Failed to fetch progress:", error);
+          set({ userId, hydrated: true });
+          return;
+        }
+
+        const progress: Record<number, QuestionProgress> = {};
+        for (const row of data ?? []) {
+          progress[row.question_id] = {
+            mastery: row.mastery as Mastery,
+            consecutiveCorrect: row.consecutive_correct,
+            attempts: row.attempts,
+            correctCount: row.correct_count,
+            bookmarked: row.bookmarked,
+          };
+        }
+
+        set({ progress, userId, hydrated: true });
+      };
+
+      try {
+        await Promise.race([
+          load(),
+          new Promise((_, reject) =>
+            setTimeout(() => reject(new Error("progress_hydrate_timeout")), 5000)
+          ),
+        ]);
+      } catch (e) {
+        console.error("Progress hydration failed:", e);
         set({ userId, hydrated: true });
-        return;
       }
-
-      const progress: Record<number, QuestionProgress> = {};
-      for (const row of data ?? []) {
-        progress[row.question_id] = {
-          mastery: row.mastery as Mastery,
-          consecutiveCorrect: row.consecutive_correct,
-          attempts: row.attempts,
-          correctCount: row.correct_count,
-          bookmarked: row.bookmarked,
-        };
-      }
-
-      set({ progress, userId, hydrated: true });
     },
 
     clearForLogout: () => {
-      set({ userId: null, hydrated: false });
+      set({ userId: null, hydrated: true });
     },
 
     recordAnswer: (questionId, isCorrect) => {

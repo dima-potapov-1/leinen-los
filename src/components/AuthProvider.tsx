@@ -95,6 +95,33 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     usePreferencesStore.setState({ hydrated: true });
   }, [user, loading]);
 
+  useEffect(() => {
+    const markGuestReady = () => {
+      if (!useProgressStore.getState().userId) {
+        useProgressStore.setState({ hydrated: true });
+        usePreferencesStore.setState({ hydrated: true });
+      }
+    };
+
+    const unsubProgress = useProgressStore.persist.onFinishHydration(markGuestReady);
+    const unsubPrefs = usePreferencesStore.persist.onFinishHydration(markGuestReady);
+    if (useProgressStore.persist.hasHydrated()) markGuestReady();
+    if (usePreferencesStore.persist.hasHydrated()) markGuestReady();
+
+    const failOpen = window.setTimeout(() => {
+      if (!useProgressStore.getState().hydrated) {
+        useProgressStore.setState({ hydrated: true });
+        usePreferencesStore.setState({ hydrated: true });
+      }
+    }, 3500);
+
+    return () => {
+      unsubProgress();
+      unsubPrefs();
+      window.clearTimeout(failOpen);
+    };
+  }, []);
+
   return (
     <>
       {children}

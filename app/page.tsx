@@ -12,7 +12,7 @@ import { DailyGoal } from "@/components/dashboard/DailyGoal";
 
 export default function HomePage() {
   const hydrated = useProgressStore((s) => s.hydrated);
-  const { user } = useAuth();
+  const { user, loading: authLoading } = useAuth();
 
   const userInitial = user?.email?.charAt(0).toUpperCase() ?? "?";
 
@@ -39,17 +39,16 @@ export default function HomePage() {
         </div>
       </div>
 
-      {hydrated ? (
-        <div className="flex flex-col gap-4">
-          <MasteryBar />
-          <ReadinessIndicator />
-          <ExamCountdown />
-          <DailyGoal />
-        </div>
-      ) : (
-        <div className="flex min-h-[12rem] items-center justify-center">
-          <div className="text-muted">Loading...</div>
-        </div>
+      <div className="flex flex-col gap-4">
+        <MasteryBar />
+        <ReadinessIndicator />
+        <ExamCountdown />
+        <DailyGoal />
+      </div>
+      {!hydrated && authLoading && (
+        <p className="mt-2 text-center text-xs text-muted">
+          Syncing progress…
+        </p>
       )}
 
       <div className="mt-6 flex flex-col gap-3">

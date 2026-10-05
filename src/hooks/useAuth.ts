@@ -6,24 +6,50 @@ import type { User } from "@supabase/supabase-js";
 
 const supabase = createSupabaseBrowser();
 
+const AUTH_INIT_TIMEOUT_MS = 2500;
+
 export function useAuth() {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    supabase.auth.getUser().then(({ data: { user } }) => {
-      setUser(user);
+    let settled = false;
+
+    const finish = (nextUser: User | null) => {
+      if (settled) return;
+      settled = true;
+      setUser(nextUser);
       setLoading(false);
-    });
+    };
+
+    const timeout = setTimeout(() => finish(null), AUTH_INIT_TIMEOUT_MS);
+
+    supabase.auth
+      .getUser()
+      .then(({ data: { user: nextUser } }) => {
+        clearTimeout(timeout);
+        finish(nextUser);
+      })
+      .catch(() => {
+        clearTimeout(timeout);
+        finish(null);
+      });
 
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user ?? null);
-      setLoading(false);
+      clearTimeout(timeout);
+      if (!settled) {
+        finish(session?.user ?? null);
+      } else {
+        setUser(session?.user ?? null);
+      }
     });
 
-    return () => subscription.unsubscribe();
+    return () => {
+      clearTimeout(timeout);
+      subscription.unsubscribe();
+    };
   }, []);
 
   const signOut = async () => {
