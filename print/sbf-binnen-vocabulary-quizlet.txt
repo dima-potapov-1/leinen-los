@@ -1,0 +1,261 @@
+das Fahrzeug	судно, транспортное средство | 📝 Fahrzeug unter Segel. | → Судно под парусом.
+das Kleinfahrzeug	малое судно (до 20 м) | 📝 Kleinfahrzeug unter Segel. | → Малое судно под парусом.
+das Sportboot	прогулочное/спортивное судно | 📝 In der Sportbootvermietungsverordnung. | → В Положении об аренде прогулочных судов.
+das Segelboot	парусная лодка | 📝 Warum soll ein gut getrimmtes Segelboot leicht luvgierig sein? | → Вопрос 293: Почему хорошо отрегулированное парусное судно должно быть слегка наветренным?
+das Motorboot	моторная лодка | 📝 Wie weichen zwei Motorboote aus, die sich auf entgegengesetzten Kursen nähern? | → Вопрос 14: Как два моторных судна уступают дорогу, когда приближаются на противоположных курсах?
+das Boot	лодка | 📝 Boot A, weil luvseitig. | → Лодка A, потому что на наветренном борту.
+das Schiff	корабль, судно | 📝 Ab 15 m Schiffslänge. | → От 15 метров длины судна.
+das Großfahrzeug	большое судно
+das Segelfahrzeug	парусное судно | 📝 Die für ein Segelfahrzeug vorgeschriebenen Lichter. | → Огни, предписанные для парусного судна.
+der Verband	состав судов (буксирный, толкаемый) | 📝 Schubverband von vorne. | → Толкаемый состав спереди.
+der Schleppverband	буксирный состав | 📝 Fahrzeug eines Schleppverbandes. | → Судно в составе буксирного состава.
+der Bug	нос судна | 📝 Der Bug dreht nach Backbord. | → Нос поворачивает на левый борт.
+das Heck	корма судна | 📝 Topp- und Hecklicht. | → Топовый огонь и кормовой огонь.
+Backbord	левый борт | 📝 Wenden über Backbord. | → Поворот оверштаг на левый борт.
+Steuerbord	правый борт | 📝 Wenden über Steuerbord. | → Поворот оверштаг на правый борт.
+die Backbordseite	левая сторона судна | 📝 Überholen an der Backbordseite des Vorausfahrenden. | → Обгон по левому борту впереди идущего судна.
+die Steuerbordseite	правая сторона судна | 📝 Schubverband von Steuerbordseite. | → Толкаемый состав с правого борта.
+der Mast	мачта | 📝 Eine Zweifarbenlaterne an oder nahe der Mastspitze. | → Двухцветный фонарь на или около вершины мачты.
+der Kiel	киль | 📝 Der Kiel lässt sich aufholen. | → Киль можно убрать.
+das Ruder	руль | 📝 Durch den Abstand von Propeller und Ruderblatt. | → Из-за расстояния между винтом и пером руля.
+das Steuer	штурвал, руль | 📝 Wenden über Steuerbord. | → Поворот оверштаг на правый борт.
+das Deck	палуба | 📝 Tankdeckel ist offen. | → Крышка бака открыта.
+der Bord	борт | 📝 Wenden über Backbord. | → Поворот оверштаг на левый борт.
+das Großsegel	грот (главный парус) | 📝 An den Trimmfäden im Großsegel. | → По триммерам в гроте.
+die Fock	стаксель (передний парус) | 📝 Durch die Fock oder ein Fall. | → Фоком или фалом.
+die Leine	швартовый трос, линь | 📝 Durch die Vor- oder die Achterleine. | → Носовым или кормовым концом.
+das Tau	канат, трос | 📝 Bei zweifelhafter Tauglichkeit wegen Alkoholmissbrauch. | → В случае сомнительной пригодности из-за злоупотребления алкоголем.
+der Anker	якорь | 📝 Ankern. | → Якорение.
+die Antriebsmaschine	двигатель (привод) | 📝 Fahrverbot für Fahrzeuge ohne Antriebsmaschine. | → Запрет движения для судов без двигателя.
+der Maschinenantrieb	машинный привод | 📝 Fahrzeug mit Maschinenantrieb. | → Судно с двигателем.
+die Länge	длина | 📝 Ab 15 m Schiffslänge. | → От 15 метров длины судна.
+der Tiefgang	осадка судна | 📝 Sein Tiefgang ist größer. | → Его осадка больше.
+die Wasserstraße	водный путь | 📝 Auf allen Seewasserstraßen. | → На всех морских водных путях.
+die Binnenschifffahrtsstraße	внутренний водный путь | 📝 Die der Binnenschifffahrtsstraßen-Ordnung. | → Правила внутреннего водного пути.
+das Fahrwasser	фарватер, судовой ход | 📝 Außerhalb des Fahrwassers. | → Вне фарватера.
+die Fahrrinne	судоходный канал | 📝 Außerhalb der Fahrrinne. | → Вне судоходного канала.
+die Fahrrinnenseite	сторона судоходного канала | 📝 Welche Fahrrinnenseite hat ein Talfahrer an seiner Backbordseite? | → Вопрос 218: Какая сторона фарватера находится у судна, следующего вниз по течению на левом борту?
+die Nebenwasserstraße	второстепенный водный путь | 📝 Verbot der Einfahrt in einen Hafen oder eine Nebenwasserstraße. | → Запрет входа в порт или на второстепенный водный путь.
+der Hafen	порт, гавань | 📝 Durch Aushang bei Hafenämtern und Schleusen. | → Через объявления, размещённые в портовых управлениях и шлюзах.
+die Schleuse	шлюз | 📝 Schleuse. | → Шлюз.
+der Kanal	канал
+der Fluss	река | 📝 Wie beeinflusst ein Unterliekstrecker den Trimm des Segels? | → Вопрос 290: Как натяжение нижней шкаторины влияет на настройку паруса?
+der Strom	течение; большая река | 📝 Ein Fehlerstromschutzschalter. | → Устройство защитного отключения.
+die Strömung	течение (воды) | 📝 Die Fahrt mit der Strömung. | → Путешествие по течению.
+das Ufer	берег | 📝 Im Abstand von 10 m zum Ufer fahren. | → Двигаться на расстоянии 10 м от берега.
+der See	озеро (der); море (die See) | 📝 Auf allen Seewasserstraßen. | → На всех морских водных путях.
+die Boje	буй | 📝 Was ist mit Schwert und Ruder einer Jolle zu tun, wenn das Boot an einer Boje liegen gelassen wird? | → Вопрос 296: Что следует сделать с швертом и рулём шлюпки, когда лодка оставлена на швартовке к бу...
+die Tonne	бакен, навигационный знак | 📝 Durch rote Tonnen. | → Красными буями.
+die Bake	створный знак
+das Leuchtfeuer	навигационный огонь, маяк
+die Fahrt	движение, ход, рейс | 📝 Der Fahrtwind. | → Встречный ветер.
+die Geschwindigkeit	скорость | 📝 Es hält Kurs und Geschwindigkeit bei. | → Оно сохраняет курс и скорость.
+der Kurs	курс | 📝 Auf Amwindkurs. | → На крутом бейдевинде.
+die Kursänderung	изменение курса | 📝 Kursänderung nach Backbord. | → Изменение курса на левый борт.
+die Fahrtrichtung	направление движения | 📝 Empfohlene Fahrtrichtung. | → Рекомендуемое направление движения.
+die Richtung	направление | 📝 Die Windrichtung. | → Направление ветра.
+die Bergfahrt	движение вверх по течению | 📝 Bei der Bergfahrt liegt die rechte Uferseite rechts. | → При движении вверх по течению правый берег находится справа.
+die Talfahrt	движение вниз по течению | 📝 Fahrzeug in der Talfahrt. | → Судно, идущее вниз по течению.
+die Rückwärtsfahrt	задний ход | 📝 Segel bergen, Motor starten und in Rückwärtsfahrt das Ufer ansteuern. | → Убрать паруса, запустить двигатель и направиться к берегу задним ходом.
+die Vorbeifahrt	проход мимо | 📝 Fahrrinnenspaltung. Vorbeifahrt an beiden Seiten möglich. | → Разделение фарватера. Проход возможен с обеих сторон.
+die Durchfahrt	проход, проезд | 📝 Durchfahrt für Kleinfahrzeuge. | → Проход для малых судов.
+ausweichen	уступать дорогу, уклоняться | 📝 Es muss ausweichen. | → Оно должно уступить дорогу.
+überholen	обгонять | 📝 Überholen. | → Обгон.
+begegnen	встречаться (о судах) | 📝 Begegnen. | → Расхождение.
+kreuzen	пересекать (курс) | 📝 Zwei Motorboote nähern sich auf kreuzenden Kursen. Es besteht die Gefahr eines Zusammenstoßes. We... | → Вопрос 15: Два моторных судна приближаются на пересекающихся курсах. Существует опасность столкно...
+anlegen	причаливать, швартоваться | 📝 Welches ist der günstigste Anlaufwinkel beim Anlegen? | → Вопрос 40: Какой угол подхода наиболее благоприятен при швартовке?
+ablegen	отчаливать
+festmachen	швартоваться (привязывать) | 📝 Ankern und Festmachen verboten. | → Якорная стоянка и швартовка запрещены.
+ankern	стоять на якоре | 📝 Ankern. | → Якорение.
+stillliegen	стоять (о судне, без хода) | 📝 Ein stillliegender Schubverband. | → Неподвижный толкаемый состав.
+wenden	разворачиваться | 📝 Wenden. | → Поворот оверштаг.
+drehen	поворачивать | 📝 Was ist unter einem linksdrehenden Propeller zu verstehen? | → Вопрос 45: Что подразумевается под левосторонним винтом?
+manövrieren	маневрировать | 📝 Sie hilft beim Manövrieren. | → Это помогает при маневрировании.
+manövrierunfähig	неуправляемый (о судне) | 📝 Fahrzeug ist manövrierunfähig. | → Судно не управляется.
+der Kollisionskurs	курс столкновения | 📝 Zwei Kleinfahrzeuge unter Segel liegen auf Kollisionskurs. Wer ist ausweichpflichtig? | → Вопрос 186: Два малых судна под парусом находятся на курсе столкновения. Какое судно обязано усту...
+der Gegenverkehr	встречное движение | 📝 Einfahrt frei, Gegenverkehr gesperrt. | → Вход разрешен, встречное движение запрещено.
+der Abstand	дистанция, расстояние | 📝 Im Abstand von 10 m zum Ufer fahren. | → Двигаться на расстоянии 10 м от берега.
+ausweichpflichtig	обязан уступить дорогу | 📝 Beide sind ausweichpflichtig. | → Оба обязаны уступить дорогу.
+der Vorrang	преимущество, приоритет | 📝 Fahrzeuge mit Vorrang an einer Schleuse. | → Суда с приоритетом в шлюзе.
+das Segel	парус | 📝 Fahrzeug unter Segel. | → Судно под парусом.
+segeln	ходить под парусом | 📝 Abfallen, um maximale Höhe zu segeln. | → Упасть, чтобы идти на максимальной высоте.
+der Wind	ветер | 📝 Der Fahrtwind. | → Встречный ветер.
+Luv	наветренная сторона | 📝 Boot A, weil luvseitig. | → Лодка A, потому что на наветренном борту.
+Lee	подветренная сторона | 📝 Boot C, weil leeseitig. | → Лодка C, потому что на подветренном борту.
+der Vorwindkurs	курс по ветру (фордевинд) | 📝 Auf Vorwindkurs. | → На попутном курсе.
+der Halbwindkurs	курс галфвинд (полветра) | 📝 Auf Halbwindkurs. | → На галфвинд.
+der Amwindkurs	курс бейдевинд (против ветра) | 📝 Auf Amwindkurs. | → На крутом бейдевинде.
+die Krängung	крен (судна) | 📝 Die Abdrift wird größer, die Krängung nimmt zu. | → Дрейф увеличивается, крен увеличивается.
+kentern	опрокинуться, перевернуться | 📝 Killen lässt das Boot bei stärkerem Wind kentern. | → Трепетание приводит к опрокидыванию судна при сильном ветре.
+die Bö	шквал, порыв ветра | 📝 Segel etwas fieren, um die Bö in Krängung umzusetzen. | → Немного ослабить паруса, чтобы преобразовать порыв в крен.
+reffen	брать рифы (уменьшать парус) | 📝 Der Erleichterung des Reffens. | → Для облегчения рифления.
+bergen	убирать (парус); спасать | 📝 Segel bergen, Motor starten und in Rückwärtsfahrt das Ufer ansteuern. | → Убрать паруса, запустить двигатель и направиться к берегу задним ходом.
+halsen	делать поворот фордевинд
+die Halse	поворот фордевинд | 📝 Halse. | → Фордевинд.
+die Wende	поворот оверштаг | 📝 Wende. | → Поворот оверштаг.
+achtern	на корме, позади | 📝 Schubverband von achtern. | → Толкаемый состав с кормы.
+voraus	впереди (по курсу) | 📝 Überholen an der Backbordseite des Vorausfahrenden. | → Обгон по левому борту впереди идущего судна.
+querab	на траверзе | 📝 Ein Kleinfahrzeug A segelt nachts auf Vorwindkurs stromab, Großsegel an Steuerbord. Backbord quer... | → Вопрос 187: Малое судно A идет под парусом по ветру ночью, грот на правом борту. С левого борта п...
+dwars	поперёк, на траверзе
+die Verordnung	постановление, предписание | 📝 In der Sportbootvermietungsverordnung. | → В Положении об аренде прогулочных судов.
+die Ordnung	порядок, правила | 📝 In der Sportbootvermietungsverordnung. | → В Положении об аренде прогулочных судов.
+die Vorschrift	предписание, правило | 📝 Um die jeweils geltenden Vorschriften einhalten zu können. | → Чтобы иметь возможность соблюдать применимые правила.
+der Geltungsbereich	область действия (закона) | 📝 Der Sportbootführerschein mit dem Geltungsbereich Seeschifffahrtsstraßen. | → Удостоверение на управление прогулочным судном с областью действия на морских водных путях.
+die Binnenschiffsuntersuchungsordnung	правила освидетельствования судов | 📝 In der Binnenschiffsuntersuchungsordnung. | → В Правилах осмотра внутренних судов.
+der Sportbootführerschein	удостоверение на управление спортивным судном | 📝 In der Sportbootführerscheinverordnung. | → В Положении об удостоверении на управление прогулочным судном.
+der Schiffsführer	капитан, судоводитель | 📝 Der verantwortliche Schiffsführer muss gewählt werden. | → Ответственный капитан должен быть избран.
+die Zulassung	допуск, разрешение
+die Kennzeichnung	маркировка, обозначение | 📝 Welche Kennzeichnungsarten für Sportboote gibt es? | → Вопрос 232: Какие существуют виды идентификации для прогулочных судов?
+gestattet	разрешено, допустимо | 📝 Queren des Fahrwassers ist gestattet. | → Пересечение фарватера разрешено.
+verboten	запрещено | 📝 Was ist in Kanälen verboten? | → Вопрос 103: Что запрещено в каналах?
+erlaubt	разрешено | 📝 Durchfahrt nur neben der Tafel erlaubt. | → Проход разрешён только рядом с знаком.
+das Verbot	запрет | 📝 Wendeverbot. | → Запрет поворота оверштаг.
+die Pflicht	обязанность | 📝 Beide sind ausweichpflichtig. | → Оба обязаны уступить дорогу.
+die Genehmigung	разрешение, одобрение | 📝 Genehmigungsfreie Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern. | → Учебный участок для катания на водных лыжах или гидроциклах, не требующий разрешения.
+die Verantwortung	ответственность | 📝 Ein Inhaber eines Sportbootführerscheins muss die Verantwortung übernehmen. | → Владелец удостоверения на управление прогулочным судном должен взять на себя ответственность.
+verantwortlich	ответственный | 📝 Der verantwortliche Schiffsführer muss gewählt werden. | → Ответственный капитан должен быть избран.
+verpflichtet	обязан | 📝 Fahrzeuge begegnen sich an Steuerbord. Dieses Zeichen gilt nicht für Kleinfahrzeuge, verpflichtet... | → Суда встречаются на правом борту. Этот знак не применяется к малым судам, но требует повышенного ...
+die Sorgfaltspflicht	обязанность проявлять осторожность | 📝 Was beinhaltet die allgemeine Sorgfaltspflicht? | → Вопрос 76: Что включает в себя общая обязанность заботы?
+die Wasserschutzpolizei	водная полиция | 📝 Die Wasserschutzpolizei. | → Водная полиция.
+das Fahrtenbuch	бортовой журнал
+die Untersuchungskommission	комиссия по расследованию | 📝 Es sind bei Arbeiten mit Unterwasseranstrichen die Richtlinien der Schiffsuntersuchungskommission... | → При работе с подводными красками необходимо соблюдать руководящие принципы комиссии по инспекции ...
+das Tafelzeichen	навигационный щит, знак | 📝 Was bedeuten diese Tafelzeichen? | → Вопрос 108: Что означают эти навигационные знаки?
+das Sichtzeichen	визуальный знак/сигнал | 📝 Was bedeuten diese Sichtzeichen? | → Вопрос 146: Что означают эти визуальные сигналы?
+das Schallsignal	звуковой сигнал | 📝 Was bedeutet dieses Schallsignal? | → Вопрос 162: Что означает этот звуковой сигнал?
+das Zeichen	знак | 📝 Nur amtliche Kennzeichen. | → Только официальные идентификационные знаки.
+die Bedeutung	значение | 📝 Welche Bedeutung hat folgendes Schallsignal? | → Вопрос 16: Каково значение следующего звукового сигнала?
+bedeuten	означать | 📝 Was bedeuten diese Lichter? | → Вопрос 120: Что означают эти огни?
+bedeutet	означает | 📝 Was bedeutet Radarfahrt? | → Вопрос 253: Что означает радарная навигация?
+das Licht	огонь, свет | 📝 Seitenlichter. | → Бортовые огни.
+die Lichter	огни | 📝 Seitenlichter. | → Бортовые огни.
+das Rundumlicht	круговой огонь | 📝 Weißes Rundumlicht. | → Белый круговой огонь.
+die Seitenlichter	бортовые огни | 📝 Seitenlichter. | → Бортовые огни.
+das Topplicht	топовый огонь | 📝 Ein weißes Topplicht und ein weißes Hecklicht. | → Белый топовый огонь и белый кормовой огонь.
+das Hecklicht	кормовой огонь | 📝 Topp- und Hecklicht. | → Топовый огонь и кормовой огонь.
+das Funkellicht	проблесковый огонь | 📝 Weißes Funkellicht. | → Белый проблесковый огонь.
+die Flagge	флаг | 📝 Eine rote Flagge zeigen. | → Показать красный флаг.
+der Wimpel	вымпел | 📝 Welches Fahrzeug führt am Bug einen roten Wimpel? | → Вопрос 247: Какое судно несет на носу красный вымпел?
+der Signalkörper	сигнальная фигура | 📝 Sofort ankern und einen Notruf absetzen, Signalkörper (blauer Kegel) setzen. | → Немедленно бросить якорь и отправить сигнал бедствия, установить сигнальный знак (синий конус).
+der Kegel	конус (сигнальная фигура) | 📝 Einen schwarzen Kegel, Spitze oben. | → Черный конус, вершиной вверх.
+der Ball	шар (сигнальная фигура) | 📝 Durch Umpumpen von Wasserballast. | → Путём перекачки водяного балласта.
+der Zylinder	цилиндр (сигнальная фигура) | 📝 Stangen mit Toppzeichen: roter Kegel, Spitze nach oben, oder rot-weiß gestreifte Schwimmstange mi... | → Шесты с топовыми знаками: красный конус, вершина вверх, или красно-белая полосатая плавучая штанг...
+rot	красный | 📝 Durch rote Tonnen. | → Красными буями.
+grün	зелёный | 📝 Durch grüne Tonnen. | → Зелёными буями.
+weiß	белый | 📝 Weißes Rundumlicht. | → Белый круговой огонь.
+gelb	жёлтый | 📝 Durch gelbe Tonnen. | → Жёлтыми буями.
+blau	синий, голубой | 📝 Was bedeutet auf einem Fahrzeug ein blaues Licht? | → Вопрос 126: Что означает синий огонь на судне?
+schwarz	чёрный | 📝 Einen schwarzen Rhombus. | → Черный ромб.
+hell	яркий, светлый
+dunkel	тёмный | 📝 Dunkelheit, Nebel, Schneefall, starker Regen. | → Темнота, туман, снегопад, сильный дождь.
+sichtbar	видимый | 📝 Ein von allen Seiten sichtbares weißes Licht. | → Круговой белый огонь.
+unsichtbar	невидимый
+die Sicht	видимость | 📝 Was bedeuten diese Sichtzeichen? | → Вопрос 146: Что означают эти визуальные сигналы?
+die Sichtweite	дальность видимости | 📝 Zu welcher Tageszeit und bei welchen Sichtweiten darf auf den erlaubten Gewässerabschnitten Wasse... | → Вопрос 222: В какое время суток и при какой видимости разрешено катание на водных лыжах на разреш...
+übereinander	один над другим | 📝 Zwei weiße Lichter übereinander. | → Два белых огня один над другим.
+nebeneinander	рядом, бок о бок | 📝 Killen führt zu Beschädigungen an nebeneinander liegenden Schiffen. | → Трепетание приводит к повреждению соседних судов.
+die Gefahr	опасность | 📝 Gefahr eines Zusammenstoßes. | → Опасность столкновения.
+gefährlich	опасный | 📝 Warum ist eine Patenthalse gefährlich? | → Вопрос 297: Почему случайный фордевинд опасен?
+die Rettungsweste	спасательный жилет | 📝 Rettungsweste anlegen. Segel setzen, versuchen die Gewässermitte anzulaufen. | → Надеть спасательный жилет. Поставить паруса, попытаться дойти до середины водоема.
+die Schwimmweste	плавательный жилет
+das Rettungsmittel	спасательное средство | 📝 Wie oft muss man aufblasbare Rettungsmittel warten lassen? | → Вопрос 67: Как часто необходимо обслуживать надувные спасательные средства?
+der Rettungsring	спасательный круг
+der Feuerlöscher	огнетушитель | 📝 CO2-Feuerlöscher, mindestens alle 2 Jahre. | → Огнетушитель с CO2, не реже одного раза в 2 года.
+die Hilfe	помощь | 📝 Durch das Ausreiten mit Hilfe des Trapezes. | → С помощью выхода на трапеции.
+die Notlage	аварийная ситуация
+der Notruf	сигнал бедствия | 📝 Sofort ankern und einen Notruf absetzen, Signalkörper (blauer Kegel) setzen. | → Немедленно бросить якорь и отправить сигнал бедствия, установить сигнальный знак (синий конус).
+der Notfall	экстренный случай | 📝 Weil es im Notfall von selbst in den Wind schießt. | → Потому что в экстренной ситуации оно само повернется к ветру.
+sinken	тонуть
+gesunken	затонувший | 📝 Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet. | → Севшее на мель или затонувшее судно. Проход не разрешён.
+retten	спасать
+bergen	поднимать (из воды), спасать | 📝 Segel bergen, Motor starten und in Rückwärtsfahrt das Ufer ansteuern. | → Убрать паруса, запустить двигатель и направиться к берегу задним ходом.
+die Kollision	столкновение | 📝 Zwei Kleinfahrzeuge unter Segel liegen auf Kollisionskurs. Wer ist ausweichpflichtig? | → Вопрос 186: Два малых судна под парусом находятся на курсе столкновения. Какое судно обязано усту...
+der Unfall	несчастный случай, авария | 📝 Hilfe leisten und so lange am Unfallort bleiben, bis ein weiterer Beistand nicht mehr erforderlic... | → Оказать помощь и оставаться на месте происшествия до тех пор, пока дальнейшая помощь не будет бол...
+kentern	перевернуться (о судне) | 📝 Killen lässt das Boot bei stärkerem Wind kentern. | → Трепетание приводит к опрокидыванию судна при сильном ветре.
+das Leck	течь, пробоина
+die Grundberührung	касание дна | 📝 Weil in diesen Zonen die Gefahr von Grundberührungen besteht. | → Потому что в этих зонах существует опасность касания дна.
+der Wellenschlag	волнение (от прохождения судна) | 📝 Sog und Wellenschlag vermeiden. | → Избегать попутной волны и засасывания.
+die Welle	волна | 📝 Schraube an der Welle lose. | → Винт на валу ослаблен.
+der Sog	присасывание, тяга (от судна) | 📝 Sog und Wellenschlag vermeiden. | → Избегать попутной волны и засасывания.
+die Bö	шквал | 📝 Segel etwas fieren, um die Bö in Krängung umzusetzen. | → Немного ослабить паруса, чтобы преобразовать порыв в крен.
+der Sturm	шторм | 📝 Schlechtes Wetter, Starkwind oder Sturm. | → Плохая погода, сильный ветер или шторм.
+das Gewitter	гроза
+der Nebel	туман | 📝 Nebel, Schneefall, starker Regen. | → Туман, снегопад, сильный дождь.
+die Temperatur	температура | 📝 Besseres Wetter, steigende Temperatur. | → Улучшение погоды, повышение температуры.
+das Hochwasser	паводок, высокая вода | 📝 Ab Hochwassermarke I nur im Fahrwasser. | → От отметки высокого уровня воды I только в судоходном канале.
+das Niedrigwasser	низкая вода
+die Wassertiefe	глубина воды | 📝 Weil dadurch Einflüsse von Wellen und Wassertiefe ausgeglichen werden. | → Потому что это уравновешивает влияние волн и глубины воды.
+die Unterkühlung	переохлаждение
+vermeiden	избегать | 📝 Sog und Wellenschlag vermeiden. | → Избегать попутной волны и засасывания.
+beachten	соблюдать, обращать внимание | 📝 Er hat das Verbot der Schifffahrt bei Nacht zu beachten. | → Он должен соблюдать запрет на плавание ночью.
+verhalten (sich)	вести себя | 📝 Die 15 Verhaltensregeln für Wassersportler. | → 15 правил поведения для любителей водного спорта.
+führen	управлять, вести | 📝 Wie ist ein Überholmanöver durchzuführen? | → Вопрос 174: Как следует выполнять манёвр обгона?
+fahren	ехать, двигаться (по воде) | 📝 Eine Halse fahren. | → Выполнить фордевинд.
+gelten	действовать, быть действительным | 📝 Um die jeweils geltenden Vorschriften einhalten zu können. | → Чтобы иметь возможность соблюдать применимые правила.
+bestimmen	определять, устанавливать
+einhalten	соблюдать | 📝 Um die jeweils geltenden Vorschriften einhalten zu können. | → Чтобы иметь возможность соблюдать применимые правила.
+verringern	уменьшать, снижать | 📝 Die Möglichkeit durch zusätzlichen Innenballast die Krängung zu verringern. | → Возможность уменьшить крен за счет дополнительного внутреннего балласта.
+vermindern	уменьшать | 📝 Schutzbedürftiges Fahrzeug, Geschwindigkeit vermindern. | → Судно, требующее защиты, уменьшить скорость.
+erhöhen	увеличивать, повышать | 📝 Geschwindigkeit erhöhen, um das Begegnungsmanöver zügig durchzuführen. | → Увеличить скорость, чтобы быстро выполнить манёвр расхождения.
+behindern	препятствовать, мешать | 📝 Wie sind Anker am Tage bezeichnet, die die Schifffahrt behindern können? | → Вопрос 106: Как обозначаются якоря в дневное время, которые могут препятствовать судоходству?
+gefährden	подвергать опасности | 📝 Überall, ohne die Schifffahrt zu gefährden. | → Везде, не подвергая опасности судоходство.
+anzeigen	показывать, указывать; сообщать
+kennzeichnen	обозначать, маркировать
+erkennen	распознавать | 📝 Woran kann man erkennen, ob der Anker hält? | → Вопрос 39: Как определить, держит ли якорь?
+befahren	плыть по (водному пути) | 📝 Wasserstraße, die jederzeit sicher befahren werden kann; keine Gefahr durch Seegang. | → Водный путь, который можно безопасно проходить в любое время; нет опасности от морских условий.
+einfahren	входить (в шлюз, порт) | 📝 Das aus- und die einfahrenden Fahrzeuge passieren sich an der Backbordseite, das Kleinfahrzeug ha... | → Выходящее и входящее суда проходят друг друга по левому борту, малое судно имеет приоритет.
+ausfahren	выходить (из шлюза, порта) | 📝 Überholen an der Backbordseite des Vorausfahrenden. | → Обгон по левому борту впереди идущего судна.
+vorbeifahren	проходить мимо
+heranfahren	подходить, приближаться | 📝 Das heranfahrende Fahrzeug anleuchten. | → Осветить приближающееся судно.
+umkehren	разворачиваться
+unterlassen	воздерживаться от
+verursachen	причинять
+rechts	справа, направо | 📝 Die Seite in Fahrtrichtung rechts. | → Сторона справа по направлению движения.
+links	слева, налево | 📝 Die Seite in Fahrtrichtung links. | → Сторона слева по направлению движения.
+vorne	впереди | 📝 Schubverband von vorne. | → Толкаемый состав спереди.
+hinten	сзади | 📝 Das Versetzen nach hinten. | → Смещение назад.
+oben	вверху, наверху | 📝 Die Handlampe nach oben halten. | → Держать ручной фонарь вверх.
+unten	внизу | 📝 Einen schwarzen Kegel, Spitze unten. | → Черный конус, вершиной вниз.
+quer	поперёк | 📝 Queren des Fahrwassers ist gestattet. | → Пересечение фарватера разрешено.
+längs	вдоль | 📝 Geschleppte oder längsseits gekuppelte Kleinfahrzeuge. | → Буксируемые или сцепленные борт о борт малые суда.
+voraus	впереди по курсу | 📝 Überholen an der Backbordseite des Vorausfahrenden. | → Обгон по левому борту впереди идущего судна.
+achtern	на корме, позади | 📝 Schubverband von achtern. | → Толкаемый состав с кормы.
+mittschiffs	на миделе (посередине судна)
+seitlich	сбоку, боковой | 📝 Das seitliche Versetzen des Bugs. | → Боковое смещение носа.
+gegenüber	напротив | 📝 C gegenüber A und B, B gegenüber A. | → C по отношению к A и B, B по отношению к A.
+außerhalb	за пределами, снаружи | 📝 Außerhalb der Fahrrinne. | → Вне судоходного канала.
+innerhalb	в пределах, внутри | 📝 Welche Maßnahmen sind zu treffen, wenn das Fahrzeug innerhalb des Fahrwassers bzw der Fahrrinne G... | → Вопрос 87: Какие меры следует предпринять, если судно касается грунта внутри фарватера или канала?
+stromaufwärts	вверх по течению
+stromabwärts	вниз по течению
+ausweichpflichtig	обязанный уступить дорогу | 📝 Beide sind ausweichpflichtig. | → Оба обязаны уступить дорогу.
+frei	свободный | 📝 Frei fahrende Fähre. | → Паром, находящийся под управлением.
+empfohlen	рекомендуемый | 📝 Empfohlene Fahrtrichtung. | → Рекомендуемое направление движения.
+gesperrt	закрытый, перекрытый | 📝 Anlage dauerhaft gesperrt. | → Объект постоянно закрыт.
+eingeschränkt	ограниченный
+stillstehend	неподвижный
+treibend	дрейфующий
+schwimmend	плавающий | 📝 Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet. | → Плавучее оборудование в работе. Проход не разрешён.
+befestigt	закреплённый
+geladen	гружёный | 📝 Ein Fahrzeug, das brennbare Stoffe geladen hat. | → Судно, перевозящее легковоспламеняющиеся вещества.
+gesunken	затонувший | 📝 Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet. | → Севшее на мель или затонувшее судно. Проход не разрешён.
+sicher	безопасный | 📝 Sicherheitstor. | → Предохранительные ворота.
+dicht	плотный; близко | 📝 Dichtholen und Anluven. | → Подтянуть парус и привести к ветру.
+möglich	возможный | 📝 Überholen nicht möglich. | → Обгон невозможен.
+nötig	необходимый | 📝 Verringerung der Geschwindigkeit und nötigenfalls vom Rechtsfahrgebot abweichen. | → Уменьшить скорость и при необходимости отклониться от правила держаться правой стороны.
+sofort	немедленно | 📝 Bleib-weg-Signal, Gefahrenbereich sofort verlassen. | → Сигнал "Держитесь в стороне", немедленно покиньте опасную зону.
+gleichzeitig	одновременно | 📝 Wenn es gleichzeitig mit Maschinenkraft fährt. | → Когда оно одновременно движется с использованием механической силы.
+die Seite	сторона | 📝 Seitenlichter. | → Бортовые огни.
+die Stelle	место, позиция | 📝 Durch Verstellen des Travellers. | → С помощью регулировки траверса.
+der Bereich	область, зона | 📝 Auf den Bundeswasserstraßen im Binnenbereich. | → На федеральных водных путях во внутренней области.
+die Arbeit	работа | 📝 Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet. | → Плавучее оборудование в работе. Проход не разрешён.
+die Stoffe	вещества, материалы | 📝 Ein Fahrzeug, das brennbare Stoffe geladen hat. | → Судно, перевозящее легковоспламеняющиеся вещества.
+der Teil	часть | 📝 Gleichmäßig verteilen. | → Равномерно распределить.
+die Nacht	ночь | 📝 Eine Fahrt bei Nacht mit Radar. | → Плавание ночью с использованием радара.
+der Tag	день | 📝 Eine Fahrt am Tage mit Radar. | → Плавание днём с использованием радара.
+das Jahr	год | 📝 Mindestens 14 Jahre. | → Не менее 14 лет.
+die Anlage	сооружение, установка | 📝 Schutzbedürftige Anlage. | → Объект, требующий защиты.
+der Verkehr	движение, транспорт | 📝 Einfahrt frei, Gegenverkehr gesperrt. | → Вход разрешен, встречное движение запрещено.
+das Gerät	прибор, устройство | 📝 Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet. | → Плавучее оборудование в работе. Проход не разрешён.
+die Schifffahrt	судоходство | 📝 Sperrung der Schifffahrt. | → Закрытие судоходства.
+die Besatzung	экипаж | 📝 Killen führt zu Verletzungen der Besatzung. | → Трепетание приводит к травмам экипажа.
+die Ladung	груз | 📝 Ein geringer Ladungsstrom ist ungefährlich. | → Низкий зарядный ток безвреден.
+die Mannschaft	команда, экипаж

@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  /* Nautical palette */
+  --color-navy: #1B3A4B;
+  --color-ocean: #2E86AB;
+  --color-sky: #E8F4F8;
+  --color-sand: #F5F1EB;
+  --color-correct: #22C55E;
+  --color-correct-bg: #F0FDF4;
+  --color-wrong: #EF4444;
+  --color-wrong-bg: #FEF2F2;
+  --color-trigger: #2E86AB;
+  --color-trigger-bg: #E8F4F8;
+  --color-learning: #F97316;
+  --color-muted: #94A3B8;
+}
+
+body {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  color: var(--color-navy);
+  background-color: #ffffff;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateX(-50%) translateY(8px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}

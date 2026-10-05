@@ -1,0 +1,2493 @@
+<!DOCTYPE html>
+<html lang="de">
+<head><meta charset="utf-8"><style>
+@page {
+  size: A4 portrait;
+  margin: 12mm 12mm 15mm 12mm;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+  line-height: 1.5;
+  font-size: 9.5pt;
+}
+
+.title-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f2b46 0%, #1a4a6e 100%);
+  page-break-after: always;
+  margin: -12mm -12mm -15mm -12mm;
+  padding: 12mm;
+  width: calc(100% + 24mm);
+  height: calc(100vh + 27mm);
+}
+
+.title-content {
+  text-align: center;
+  color: white;
+}
+
+.title-icon {
+  font-size: 48pt;
+  margin-bottom: 8mm;
+}
+
+.title-content h1 {
+  font-size: 32pt;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 4mm;
+}
+
+.title-content h2 {
+  font-size: 14pt;
+  font-weight: 400;
+  opacity: 0.9;
+  margin-bottom: 3mm;
+  line-height: 1.4;
+}
+
+.title-content h3 {
+  font-size: 12pt;
+  font-weight: 300;
+  opacity: 0.7;
+  font-style: italic;
+  margin-bottom: 10mm;
+}
+
+.title-meta {
+  font-size: 10pt;
+  opacity: 0.6;
+  line-height: 1.6;
+}
+
+.page {
+  page-break-after: always;
+}
+
+.section-title {
+  font-size: 14pt;
+  color: #0f2b46;
+  border-bottom: 2pt solid #0f2b46;
+  padding-bottom: 2mm;
+  margin-bottom: 5mm;
+}
+
+.context-box {
+  background: #f0f4f8;
+  border-left: 3pt solid #0f2b46;
+  padding: 4mm 5mm;
+  margin-bottom: 4mm;
+  border-radius: 0 4px 4px 0;
+}
+
+.context-box.de {
+  background: #f8f5f0;
+  border-left-color: #8b6914;
+}
+
+.context-box p {
+  margin-bottom: 2mm;
+}
+.context-box p:last-child { margin-bottom: 0; }
+
+.two-col {
+  display: flex;
+  gap: 5mm;
+  margin-top: 4mm;
+}
+
+.col-half {
+  flex: 1;
+  background: #fafafa;
+  padding: 4mm;
+  border-radius: 4px;
+  border: 0.5pt solid #e0e0e0;
+}
+
+.col-half h4 {
+  font-size: 10pt;
+  color: #0f2b46;
+  margin-bottom: 3mm;
+}
+
+.col-half ol, .col-half ul {
+  padding-left: 5mm;
+  font-size: 9pt;
+}
+
+.col-half li {
+  margin-bottom: 1.5mm;
+}
+
+.questions-list {
+  padding-left: 5mm;
+  font-size: 9pt;
+  color: #555;
+}
+.questions-list li {
+  margin-bottom: 1.5mm;
+}
+
+/* Week plan */
+.week-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4mm;
+  margin-top: 4mm;
+}
+
+.week-card {
+  display: flex;
+  border: 0.5pt solid #d0d0d0;
+  border-radius: 4px;
+  overflow: hidden;
+  break-inside: avoid;
+}
+
+.week-num {
+  background: #0f2b46;
+  color: white;
+  padding: 3mm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 20mm;
+  font-weight: 700;
+  font-size: 9pt;
+  text-align: center;
+}
+
+.week-de {
+  font-weight: 300;
+  font-size: 7.5pt;
+  opacity: 0.7;
+}
+
+.week-body {
+  padding: 3mm 4mm;
+  flex: 1;
+}
+
+.week-title {
+  font-weight: 600;
+  font-size: 9pt;
+  margin-bottom: 2mm;
+  color: #0f2b46;
+}
+
+.week-block {
+  font-size: 7.5pt;
+  color: #666;
+  padding-left: 3mm;
+  border-left: 1.5pt solid #ddd;
+  margin-bottom: 1mm;
+}
+
+.week-count {
+  font-size: 7.5pt;
+  color: #999;
+  margin-top: 1.5mm;
+  font-style: italic;
+}
+
+/* Vocabulary tables */
+.vocab-page {
+  page-break-before: auto;
+}
+
+.block-header {
+  background: #0f2b46;
+  color: white;
+  padding: 3mm 5mm;
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  align-items: center;
+  gap: 3mm;
+  margin-bottom: 0;
+}
+
+.block-num {
+  font-size: 16pt;
+  font-weight: 800;
+  opacity: 0.5;
+}
+
+.block-title {
+  font-size: 11pt;
+  font-weight: 600;
+  flex: 1;
+}
+
+.block-count {
+  font-size: 8pt;
+  opacity: 0.6;
+}
+
+.vocab-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 8.5pt;
+  margin-bottom: 6mm;
+}
+
+.vocab-table thead th {
+  background: #e8edf2;
+  padding: 2mm 3mm;
+  text-align: left;
+  font-weight: 600;
+  color: #0f2b46;
+  font-size: 7.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1pt solid #c0c8d0;
+}
+
+.vocab-table tbody tr {
+  border-bottom: 0.5pt solid #eee;
+}
+
+.vocab-table tbody tr:nth-child(even) {
+  background: #fafbfc;
+}
+
+.vocab-table td {
+  padding: 1.5mm 3mm;
+  vertical-align: top;
+}
+
+.col-de {
+  width: 28%;
+}
+
+.col-ru {
+  width: 30%;
+}
+
+.col-ex {
+  width: 42%;
+}
+
+.example {
+  color: #666;
+  font-style: italic;
+  font-size: 7.5pt;
+}
+</style></head>
+<body>
+
+    <div class="title-page">
+      <div class="title-content">
+        <div class="title-icon">⚓</div>
+        <h1>SBF Binnen</h1>
+        <h2>Учебный план для подготовки<br>к теоретическому экзамену</h2>
+        <h3>Lernplan für die theoretische Prüfung</h3>
+        <div class="title-meta">
+          <div>261 слов · 13 блоков · 8 недель</div>
+          <div>261 Wörter · 13 Blöcke · 8 Wochen</div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="page">
+      <h2 class="section-title">Контекст / Kontext</h2>
+      <div class="context-box">
+        <p>Дима готовится к теоретическому экзамену на <strong>Sportbootführerschein Binnen</strong> (SBF Binnen) —
+        удостоверение на управление прогулочным судном на внутренних водных путях Германии.</p>
+        <p>Экзамен: <strong>30 вопросов</strong> из 300 возможных, на немецком языке, множественный выбор.</p>
+        <p>Текущий уровень: <strong>A1 → A2</strong>. Экзамен: <strong>~ середина мая 2026</strong>.</p>
+      </div>
+      <div class="context-box de">
+        <p>Dima bereitet sich auf die theoretische Prüfung für den <strong>Sportbootführerschein Binnen</strong> vor.</p>
+        <p>Prüfung: <strong>30 Fragen</strong> aus 300 möglichen, auf Deutsch, Multiple-Choice.</p>
+        <p>Aktuelles Niveau: <strong>A1 → A2</strong>. Prüfung: <strong>ca. Mitte Mai 2026</strong>.</p>
+      </div>
+
+      <h2 class="section-title" style="margin-top: 10mm;">Рекомендации / Empfehlungen</h2>
+
+      <div class="two-col">
+        <div class="col-half">
+          <h4>Как использовать</h4>
+          <ol>
+            <li>Каждую неделю — 1-2 блока (~15-50 слов)</li>
+            <li>На уроке: слова в контексте экзаменационных предложений</li>
+            <li>Дома: Quizlet-карточки + упражнения</li>
+            <li>Ключевой навык: различать похожие ответы</li>
+          </ol>
+        </div>
+        <div class="col-half">
+          <h4>Типы упражнений / Übungstypen</h4>
+          <ul>
+            <li><strong>Lückentext</strong> — заполни пропуски</li>
+            <li><strong>Zuordnung</strong> — соотнесение термин ↔ значение</li>
+            <li><strong>Richtig/Falsch</strong> — верно/неверно</li>
+            <li><strong>Mündliche Beschreibung</strong> — описание ситуации</li>
+            <li><strong>Prüfungssimulation</strong> — разбор реальных вопросов</li>
+          </ul>
+        </div>
+      </div>
+
+      <h4 style="margin-top: 6mm;">Вопросы для преподавателя / Input von der Lehrerin</h4>
+      <ul class="questions-list">
+        <li>Какие грамматические конструкции Дима уже усвоил? (падежи, времена, модальные глаголы)</li>
+        <li>С какими типами предложений возникают трудности? (придаточные, пассив)</li>
+        <li>Рекомендуемый темп — реалистично ли 1 блок в неделю?</li>
+        <li>Есть ли предпочтения по формату домашних заданий?</li>
+      </ul>
+    </div>
+    
+<div class="page"><h2 class="section-title">План на 8 недель / 8-Wochen-Plan</h2>
+<div class="week-grid">
+
+        <div class="week-card">
+          <div class="week-num">Неделя 1<br><span class="week-de">Woche 1</span></div>
+          <div class="week-body">
+            <div class="week-title">Судно и водные пути<br><span class="week-de">Fahrzeug und Wasserstraßen</span></div>
+            <div class="week-block">Судно и его части / Fahrzeug und seine Teile</div><div class="week-block">Водные пути / Wasserstraßen</div>
+            <div class="week-count">50 слов</div>
+          </div>
+        </div>
+        
+
+        <div class="week-card">
+          <div class="week-num">Неделя 2<br><span class="week-de">Woche 2</span></div>
+          <div class="week-body">
+            <div class="week-title">Движение и маневры<br><span class="week-de">Fahrt und Manöver</span></div>
+            <div class="week-block">Движение и маневры / Fahrt und Manöver</div>
+            <div class="week-count">29 слов</div>
+          </div>
+        </div>
+        
+
+        <div class="week-card">
+          <div class="week-num">Неделя 3<br><span class="week-de">Woche 3</span></div>
+          <div class="week-body">
+            <div class="week-title">Парусный спорт<br><span class="week-de">Segeln</span></div>
+            <div class="week-block">Парусный спорт / Segeln</div>
+            <div class="week-count">20 слов</div>
+          </div>
+        </div>
+        
+
+        <div class="week-card">
+          <div class="week-num">Неделя 4<br><span class="week-de">Woche 4</span></div>
+          <div class="week-body">
+            <div class="week-title">Правила, знаки и сигналы<br><span class="week-de">Regeln, Zeichen und Signale</span></div>
+            <div class="week-block">Правила и регулирование / Regeln und Vorschriften</div><div class="week-block">Знаки и сигналы / Zeichen und Signale</div>
+            <div class="week-count">42 слов</div>
+          </div>
+        </div>
+        
+
+        <div class="week-card">
+          <div class="week-num">Неделя 5<br><span class="week-de">Woche 5</span></div>
+          <div class="week-body">
+            <div class="week-title">Цвета, видимость и безопасность<br><span class="week-de">Farben, Sichtbarkeit und Sicherheit</span></div>
+            <div class="week-block">Цвета и визуальные описания / Farben und Sichtbarkeit</div><div class="week-block">Безопасность и спасение / Sicherheit und Rettung</div>
+            <div class="week-count">34 слов</div>
+          </div>
+        </div>
+        
+
+        <div class="week-card">
+          <div class="week-num">Неделя 6<br><span class="week-de">Woche 6</span></div>
+          <div class="week-body">
+            <div class="week-title">Погода и ключевые глаголы<br><span class="week-de">Wetter und Verben</span></div>
+            <div class="week-block">Погода и вода / Wetter und Wasser</div><div class="week-block">Ключевые глаголы / Wichtige Verben</div>
+            <div class="week-count">36 слов</div>
+          </div>
+        </div>
+        
+
+        <div class="week-card">
+          <div class="week-num">Неделя 7<br><span class="week-de">Woche 7</span></div>
+          <div class="week-body">
+            <div class="week-title">Направления и прилагательные<br><span class="week-de">Richtungen und Adjektive</span></div>
+            <div class="week-block">Направления и позиции / Richtungen und Positionen</div><div class="week-block">Прилагательные из экзамена / Prüfungsadjektive</div>
+            <div class="week-count">34 слов</div>
+          </div>
+        </div>
+        
+
+        <div class="week-card">
+          <div class="week-num">Неделя 8<br><span class="week-de">Woche 8</span></div>
+          <div class="week-body">
+            <div class="week-title">Повторение + экзамен<br><span class="week-de">Wiederholung + Prüfungssimulation</span></div>
+            <div class="week-block">Существительные из правил / Regelwerk-Substantive</div>
+            <div class="week-count">16 слов</div>
+          </div>
+        </div>
+        
+</div></div>
+
+        <div class="page vocab-page">
+          <div class="block-header">
+            <span class="block-num">1</span>
+            <span class="block-title">Судно и его части / Fahrzeug und seine Teile</span>
+            <span class="block-count">32 слов</span>
+          </div>
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th class="col-de">Deutsch</th>
+                <th class="col-ru">Русский</th>
+                <th class="col-ex">Пример из экзамена</th>
+              </tr>
+            </thead>
+            <tbody>
+        
+
+              <tr>
+                <td class="col-de"><strong>das Fahrzeug</strong></td>
+                <td class="col-ru">судно, транспортное средство</td>
+                <td class="col-ex"><span class="example">Fahrzeug unter Segel.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Kleinfahrzeug</strong></td>
+                <td class="col-ru">малое судно (до 20 м)</td>
+                <td class="col-ex"><span class="example">Kleinfahrzeug unter Segel.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Sportboot</strong></td>
+                <td class="col-ru">прогулочное/спортивное судно</td>
+                <td class="col-ex"><span class="example">In der Sportbootvermietungsverordnung.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Segelboot</strong></td>
+                <td class="col-ru">парусная лодка</td>
+                <td class="col-ex"><span class="example">Warum soll ein gut getrimmtes Segelboot leicht luvgierig sein?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Motorboot</strong></td>
+                <td class="col-ru">моторная лодка</td>
+                <td class="col-ex"><span class="example">Wie weichen zwei Motorboote aus, die sich auf entgegengesetzten Kursen nähern?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Boot</strong></td>
+                <td class="col-ru">лодка</td>
+                <td class="col-ex"><span class="example">Boot A, weil luvseitig.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Schiff</strong></td>
+                <td class="col-ru">корабль, судно</td>
+                <td class="col-ex"><span class="example">Ab 15 m Schiffslänge.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Großfahrzeug</strong></td>
+                <td class="col-ru">большое судно</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Segelfahrzeug</strong></td>
+                <td class="col-ru">парусное судно</td>
+                <td class="col-ex"><span class="example">Die für ein Segelfahrzeug vorgeschriebenen Lichter.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Verband</strong></td>
+                <td class="col-ru">состав судов (буксирный, толкаемый)</td>
+                <td class="col-ex"><span class="example">Schubverband von vorne.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Schleppverband</strong></td>
+                <td class="col-ru">буксирный состав</td>
+                <td class="col-ex"><span class="example">Fahrzeug eines Schleppverbandes.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Bug</strong></td>
+                <td class="col-ru">нос судна</td>
+                <td class="col-ex"><span class="example">Der Bug dreht nach Backbord.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Heck</strong></td>
+                <td class="col-ru">корма судна</td>
+                <td class="col-ex"><span class="example">Topp- und Hecklicht.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>Backbord</strong></td>
+                <td class="col-ru">левый борт</td>
+                <td class="col-ex"><span class="example">Wenden über Backbord.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>Steuerbord</strong></td>
+                <td class="col-ru">правый борт</td>
+                <td class="col-ex"><span class="example">Wenden über Steuerbord.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Backbordseite</strong></td>
+                <td class="col-ru">левая сторона судна</td>
+                <td class="col-ex"><span class="example">Überholen an der Backbordseite des Vorausfahrenden.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Steuerbordseite</strong></td>
+                <td class="col-ru">правая сторона судна</td>
+                <td class="col-ex"><span class="example">Schubverband von Steuerbordseite.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Mast</strong></td>
+                <td class="col-ru">мачта</td>
+                <td class="col-ex"><span class="example">Eine Zweifarbenlaterne an oder nahe der Mastspitze.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Kiel</strong></td>
+                <td class="col-ru">киль</td>
+                <td class="col-ex"><span class="example">Der Kiel lässt sich aufholen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Ruder</strong></td>
+                <td class="col-ru">руль</td>
+                <td class="col-ex"><span class="example">Durch den Abstand von Propeller und Ruderblatt.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Steuer</strong></td>
+                <td class="col-ru">штурвал, руль</td>
+                <td class="col-ex"><span class="example">Wenden über Steuerbord.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Deck</strong></td>
+                <td class="col-ru">палуба</td>
+                <td class="col-ex"><span class="example">Tankdeckel ist offen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Bord</strong></td>
+                <td class="col-ru">борт</td>
+                <td class="col-ex"><span class="example">Wenden über Backbord.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Großsegel</strong></td>
+                <td class="col-ru">грот (главный парус)</td>
+                <td class="col-ex"><span class="example">An den Trimmfäden im Großsegel.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Fock</strong></td>
+                <td class="col-ru">стаксель (передний парус)</td>
+                <td class="col-ex"><span class="example">Durch die Fock oder ein Fall.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Leine</strong></td>
+                <td class="col-ru">швартовый трос, линь</td>
+                <td class="col-ex"><span class="example">Durch die Vor- oder die Achterleine.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Tau</strong></td>
+                <td class="col-ru">канат, трос</td>
+                <td class="col-ex"><span class="example">Bei zweifelhafter Tauglichkeit wegen Alkoholmissbrauch.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Anker</strong></td>
+                <td class="col-ru">якорь</td>
+                <td class="col-ex"><span class="example">Ankern.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Antriebsmaschine</strong></td>
+                <td class="col-ru">двигатель (привод)</td>
+                <td class="col-ex"><span class="example">Fahrverbot für Fahrzeuge ohne Antriebsmaschine.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Maschinenantrieb</strong></td>
+                <td class="col-ru">машинный привод</td>
+                <td class="col-ex"><span class="example">Fahrzeug mit Maschinenantrieb.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Länge</strong></td>
+                <td class="col-ru">длина</td>
+                <td class="col-ex"><span class="example">Ab 15 m Schiffslänge.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Tiefgang</strong></td>
+                <td class="col-ru">осадка судна</td>
+                <td class="col-ex"><span class="example">Sein Tiefgang ist größer.</span></td>
+              </tr>
+            
+</tbody></table></div>
+
+        <div class="page vocab-page">
+          <div class="block-header">
+            <span class="block-num">2</span>
+            <span class="block-title">Водные пути / Wasserstraßen</span>
+            <span class="block-count">18 слов</span>
+          </div>
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th class="col-de">Deutsch</th>
+                <th class="col-ru">Русский</th>
+                <th class="col-ex">Пример из экзамена</th>
+              </tr>
+            </thead>
+            <tbody>
+        
+
+              <tr>
+                <td class="col-de"><strong>die Wasserstraße</strong></td>
+                <td class="col-ru">водный путь</td>
+                <td class="col-ex"><span class="example">Auf allen Seewasserstraßen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Binnenschifffahrtsstraße</strong></td>
+                <td class="col-ru">внутренний водный путь</td>
+                <td class="col-ex"><span class="example">Die der Binnenschifffahrtsstraßen-Ordnung.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Fahrwasser</strong></td>
+                <td class="col-ru">фарватер, судовой ход</td>
+                <td class="col-ex"><span class="example">Außerhalb des Fahrwassers.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Fahrrinne</strong></td>
+                <td class="col-ru">судоходный канал</td>
+                <td class="col-ex"><span class="example">Außerhalb der Fahrrinne.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Fahrrinnenseite</strong></td>
+                <td class="col-ru">сторона судоходного канала</td>
+                <td class="col-ex"><span class="example">Welche Fahrrinnenseite hat ein Talfahrer an seiner Backbordseite?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Nebenwasserstraße</strong></td>
+                <td class="col-ru">второстепенный водный путь</td>
+                <td class="col-ex"><span class="example">Verbot der Einfahrt in einen Hafen oder eine Nebenwasserstraße.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Hafen</strong></td>
+                <td class="col-ru">порт, гавань</td>
+                <td class="col-ex"><span class="example">Durch Aushang bei Hafenämtern und Schleusen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Schleuse</strong></td>
+                <td class="col-ru">шлюз</td>
+                <td class="col-ex"><span class="example">Schleuse.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Kanal</strong></td>
+                <td class="col-ru">канал</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Fluss</strong></td>
+                <td class="col-ru">река</td>
+                <td class="col-ex"><span class="example">Wie beeinflusst ein Unterliekstrecker den Trimm des Segels?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Strom</strong></td>
+                <td class="col-ru">течение; большая река</td>
+                <td class="col-ex"><span class="example">Ein Fehlerstromschutzschalter.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Strömung</strong></td>
+                <td class="col-ru">течение (воды)</td>
+                <td class="col-ex"><span class="example">Die Fahrt mit der Strömung.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Ufer</strong></td>
+                <td class="col-ru">берег</td>
+                <td class="col-ex"><span class="example">Im Abstand von 10 m zum Ufer fahren.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der See</strong></td>
+                <td class="col-ru">озеро (der); море (die See)</td>
+                <td class="col-ex"><span class="example">Auf allen Seewasserstraßen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Boje</strong></td>
+                <td class="col-ru">буй</td>
+                <td class="col-ex"><span class="example">Was ist mit Schwert und Ruder einer Jolle zu tun, wenn das Boot an einer Boje...</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Tonne</strong></td>
+                <td class="col-ru">бакен, навигационный знак</td>
+                <td class="col-ex"><span class="example">Durch rote Tonnen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Bake</strong></td>
+                <td class="col-ru">створный знак</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Leuchtfeuer</strong></td>
+                <td class="col-ru">навигационный огонь, маяк</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+</tbody></table></div>
+
+        <div class="page vocab-page">
+          <div class="block-header">
+            <span class="block-num">3</span>
+            <span class="block-title">Движение и маневры / Fahrt und Manöver</span>
+            <span class="block-count">29 слов</span>
+          </div>
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th class="col-de">Deutsch</th>
+                <th class="col-ru">Русский</th>
+                <th class="col-ex">Пример из экзамена</th>
+              </tr>
+            </thead>
+            <tbody>
+        
+
+              <tr>
+                <td class="col-de"><strong>die Fahrt</strong></td>
+                <td class="col-ru">движение, ход, рейс</td>
+                <td class="col-ex"><span class="example">Der Fahrtwind.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Geschwindigkeit</strong></td>
+                <td class="col-ru">скорость</td>
+                <td class="col-ex"><span class="example">Es hält Kurs und Geschwindigkeit bei.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Kurs</strong></td>
+                <td class="col-ru">курс</td>
+                <td class="col-ex"><span class="example">Auf Amwindkurs.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Kursänderung</strong></td>
+                <td class="col-ru">изменение курса</td>
+                <td class="col-ex"><span class="example">Kursänderung nach Backbord.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Fahrtrichtung</strong></td>
+                <td class="col-ru">направление движения</td>
+                <td class="col-ex"><span class="example">Empfohlene Fahrtrichtung.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Richtung</strong></td>
+                <td class="col-ru">направление</td>
+                <td class="col-ex"><span class="example">Die Windrichtung.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Bergfahrt</strong></td>
+                <td class="col-ru">движение вверх по течению</td>
+                <td class="col-ex"><span class="example">Bei der Bergfahrt liegt die rechte Uferseite rechts.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Talfahrt</strong></td>
+                <td class="col-ru">движение вниз по течению</td>
+                <td class="col-ex"><span class="example">Fahrzeug in der Talfahrt.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Rückwärtsfahrt</strong></td>
+                <td class="col-ru">задний ход</td>
+                <td class="col-ex"><span class="example">Segel bergen, Motor starten und in Rückwärtsfahrt das Ufer ansteuern.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Vorbeifahrt</strong></td>
+                <td class="col-ru">проход мимо</td>
+                <td class="col-ex"><span class="example">Fahrrinnenspaltung. Vorbeifahrt an beiden Seiten möglich.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Durchfahrt</strong></td>
+                <td class="col-ru">проход, проезд</td>
+                <td class="col-ex"><span class="example">Durchfahrt für Kleinfahrzeuge.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>ausweichen</strong></td>
+                <td class="col-ru">уступать дорогу, уклоняться</td>
+                <td class="col-ex"><span class="example">Es muss ausweichen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>überholen</strong></td>
+                <td class="col-ru">обгонять</td>
+                <td class="col-ex"><span class="example">Überholen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>begegnen</strong></td>
+                <td class="col-ru">встречаться (о судах)</td>
+                <td class="col-ex"><span class="example">Begegnen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>kreuzen</strong></td>
+                <td class="col-ru">пересекать (курс)</td>
+                <td class="col-ex"><span class="example">Zwei Motorboote nähern sich auf kreuzenden Kursen. Es besteht die Gefahr eine...</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>anlegen</strong></td>
+                <td class="col-ru">причаливать, швартоваться</td>
+                <td class="col-ex"><span class="example">Welches ist der günstigste Anlaufwinkel beim Anlegen?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>ablegen</strong></td>
+                <td class="col-ru">отчаливать</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>festmachen</strong></td>
+                <td class="col-ru">швартоваться (привязывать)</td>
+                <td class="col-ex"><span class="example">Ankern und Festmachen verboten.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>ankern</strong></td>
+                <td class="col-ru">стоять на якоре</td>
+                <td class="col-ex"><span class="example">Ankern.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>stillliegen</strong></td>
+                <td class="col-ru">стоять (о судне, без хода)</td>
+                <td class="col-ex"><span class="example">Ein stillliegender Schubverband.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>wenden</strong></td>
+                <td class="col-ru">разворачиваться</td>
+                <td class="col-ex"><span class="example">Wenden.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>drehen</strong></td>
+                <td class="col-ru">поворачивать</td>
+                <td class="col-ex"><span class="example">Was ist unter einem linksdrehenden Propeller zu verstehen?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>manövrieren</strong></td>
+                <td class="col-ru">маневрировать</td>
+                <td class="col-ex"><span class="example">Sie hilft beim Manövrieren.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>manövrierunfähig</strong></td>
+                <td class="col-ru">неуправляемый (о судне)</td>
+                <td class="col-ex"><span class="example">Fahrzeug ist manövrierunfähig.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Kollisionskurs</strong></td>
+                <td class="col-ru">курс столкновения</td>
+                <td class="col-ex"><span class="example">Zwei Kleinfahrzeuge unter Segel liegen auf Kollisionskurs. Wer ist ausweichpf...</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Gegenverkehr</strong></td>
+                <td class="col-ru">встречное движение</td>
+                <td class="col-ex"><span class="example">Einfahrt frei, Gegenverkehr gesperrt.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Abstand</strong></td>
+                <td class="col-ru">дистанция, расстояние</td>
+                <td class="col-ex"><span class="example">Im Abstand von 10 m zum Ufer fahren.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>ausweichpflichtig</strong></td>
+                <td class="col-ru">обязан уступить дорогу</td>
+                <td class="col-ex"><span class="example">Beide sind ausweichpflichtig.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Vorrang</strong></td>
+                <td class="col-ru">преимущество, приоритет</td>
+                <td class="col-ex"><span class="example">Fahrzeuge mit Vorrang an einer Schleuse.</span></td>
+              </tr>
+            
+</tbody></table></div>
+
+        <div class="page vocab-page">
+          <div class="block-header">
+            <span class="block-num">4</span>
+            <span class="block-title">Парусный спорт / Segeln</span>
+            <span class="block-count">20 слов</span>
+          </div>
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th class="col-de">Deutsch</th>
+                <th class="col-ru">Русский</th>
+                <th class="col-ex">Пример из экзамена</th>
+              </tr>
+            </thead>
+            <tbody>
+        
+
+              <tr>
+                <td class="col-de"><strong>das Segel</strong></td>
+                <td class="col-ru">парус</td>
+                <td class="col-ex"><span class="example">Fahrzeug unter Segel.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>segeln</strong></td>
+                <td class="col-ru">ходить под парусом</td>
+                <td class="col-ex"><span class="example">Abfallen, um maximale Höhe zu segeln.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Wind</strong></td>
+                <td class="col-ru">ветер</td>
+                <td class="col-ex"><span class="example">Der Fahrtwind.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>Luv</strong></td>
+                <td class="col-ru">наветренная сторона</td>
+                <td class="col-ex"><span class="example">Boot A, weil luvseitig.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>Lee</strong></td>
+                <td class="col-ru">подветренная сторона</td>
+                <td class="col-ex"><span class="example">Boot C, weil leeseitig.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Vorwindkurs</strong></td>
+                <td class="col-ru">курс по ветру (фордевинд)</td>
+                <td class="col-ex"><span class="example">Auf Vorwindkurs.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Halbwindkurs</strong></td>
+                <td class="col-ru">курс галфвинд (полветра)</td>
+                <td class="col-ex"><span class="example">Auf Halbwindkurs.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Amwindkurs</strong></td>
+                <td class="col-ru">курс бейдевинд (против ветра)</td>
+                <td class="col-ex"><span class="example">Auf Amwindkurs.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Krängung</strong></td>
+                <td class="col-ru">крен (судна)</td>
+                <td class="col-ex"><span class="example">Die Abdrift wird größer, die Krängung nimmt zu.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>kentern</strong></td>
+                <td class="col-ru">опрокинуться, перевернуться</td>
+                <td class="col-ex"><span class="example">Killen lässt das Boot bei stärkerem Wind kentern.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Bö</strong></td>
+                <td class="col-ru">шквал, порыв ветра</td>
+                <td class="col-ex"><span class="example">Segel etwas fieren, um die Bö in Krängung umzusetzen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>reffen</strong></td>
+                <td class="col-ru">брать рифы (уменьшать парус)</td>
+                <td class="col-ex"><span class="example">Der Erleichterung des Reffens.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>bergen</strong></td>
+                <td class="col-ru">убирать (парус); спасать</td>
+                <td class="col-ex"><span class="example">Segel bergen, Motor starten und in Rückwärtsfahrt das Ufer ansteuern.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>halsen</strong></td>
+                <td class="col-ru">делать поворот фордевинд</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Halse</strong></td>
+                <td class="col-ru">поворот фордевинд</td>
+                <td class="col-ex"><span class="example">Halse.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Wende</strong></td>
+                <td class="col-ru">поворот оверштаг</td>
+                <td class="col-ex"><span class="example">Wende.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>achtern</strong></td>
+                <td class="col-ru">на корме, позади</td>
+                <td class="col-ex"><span class="example">Schubverband von achtern.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>voraus</strong></td>
+                <td class="col-ru">впереди (по курсу)</td>
+                <td class="col-ex"><span class="example">Überholen an der Backbordseite des Vorausfahrenden.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>querab</strong></td>
+                <td class="col-ru">на траверзе</td>
+                <td class="col-ex"><span class="example">Ein Kleinfahrzeug A segelt nachts auf Vorwindkurs stromab, Großsegel an Steue...</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>dwars</strong></td>
+                <td class="col-ru">поперёк, на траверзе</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+</tbody></table></div>
+
+        <div class="page vocab-page">
+          <div class="block-header">
+            <span class="block-num">5</span>
+            <span class="block-title">Правила и регулирование / Regeln und Vorschriften</span>
+            <span class="block-count">22 слов</span>
+          </div>
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th class="col-de">Deutsch</th>
+                <th class="col-ru">Русский</th>
+                <th class="col-ex">Пример из экзамена</th>
+              </tr>
+            </thead>
+            <tbody>
+        
+
+              <tr>
+                <td class="col-de"><strong>die Verordnung</strong></td>
+                <td class="col-ru">постановление, предписание</td>
+                <td class="col-ex"><span class="example">In der Sportbootvermietungsverordnung.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Ordnung</strong></td>
+                <td class="col-ru">порядок, правила</td>
+                <td class="col-ex"><span class="example">In der Sportbootvermietungsverordnung.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Vorschrift</strong></td>
+                <td class="col-ru">предписание, правило</td>
+                <td class="col-ex"><span class="example">Um die jeweils geltenden Vorschriften einhalten zu können.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Geltungsbereich</strong></td>
+                <td class="col-ru">область действия (закона)</td>
+                <td class="col-ex"><span class="example">Der Sportbootführerschein mit dem Geltungsbereich Seeschifffahrtsstraßen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Binnenschiffsuntersuchungsordnung</strong></td>
+                <td class="col-ru">правила освидетельствования судов</td>
+                <td class="col-ex"><span class="example">In der Binnenschiffsuntersuchungsordnung.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Sportbootführerschein</strong></td>
+                <td class="col-ru">удостоверение на управление спортивным судном</td>
+                <td class="col-ex"><span class="example">In der Sportbootführerscheinverordnung.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Schiffsführer</strong></td>
+                <td class="col-ru">капитан, судоводитель</td>
+                <td class="col-ex"><span class="example">Der verantwortliche Schiffsführer muss gewählt werden.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Zulassung</strong></td>
+                <td class="col-ru">допуск, разрешение</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Kennzeichnung</strong></td>
+                <td class="col-ru">маркировка, обозначение</td>
+                <td class="col-ex"><span class="example">Welche Kennzeichnungsarten für Sportboote gibt es?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>gestattet</strong></td>
+                <td class="col-ru">разрешено, допустимо</td>
+                <td class="col-ex"><span class="example">Queren des Fahrwassers ist gestattet.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>verboten</strong></td>
+                <td class="col-ru">запрещено</td>
+                <td class="col-ex"><span class="example">Was ist in Kanälen verboten?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>erlaubt</strong></td>
+                <td class="col-ru">разрешено</td>
+                <td class="col-ex"><span class="example">Durchfahrt nur neben der Tafel erlaubt.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Verbot</strong></td>
+                <td class="col-ru">запрет</td>
+                <td class="col-ex"><span class="example">Wendeverbot.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Pflicht</strong></td>
+                <td class="col-ru">обязанность</td>
+                <td class="col-ex"><span class="example">Beide sind ausweichpflichtig.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Genehmigung</strong></td>
+                <td class="col-ru">разрешение, одобрение</td>
+                <td class="col-ex"><span class="example">Genehmigungsfreie Übungsstrecke für das Fahren mit Wasserski oder Wassermotor...</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Verantwortung</strong></td>
+                <td class="col-ru">ответственность</td>
+                <td class="col-ex"><span class="example">Ein Inhaber eines Sportbootführerscheins muss die Verantwortung übernehmen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>verantwortlich</strong></td>
+                <td class="col-ru">ответственный</td>
+                <td class="col-ex"><span class="example">Der verantwortliche Schiffsführer muss gewählt werden.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>verpflichtet</strong></td>
+                <td class="col-ru">обязан</td>
+                <td class="col-ex"><span class="example">Fahrzeuge begegnen sich an Steuerbord. Dieses Zeichen gilt nicht für Kleinfah...</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Sorgfaltspflicht</strong></td>
+                <td class="col-ru">обязанность проявлять осторожность</td>
+                <td class="col-ex"><span class="example">Was beinhaltet die allgemeine Sorgfaltspflicht?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Wasserschutzpolizei</strong></td>
+                <td class="col-ru">водная полиция</td>
+                <td class="col-ex"><span class="example">Die Wasserschutzpolizei.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Fahrtenbuch</strong></td>
+                <td class="col-ru">бортовой журнал</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Untersuchungskommission</strong></td>
+                <td class="col-ru">комиссия по расследованию</td>
+                <td class="col-ex"><span class="example">Es sind bei Arbeiten mit Unterwasseranstrichen die Richtlinien der Schiffsunt...</span></td>
+              </tr>
+            
+</tbody></table></div>
+
+        <div class="page vocab-page">
+          <div class="block-header">
+            <span class="block-num">6</span>
+            <span class="block-title">Знаки и сигналы / Zeichen und Signale</span>
+            <span class="block-count">20 слов</span>
+          </div>
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th class="col-de">Deutsch</th>
+                <th class="col-ru">Русский</th>
+                <th class="col-ex">Пример из экзамена</th>
+              </tr>
+            </thead>
+            <tbody>
+        
+
+              <tr>
+                <td class="col-de"><strong>das Tafelzeichen</strong></td>
+                <td class="col-ru">навигационный щит, знак</td>
+                <td class="col-ex"><span class="example">Was bedeuten diese Tafelzeichen?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Sichtzeichen</strong></td>
+                <td class="col-ru">визуальный знак/сигнал</td>
+                <td class="col-ex"><span class="example">Was bedeuten diese Sichtzeichen?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Schallsignal</strong></td>
+                <td class="col-ru">звуковой сигнал</td>
+                <td class="col-ex"><span class="example">Was bedeutet dieses Schallsignal?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Zeichen</strong></td>
+                <td class="col-ru">знак</td>
+                <td class="col-ex"><span class="example">Nur amtliche Kennzeichen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Bedeutung</strong></td>
+                <td class="col-ru">значение</td>
+                <td class="col-ex"><span class="example">Welche Bedeutung hat folgendes Schallsignal?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>bedeuten</strong></td>
+                <td class="col-ru">означать</td>
+                <td class="col-ex"><span class="example">Was bedeuten diese Lichter?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>bedeutet</strong></td>
+                <td class="col-ru">означает</td>
+                <td class="col-ex"><span class="example">Was bedeutet Radarfahrt?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Licht</strong></td>
+                <td class="col-ru">огонь, свет</td>
+                <td class="col-ex"><span class="example">Seitenlichter.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Lichter</strong></td>
+                <td class="col-ru">огни</td>
+                <td class="col-ex"><span class="example">Seitenlichter.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Rundumlicht</strong></td>
+                <td class="col-ru">круговой огонь</td>
+                <td class="col-ex"><span class="example">Weißes Rundumlicht.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Seitenlichter</strong></td>
+                <td class="col-ru">бортовые огни</td>
+                <td class="col-ex"><span class="example">Seitenlichter.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Topplicht</strong></td>
+                <td class="col-ru">топовый огонь</td>
+                <td class="col-ex"><span class="example">Ein weißes Topplicht und ein weißes Hecklicht.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Hecklicht</strong></td>
+                <td class="col-ru">кормовой огонь</td>
+                <td class="col-ex"><span class="example">Topp- und Hecklicht.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Funkellicht</strong></td>
+                <td class="col-ru">проблесковый огонь</td>
+                <td class="col-ex"><span class="example">Weißes Funkellicht.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Flagge</strong></td>
+                <td class="col-ru">флаг</td>
+                <td class="col-ex"><span class="example">Eine rote Flagge zeigen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Wimpel</strong></td>
+                <td class="col-ru">вымпел</td>
+                <td class="col-ex"><span class="example">Welches Fahrzeug führt am Bug einen roten Wimpel?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Signalkörper</strong></td>
+                <td class="col-ru">сигнальная фигура</td>
+                <td class="col-ex"><span class="example">Sofort ankern und einen Notruf absetzen, Signalkörper (blauer Kegel) setzen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Kegel</strong></td>
+                <td class="col-ru">конус (сигнальная фигура)</td>
+                <td class="col-ex"><span class="example">Einen schwarzen Kegel, Spitze oben.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Ball</strong></td>
+                <td class="col-ru">шар (сигнальная фигура)</td>
+                <td class="col-ex"><span class="example">Durch Umpumpen von Wasserballast.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Zylinder</strong></td>
+                <td class="col-ru">цилиндр (сигнальная фигура)</td>
+                <td class="col-ex"><span class="example">Stangen mit Toppzeichen: roter Kegel, Spitze nach oben, oder rot-weiß gestrei...</span></td>
+              </tr>
+            
+</tbody></table></div>
+
+        <div class="page vocab-page">
+          <div class="block-header">
+            <span class="block-num">7</span>
+            <span class="block-title">Цвета и визуальные описания / Farben und Sichtbarkeit</span>
+            <span class="block-count">14 слов</span>
+          </div>
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th class="col-de">Deutsch</th>
+                <th class="col-ru">Русский</th>
+                <th class="col-ex">Пример из экзамена</th>
+              </tr>
+            </thead>
+            <tbody>
+        
+
+              <tr>
+                <td class="col-de"><strong>rot</strong></td>
+                <td class="col-ru">красный</td>
+                <td class="col-ex"><span class="example">Durch rote Tonnen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>grün</strong></td>
+                <td class="col-ru">зелёный</td>
+                <td class="col-ex"><span class="example">Durch grüne Tonnen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>weiß</strong></td>
+                <td class="col-ru">белый</td>
+                <td class="col-ex"><span class="example">Weißes Rundumlicht.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>gelb</strong></td>
+                <td class="col-ru">жёлтый</td>
+                <td class="col-ex"><span class="example">Durch gelbe Tonnen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>blau</strong></td>
+                <td class="col-ru">синий, голубой</td>
+                <td class="col-ex"><span class="example">Was bedeutet auf einem Fahrzeug ein blaues Licht?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>schwarz</strong></td>
+                <td class="col-ru">чёрный</td>
+                <td class="col-ex"><span class="example">Einen schwarzen Rhombus.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>hell</strong></td>
+                <td class="col-ru">яркий, светлый</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>dunkel</strong></td>
+                <td class="col-ru">тёмный</td>
+                <td class="col-ex"><span class="example">Dunkelheit, Nebel, Schneefall, starker Regen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>sichtbar</strong></td>
+                <td class="col-ru">видимый</td>
+                <td class="col-ex"><span class="example">Ein von allen Seiten sichtbares weißes Licht.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>unsichtbar</strong></td>
+                <td class="col-ru">невидимый</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Sicht</strong></td>
+                <td class="col-ru">видимость</td>
+                <td class="col-ex"><span class="example">Was bedeuten diese Sichtzeichen?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Sichtweite</strong></td>
+                <td class="col-ru">дальность видимости</td>
+                <td class="col-ex"><span class="example">Zu welcher Tageszeit und bei welchen Sichtweiten darf auf den erlaubten Gewäs...</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>übereinander</strong></td>
+                <td class="col-ru">один над другим</td>
+                <td class="col-ex"><span class="example">Zwei weiße Lichter übereinander.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>nebeneinander</strong></td>
+                <td class="col-ru">рядом, бок о бок</td>
+                <td class="col-ex"><span class="example">Killen führt zu Beschädigungen an nebeneinander liegenden Schiffen.</span></td>
+              </tr>
+            
+</tbody></table></div>
+
+        <div class="page vocab-page">
+          <div class="block-header">
+            <span class="block-num">8</span>
+            <span class="block-title">Безопасность и спасение / Sicherheit und Rettung</span>
+            <span class="block-count">20 слов</span>
+          </div>
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th class="col-de">Deutsch</th>
+                <th class="col-ru">Русский</th>
+                <th class="col-ex">Пример из экзамена</th>
+              </tr>
+            </thead>
+            <tbody>
+        
+
+              <tr>
+                <td class="col-de"><strong>die Gefahr</strong></td>
+                <td class="col-ru">опасность</td>
+                <td class="col-ex"><span class="example">Gefahr eines Zusammenstoßes.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>gefährlich</strong></td>
+                <td class="col-ru">опасный</td>
+                <td class="col-ex"><span class="example">Warum ist eine Patenthalse gefährlich?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Rettungsweste</strong></td>
+                <td class="col-ru">спасательный жилет</td>
+                <td class="col-ex"><span class="example">Rettungsweste anlegen. Segel setzen, versuchen die Gewässermitte anzulaufen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Schwimmweste</strong></td>
+                <td class="col-ru">плавательный жилет</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Rettungsmittel</strong></td>
+                <td class="col-ru">спасательное средство</td>
+                <td class="col-ex"><span class="example">Wie oft muss man aufblasbare Rettungsmittel warten lassen?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Rettungsring</strong></td>
+                <td class="col-ru">спасательный круг</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Feuerlöscher</strong></td>
+                <td class="col-ru">огнетушитель</td>
+                <td class="col-ex"><span class="example">CO2-Feuerlöscher, mindestens alle 2 Jahre.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Hilfe</strong></td>
+                <td class="col-ru">помощь</td>
+                <td class="col-ex"><span class="example">Durch das Ausreiten mit Hilfe des Trapezes.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Notlage</strong></td>
+                <td class="col-ru">аварийная ситуация</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Notruf</strong></td>
+                <td class="col-ru">сигнал бедствия</td>
+                <td class="col-ex"><span class="example">Sofort ankern und einen Notruf absetzen, Signalkörper (blauer Kegel) setzen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Notfall</strong></td>
+                <td class="col-ru">экстренный случай</td>
+                <td class="col-ex"><span class="example">Weil es im Notfall von selbst in den Wind schießt.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>sinken</strong></td>
+                <td class="col-ru">тонуть</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>gesunken</strong></td>
+                <td class="col-ru">затонувший</td>
+                <td class="col-ex"><span class="example">Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>retten</strong></td>
+                <td class="col-ru">спасать</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>bergen</strong></td>
+                <td class="col-ru">поднимать (из воды), спасать</td>
+                <td class="col-ex"><span class="example">Segel bergen, Motor starten und in Rückwärtsfahrt das Ufer ansteuern.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Kollision</strong></td>
+                <td class="col-ru">столкновение</td>
+                <td class="col-ex"><span class="example">Zwei Kleinfahrzeuge unter Segel liegen auf Kollisionskurs. Wer ist ausweichpf...</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Unfall</strong></td>
+                <td class="col-ru">несчастный случай, авария</td>
+                <td class="col-ex"><span class="example">Hilfe leisten und so lange am Unfallort bleiben, bis ein weiterer Beistand ni...</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>kentern</strong></td>
+                <td class="col-ru">перевернуться (о судне)</td>
+                <td class="col-ex"><span class="example">Killen lässt das Boot bei stärkerem Wind kentern.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Leck</strong></td>
+                <td class="col-ru">течь, пробоина</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Grundberührung</strong></td>
+                <td class="col-ru">касание дна</td>
+                <td class="col-ex"><span class="example">Weil in diesen Zonen die Gefahr von Grundberührungen besteht.</span></td>
+              </tr>
+            
+</tbody></table></div>
+
+        <div class="page vocab-page">
+          <div class="block-header">
+            <span class="block-num">9</span>
+            <span class="block-title">Погода и вода / Wetter und Wasser</span>
+            <span class="block-count">12 слов</span>
+          </div>
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th class="col-de">Deutsch</th>
+                <th class="col-ru">Русский</th>
+                <th class="col-ex">Пример из экзамена</th>
+              </tr>
+            </thead>
+            <tbody>
+        
+
+              <tr>
+                <td class="col-de"><strong>der Wellenschlag</strong></td>
+                <td class="col-ru">волнение (от прохождения судна)</td>
+                <td class="col-ex"><span class="example">Sog und Wellenschlag vermeiden.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Welle</strong></td>
+                <td class="col-ru">волна</td>
+                <td class="col-ex"><span class="example">Schraube an der Welle lose.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Sog</strong></td>
+                <td class="col-ru">присасывание, тяга (от судна)</td>
+                <td class="col-ex"><span class="example">Sog und Wellenschlag vermeiden.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Bö</strong></td>
+                <td class="col-ru">шквал</td>
+                <td class="col-ex"><span class="example">Segel etwas fieren, um die Bö in Krängung umzusetzen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Sturm</strong></td>
+                <td class="col-ru">шторм</td>
+                <td class="col-ex"><span class="example">Schlechtes Wetter, Starkwind oder Sturm.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Gewitter</strong></td>
+                <td class="col-ru">гроза</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Nebel</strong></td>
+                <td class="col-ru">туман</td>
+                <td class="col-ex"><span class="example">Nebel, Schneefall, starker Regen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Temperatur</strong></td>
+                <td class="col-ru">температура</td>
+                <td class="col-ex"><span class="example">Besseres Wetter, steigende Temperatur.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Hochwasser</strong></td>
+                <td class="col-ru">паводок, высокая вода</td>
+                <td class="col-ex"><span class="example">Ab Hochwassermarke I nur im Fahrwasser.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Niedrigwasser</strong></td>
+                <td class="col-ru">низкая вода</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Wassertiefe</strong></td>
+                <td class="col-ru">глубина воды</td>
+                <td class="col-ex"><span class="example">Weil dadurch Einflüsse von Wellen und Wassertiefe ausgeglichen werden.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Unterkühlung</strong></td>
+                <td class="col-ru">переохлаждение</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+</tbody></table></div>
+
+        <div class="page vocab-page">
+          <div class="block-header">
+            <span class="block-num">10</span>
+            <span class="block-title">Ключевые глаголы / Wichtige Verben</span>
+            <span class="block-count">24 слов</span>
+          </div>
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th class="col-de">Deutsch</th>
+                <th class="col-ru">Русский</th>
+                <th class="col-ex">Пример из экзамена</th>
+              </tr>
+            </thead>
+            <tbody>
+        
+
+              <tr>
+                <td class="col-de"><strong>vermeiden</strong></td>
+                <td class="col-ru">избегать</td>
+                <td class="col-ex"><span class="example">Sog und Wellenschlag vermeiden.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>beachten</strong></td>
+                <td class="col-ru">соблюдать, обращать внимание</td>
+                <td class="col-ex"><span class="example">Er hat das Verbot der Schifffahrt bei Nacht zu beachten.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>verhalten (sich)</strong></td>
+                <td class="col-ru">вести себя</td>
+                <td class="col-ex"><span class="example">Die 15 Verhaltensregeln für Wassersportler.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>führen</strong></td>
+                <td class="col-ru">управлять, вести</td>
+                <td class="col-ex"><span class="example">Wie ist ein Überholmanöver durchzuführen?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>fahren</strong></td>
+                <td class="col-ru">ехать, двигаться (по воде)</td>
+                <td class="col-ex"><span class="example">Eine Halse fahren.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>gelten</strong></td>
+                <td class="col-ru">действовать, быть действительным</td>
+                <td class="col-ex"><span class="example">Um die jeweils geltenden Vorschriften einhalten zu können.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>bestimmen</strong></td>
+                <td class="col-ru">определять, устанавливать</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>einhalten</strong></td>
+                <td class="col-ru">соблюдать</td>
+                <td class="col-ex"><span class="example">Um die jeweils geltenden Vorschriften einhalten zu können.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>verringern</strong></td>
+                <td class="col-ru">уменьшать, снижать</td>
+                <td class="col-ex"><span class="example">Die Möglichkeit durch zusätzlichen Innenballast die Krängung zu verringern.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>vermindern</strong></td>
+                <td class="col-ru">уменьшать</td>
+                <td class="col-ex"><span class="example">Schutzbedürftiges Fahrzeug, Geschwindigkeit vermindern.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>erhöhen</strong></td>
+                <td class="col-ru">увеличивать, повышать</td>
+                <td class="col-ex"><span class="example">Geschwindigkeit erhöhen, um das Begegnungsmanöver zügig durchzuführen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>behindern</strong></td>
+                <td class="col-ru">препятствовать, мешать</td>
+                <td class="col-ex"><span class="example">Wie sind Anker am Tage bezeichnet, die die Schifffahrt behindern können?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>gefährden</strong></td>
+                <td class="col-ru">подвергать опасности</td>
+                <td class="col-ex"><span class="example">Überall, ohne die Schifffahrt zu gefährden.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>anzeigen</strong></td>
+                <td class="col-ru">показывать, указывать; сообщать</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>kennzeichnen</strong></td>
+                <td class="col-ru">обозначать, маркировать</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>erkennen</strong></td>
+                <td class="col-ru">распознавать</td>
+                <td class="col-ex"><span class="example">Woran kann man erkennen, ob der Anker hält?</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>befahren</strong></td>
+                <td class="col-ru">плыть по (водному пути)</td>
+                <td class="col-ex"><span class="example">Wasserstraße, die jederzeit sicher befahren werden kann; keine Gefahr durch S...</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>einfahren</strong></td>
+                <td class="col-ru">входить (в шлюз, порт)</td>
+                <td class="col-ex"><span class="example">Das aus- und die einfahrenden Fahrzeuge passieren sich an der Backbordseite, ...</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>ausfahren</strong></td>
+                <td class="col-ru">выходить (из шлюза, порта)</td>
+                <td class="col-ex"><span class="example">Überholen an der Backbordseite des Vorausfahrenden.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>vorbeifahren</strong></td>
+                <td class="col-ru">проходить мимо</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>heranfahren</strong></td>
+                <td class="col-ru">подходить, приближаться</td>
+                <td class="col-ex"><span class="example">Das heranfahrende Fahrzeug anleuchten.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>umkehren</strong></td>
+                <td class="col-ru">разворачиваться</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>unterlassen</strong></td>
+                <td class="col-ru">воздерживаться от</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>verursachen</strong></td>
+                <td class="col-ru">причинять</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+</tbody></table></div>
+
+        <div class="page vocab-page">
+          <div class="block-header">
+            <span class="block-num">11</span>
+            <span class="block-title">Направления и позиции / Richtungen und Positionen</span>
+            <span class="block-count">17 слов</span>
+          </div>
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th class="col-de">Deutsch</th>
+                <th class="col-ru">Русский</th>
+                <th class="col-ex">Пример из экзамена</th>
+              </tr>
+            </thead>
+            <tbody>
+        
+
+              <tr>
+                <td class="col-de"><strong>rechts</strong></td>
+                <td class="col-ru">справа, направо</td>
+                <td class="col-ex"><span class="example">Die Seite in Fahrtrichtung rechts.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>links</strong></td>
+                <td class="col-ru">слева, налево</td>
+                <td class="col-ex"><span class="example">Die Seite in Fahrtrichtung links.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>vorne</strong></td>
+                <td class="col-ru">впереди</td>
+                <td class="col-ex"><span class="example">Schubverband von vorne.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>hinten</strong></td>
+                <td class="col-ru">сзади</td>
+                <td class="col-ex"><span class="example">Das Versetzen nach hinten.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>oben</strong></td>
+                <td class="col-ru">вверху, наверху</td>
+                <td class="col-ex"><span class="example">Die Handlampe nach oben halten.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>unten</strong></td>
+                <td class="col-ru">внизу</td>
+                <td class="col-ex"><span class="example">Einen schwarzen Kegel, Spitze unten.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>quer</strong></td>
+                <td class="col-ru">поперёк</td>
+                <td class="col-ex"><span class="example">Queren des Fahrwassers ist gestattet.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>längs</strong></td>
+                <td class="col-ru">вдоль</td>
+                <td class="col-ex"><span class="example">Geschleppte oder längsseits gekuppelte Kleinfahrzeuge.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>voraus</strong></td>
+                <td class="col-ru">впереди по курсу</td>
+                <td class="col-ex"><span class="example">Überholen an der Backbordseite des Vorausfahrenden.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>achtern</strong></td>
+                <td class="col-ru">на корме, позади</td>
+                <td class="col-ex"><span class="example">Schubverband von achtern.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>mittschiffs</strong></td>
+                <td class="col-ru">на миделе (посередине судна)</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>seitlich</strong></td>
+                <td class="col-ru">сбоку, боковой</td>
+                <td class="col-ex"><span class="example">Das seitliche Versetzen des Bugs.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>gegenüber</strong></td>
+                <td class="col-ru">напротив</td>
+                <td class="col-ex"><span class="example">C gegenüber A und B, B gegenüber A.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>außerhalb</strong></td>
+                <td class="col-ru">за пределами, снаружи</td>
+                <td class="col-ex"><span class="example">Außerhalb der Fahrrinne.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>innerhalb</strong></td>
+                <td class="col-ru">в пределах, внутри</td>
+                <td class="col-ex"><span class="example">Welche Maßnahmen sind zu treffen, wenn das Fahrzeug innerhalb des Fahrwassers...</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>stromaufwärts</strong></td>
+                <td class="col-ru">вверх по течению</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>stromabwärts</strong></td>
+                <td class="col-ru">вниз по течению</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+</tbody></table></div>
+
+        <div class="page vocab-page">
+          <div class="block-header">
+            <span class="block-num">12</span>
+            <span class="block-title">Прилагательные из экзамена / Prüfungsadjektive</span>
+            <span class="block-count">17 слов</span>
+          </div>
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th class="col-de">Deutsch</th>
+                <th class="col-ru">Русский</th>
+                <th class="col-ex">Пример из экзамена</th>
+              </tr>
+            </thead>
+            <tbody>
+        
+
+              <tr>
+                <td class="col-de"><strong>ausweichpflichtig</strong></td>
+                <td class="col-ru">обязанный уступить дорогу</td>
+                <td class="col-ex"><span class="example">Beide sind ausweichpflichtig.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>frei</strong></td>
+                <td class="col-ru">свободный</td>
+                <td class="col-ex"><span class="example">Frei fahrende Fähre.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>empfohlen</strong></td>
+                <td class="col-ru">рекомендуемый</td>
+                <td class="col-ex"><span class="example">Empfohlene Fahrtrichtung.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>gesperrt</strong></td>
+                <td class="col-ru">закрытый, перекрытый</td>
+                <td class="col-ex"><span class="example">Anlage dauerhaft gesperrt.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>eingeschränkt</strong></td>
+                <td class="col-ru">ограниченный</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>stillstehend</strong></td>
+                <td class="col-ru">неподвижный</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>treibend</strong></td>
+                <td class="col-ru">дрейфующий</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>schwimmend</strong></td>
+                <td class="col-ru">плавающий</td>
+                <td class="col-ex"><span class="example">Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>befestigt</strong></td>
+                <td class="col-ru">закреплённый</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>geladen</strong></td>
+                <td class="col-ru">гружёный</td>
+                <td class="col-ex"><span class="example">Ein Fahrzeug, das brennbare Stoffe geladen hat.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>gesunken</strong></td>
+                <td class="col-ru">затонувший</td>
+                <td class="col-ex"><span class="example">Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>sicher</strong></td>
+                <td class="col-ru">безопасный</td>
+                <td class="col-ex"><span class="example">Sicherheitstor.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>dicht</strong></td>
+                <td class="col-ru">плотный; близко</td>
+                <td class="col-ex"><span class="example">Dichtholen und Anluven.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>möglich</strong></td>
+                <td class="col-ru">возможный</td>
+                <td class="col-ex"><span class="example">Überholen nicht möglich.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>nötig</strong></td>
+                <td class="col-ru">необходимый</td>
+                <td class="col-ex"><span class="example">Verringerung der Geschwindigkeit und nötigenfalls vom Rechtsfahrgebot abweichen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>sofort</strong></td>
+                <td class="col-ru">немедленно</td>
+                <td class="col-ex"><span class="example">Bleib-weg-Signal, Gefahrenbereich sofort verlassen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>gleichzeitig</strong></td>
+                <td class="col-ru">одновременно</td>
+                <td class="col-ex"><span class="example">Wenn es gleichzeitig mit Maschinenkraft fährt.</span></td>
+              </tr>
+            
+</tbody></table></div>
+
+        <div class="page vocab-page">
+          <div class="block-header">
+            <span class="block-num">13</span>
+            <span class="block-title">Существительные из правил / Regelwerk-Substantive</span>
+            <span class="block-count">16 слов</span>
+          </div>
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th class="col-de">Deutsch</th>
+                <th class="col-ru">Русский</th>
+                <th class="col-ex">Пример из экзамена</th>
+              </tr>
+            </thead>
+            <tbody>
+        
+
+              <tr>
+                <td class="col-de"><strong>die Seite</strong></td>
+                <td class="col-ru">сторона</td>
+                <td class="col-ex"><span class="example">Seitenlichter.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Stelle</strong></td>
+                <td class="col-ru">место, позиция</td>
+                <td class="col-ex"><span class="example">Durch Verstellen des Travellers.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Bereich</strong></td>
+                <td class="col-ru">область, зона</td>
+                <td class="col-ex"><span class="example">Auf den Bundeswasserstraßen im Binnenbereich.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Arbeit</strong></td>
+                <td class="col-ru">работа</td>
+                <td class="col-ex"><span class="example">Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Stoffe</strong></td>
+                <td class="col-ru">вещества, материалы</td>
+                <td class="col-ex"><span class="example">Ein Fahrzeug, das brennbare Stoffe geladen hat.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Teil</strong></td>
+                <td class="col-ru">часть</td>
+                <td class="col-ex"><span class="example">Gleichmäßig verteilen.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Nacht</strong></td>
+                <td class="col-ru">ночь</td>
+                <td class="col-ex"><span class="example">Eine Fahrt bei Nacht mit Radar.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Tag</strong></td>
+                <td class="col-ru">день</td>
+                <td class="col-ex"><span class="example">Eine Fahrt am Tage mit Radar.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Jahr</strong></td>
+                <td class="col-ru">год</td>
+                <td class="col-ex"><span class="example">Mindestens 14 Jahre.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Anlage</strong></td>
+                <td class="col-ru">сооружение, установка</td>
+                <td class="col-ex"><span class="example">Schutzbedürftige Anlage.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>der Verkehr</strong></td>
+                <td class="col-ru">движение, транспорт</td>
+                <td class="col-ex"><span class="example">Einfahrt frei, Gegenverkehr gesperrt.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>das Gerät</strong></td>
+                <td class="col-ru">прибор, устройство</td>
+                <td class="col-ex"><span class="example">Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Schifffahrt</strong></td>
+                <td class="col-ru">судоходство</td>
+                <td class="col-ex"><span class="example">Sperrung der Schifffahrt.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Besatzung</strong></td>
+                <td class="col-ru">экипаж</td>
+                <td class="col-ex"><span class="example">Killen führt zu Verletzungen der Besatzung.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Ladung</strong></td>
+                <td class="col-ru">груз</td>
+                <td class="col-ex"><span class="example">Ein geringer Ladungsstrom ist ungefährlich.</span></td>
+              </tr>
+            
+
+              <tr>
+                <td class="col-de"><strong>die Mannschaft</strong></td>
+                <td class="col-ru">команда, экипаж</td>
+                <td class="col-ex"></td>
+              </tr>
+            
+</tbody></table></div>
+</body>
+</html>

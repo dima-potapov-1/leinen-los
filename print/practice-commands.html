@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="de">
+<head><meta charset="utf-8"><style>
+@page {
+  size: A4 portrait;
+  margin: 8mm;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+  line-height: 1.45;
+  font-size: 9pt;
+}
+
+.section-header {
+  background: #0f2b46;
+  color: white;
+  padding: 4mm 6mm;
+  font-size: 13pt;
+  font-weight: 700;
+  margin-bottom: 3mm;
+  page-break-after: avoid;
+  page-break-before: always;
+}
+
+.section-header:first-child {
+  page-break-before: auto;
+}
+
+.maneuver {
+  margin-bottom: 4mm;
+  border: 1pt solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  page-break-inside: avoid;
+}
+
+.maneuver-header {
+  background: #e3f2fd;
+  padding: 2.5mm 5mm;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1pt solid #bbdefb;
+}
+
+.maneuver-title-de {
+  font-weight: 700;
+  font-size: 11pt;
+  color: #0f2b46;
+}
+
+.maneuver-title-ru {
+  font-style: italic;
+  font-size: 10pt;
+  color: #455a64;
+}
+
+.columns {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  padding: 3mm 4mm;
+}
+
+.col-de {
+  background: #fafafa;
+}
+
+.divider {
+  width: 1pt;
+  background: #e0e0e0;
+}
+
+.step {
+  margin-bottom: 2mm;
+}
+
+.role-step {
+  border-left: 2.5pt solid #ccc;
+  padding-left: 3mm;
+}
+
+.role-label {
+  font-weight: 700;
+  font-size: 8pt;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-bottom: 0.5mm;
+}
+
+.command-text {
+  font-weight: 600;
+}
+
+.instruction-step {
+  background: #f0f0f0;
+  padding: 1.5mm 3mm;
+  border-radius: 2px;
+  font-size: 8.5pt;
+  color: #616161;
+}
+
+.col-ru .instruction-step {
+  background: #f5f5f5;
+}
+
+.note-step {
+  padding: 1mm 3mm;
+  font-size: 8.5pt;
+  color: #455a64;
+  font-style: italic;
+}
+
+.step-text {
+  line-height: 1.4;
+}
+
+.footer {
+  text-align: center;
+  color: #999;
+  font-size: 7pt;
+  margin-top: 4mm;
+  padding-top: 2mm;
+  border-top: 0.5pt solid #eee;
+}
+</style></head>
+<body>
+<div class="section-header">MOTOR — Практический экзамен / Praktische Prüfung</div>
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Hinweise</span>
+        <span class="maneuver-title-ru">Указания</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step note-step"><div class="step-text">Keine Vollgasmanöver am Steg.</div></div>
+<div class="step note-step"><div class="step-text">Je nach Wind reicht meistens eine geringe Drehzahl.</div></div>
+<div class="step note-step"><div class="step-text">Grün = Kommandos vom Rudergänger (auf Deutsch!).</div></div>
+<div class="step note-step"><div class="step-text">Rot = Kommandos von Crew oder Prüfer.</div></div>
+<div class="step note-step"><div class="step-text">Grau = Hinweise zur Manöverausführung.</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step note-step"><div class="step-text">Никаких манёвров на полном газу у причала.</div></div>
+<div class="step note-step"><div class="step-text">В зависимости от ветра обычно достаточно малых оборотов.</div></div>
+<div class="step note-step"><div class="step-text">Зелёный = команды рулевого (на немецком!).</div></div>
+<div class="step note-step"><div class="step-text">Красный = команды экипажа или экзаменатора.</div></div>
+<div class="step note-step"><div class="step-text">Серый = инструкции по выполнению манёвра.</div></div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Ablegen</span>
+        <span class="maneuver-title-ru">Отход от причала</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Klar zum Ablegen mit dem Manöver „Eindampfen in die Vorspring“?<br>Bug abfendern! Vorspring auf Slip, alle anderen Leinen los!</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Mannschaft:</span><div class="step-text command-text">Fender & Leinen klar!</div></div>
+<div class="step instruction-step"><div class="step-text">Zum Steg einlenken; Vorwärtsgang einlegen = Eindampfen in die Vorspring.<br>Heck dreht sich vom Steg weg; Leerlauf; Gegenlenken; achtern Rundumblick ob Freiraum.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Achtern frei! Vorspring los!</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Mannschaft:</span><div class="step-text command-text">Vorspring ist los.</div></div>
+<div class="step instruction-step"><div class="step-text">Rückwärtsfahrt; dabei Rundumblick.</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Готовы к отходу манёвром «работа на носовой шпринг»?<br>Отвести нос! Носовой шпринг на слип, остальные концы отдать!</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Экипаж:</span><div class="step-text command-text">Кранцы и концы готовы!</div></div>
+<div class="step instruction-step"><div class="step-text">Руль к причалу; включить передний ход = работа на носовой шпринг.<br>Корма отходит от причала; нейтраль; контр-руление; осмотр позади — свободно ли.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Позади свободно! Носовой шпринг отдать!</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Экипаж:</span><div class="step-text command-text">Носовой шпринг отдан.</div></div>
+<div class="step instruction-step"><div class="step-text">Задний ход; круговой обзор.</div></div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Anlegen</span>
+        <span class="maneuver-title-ru">Швартовка к причалу</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Klar zum Anlegen am Steg / Ufer an Steuerbord / Backbord?<br>Leinen und Fender klarmachen an Steuerbord / Backbord!</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Mannschaft:</span><div class="step-text command-text">Alles klar an Steuerbord / Backbord.</div></div>
+<div class="step instruction-step"><div class="step-text">Im spitzen Winkel auf den Steg zufahren, 1–1,5 m vor dem Steg auskuppeln, komplett zum Steg lenken: Rückwärtsgang zum Aufstoppen; Heck wird zum Steg gezogen.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Leinen über, das Boot festmachen!</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Mannschaft:</span><div class="step-text command-text">Leinen sind fest.</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Готовы к швартовке к причалу / берегу по правому / левому борту?<br>Приготовить концы и кранцы по правому / левому борту!</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Экипаж:</span><div class="step-text command-text">Всё готово по правому / левому борту.</div></div>
+<div class="step instruction-step"><div class="step-text">Подходить к причалу под острым углом, за 1–1,5 м выключить передачу, руль полностью к причалу: задний ход для остановки; корму притягивает к причалу.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Подать концы, закрепить судно!</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Экипаж:</span><div class="step-text command-text">Концы закреплены.</div></div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Kursfahren nach Objekten / Kompass</span>
+        <span class="maneuver-title-ru">Курс по ориентирам / компасу</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Prüfer:</span><div class="step-text command-text">z.B.: Nehmen Sie Kurs in Richtung Fernsehturm / 3-0-0 Grad auf!</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Nehme Kurs auf in Richtung Fernsehturm / 3-0-0 Grad.</div></div>
+<div class="step instruction-step"><div class="step-text">Kurs aufnehmen. Wenn der Kurs anliegt:</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Kurs liegt an. / Kurs 3-0-0 Grad liegt an.</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Экзаменатор:</span><div class="step-text command-text">Напр.: Возьмите курс на телебашню / 3-0-0 градусов!</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Беру курс на телебашню / 3-0-0 градусов.</div></div>
+<div class="step instruction-step"><div class="step-text">Взять курс. Когда курс установлен:</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Курс установлен. / Курс 3-0-0 градусов установлен.</div></div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Kursgerechtes Aufstoppen</span>
+        <span class="maneuver-title-ru">Остановка с удержанием курса</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step instruction-step"><div class="step-text">Achtern Rundumblick ob Freiraum.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Achtern frei!</div></div>
+<div class="step instruction-step"><div class="step-text">Auskuppeln; im Rückwärtsgang anhalten, bis das Boot keine Fahrt durch das Wasser macht.<br>Ggf. Windvertreibung durch Lenken ausgleichen, um kursgerecht stehenzubleiben.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Manöver beendet.</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step instruction-step"><div class="step-text">Осмотр позади — свободно ли.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Позади свободно!</div></div>
+<div class="step instruction-step"><div class="step-text">Нейтраль; задний ход до полной остановки.<br>При необходимости компенсировать снос ветром рулением, чтобы остаться на курсе.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Манёвр завершён.</div></div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Wende auf engem Raum über Steuerbord / Backbord</span>
+        <span class="maneuver-title-ru">Разворот в ограниченном пространстве через правый / левый борт</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step instruction-step"><div class="step-text">Komplett in Vorwärtsgang nach Steuerbord / Backbord lenken; auskuppeln.<br>Achtern Rundumblick ob Freiraum.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Achtern frei!</div></div>
+<div class="step instruction-step"><div class="step-text">Komplett zur anderen Seite einlenken; Blick nach Achtern; Rückwärtsgang.<br>Abfolge wiederholen, bis Wende (180°) abgeschlossen ist und der Gegenkurs fahrend anliegt.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Manöver beendet.</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step instruction-step"><div class="step-text">Полностью вывернуть руль на правый / левый борт, передний ход; нейтраль.<br>Осмотр позади — свободно ли.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Позади свободно!</div></div>
+<div class="step instruction-step"><div class="step-text">Руль полностью в другую сторону; смотреть назад; задний ход.<br>Повторять, пока разворот (180°) не завершён и не лёг на обратный курс.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Манёвр завершён.</div></div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Mann / Boje über Bord (MOB)</span>
+        <span class="maneuver-title-ru">Человек / буй за бортом (MOB)</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Prüfer:</span><div class="step-text command-text">Mann / Boje über Bord an Steuerbord / Backbord!</div></div>
+<div class="step instruction-step"><div class="step-text">Maschine sofort auskuppeln und voll zum MOB lenken.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Mann / Boje über Bord an Steuerbord / Backbord!<br>Mann / Boje im Blick behalten!<br>Markierungsmittel ausbringen, Rettungsmittel bereithalten!</div></div>
+<div class="step instruction-step"><div class="step-text">Crewmitglieder direkt ansprechen. Position des MOB zeigen lassen.<br>Mit Wind und Welle vom MOB ca. 4 Bootslängen wegfahren.<br>Kurs zum MOB aufnehmen.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Nehme Fahrt gegen Wind und Welle auf.<br>Bereitmachen zum Bergen an Steuerbord / Backbord.</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Mannschaft:</span><div class="step-text command-text">Ist klar.</div></div>
+<div class="step instruction-step"><div class="step-text">Wenn der MOB auf Höhe des Bugs ist, Rückwärtsgang einlegen, um mittschiffs neben dem MOB aufzustoppen; Maschine auskuppeln.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Maschine neutral.<br>Mann / Boje an Bord nehmen!</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Mannschaft:</span><div class="step-text command-text">Mann / Boje ist geborgen.</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Экзаменатор:</span><div class="step-text command-text">Человек / буй за бортом по правому / левому борту!</div></div>
+<div class="step instruction-step"><div class="step-text">Немедленно нейтраль и полностью рулить к MOB.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Человек / буй за бортом по правому / левому борту!<br>Не терять из виду!<br>Выбросить маркер, приготовить спасательные средства!</div></div>
+<div class="step instruction-step"><div class="step-text">Обращаться к членам экипажа лично. Пусть показывают на MOB.<br>Отойти по ветру и волне ~4 длины судна от MOB.<br>Взять курс на MOB.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Иду против ветра и волны.<br>Приготовиться к подъёму по правому / левому борту.</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Экипаж:</span><div class="step-text command-text">Готовы.</div></div>
+<div class="step instruction-step"><div class="step-text">Когда MOB на уровне носа — задний ход, остановиться рядом с MOB на миделе; нейтраль.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Двигатель нейтраль.<br>Принять человека / буй на борт!</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Экипаж:</span><div class="step-text command-text">Человек / буй поднят на борт.</div></div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Schallsignale zur Kursänderungen</span>
+        <span class="maneuver-title-ru">Звуковые сигналы при изменении курса</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step note-step"><div class="step-text">Nach Steuerbord: „ein kurzer Ton“ ●</div></div>
+<div class="step note-step"><div class="step-text">Nach Backbord: „zwei kurze Töne“ ● ●</div></div>
+<div class="step note-step"><div class="step-text">Maschine geht rückwärts: „drei kurze Töne“ ● ● ●</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step note-step"><div class="step-text">Направо (штирборт): «один короткий гудок» ●</div></div>
+<div class="step note-step"><div class="step-text">Налево (бакборт): «два коротких гудка» ● ●</div></div>
+<div class="step note-step"><div class="step-text">Задний ход: «три коротких гудка» ● ● ●</div></div>
+        </div>
+      </div>
+    </div>
+    
+<div class="section-header">SEGELN — Практический экзамен / Praktische Prüfung</div>
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Hinweise</span>
+        <span class="maneuver-title-ru">Указания</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step note-step"><div class="step-text">In der Prüfung ist man abwechselnd der Rudergänger und der Vorschoter.</div></div>
+<div class="step note-step"><div class="step-text">Im Gegensatz zur Motorprüfung sitzt der Prüfer nicht mit an Bord.</div></div>
+<div class="step note-step"><div class="step-text">Grün = Kommandos vom Rudergänger (auf Deutsch!).</div></div>
+<div class="step note-step"><div class="step-text">Rot = Hinweise vom Vorschoter.</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step note-step"><div class="step-text">На экзамене вы по очереди выступаете рулевым и шкотовым.</div></div>
+<div class="step note-step"><div class="step-text">В отличие от моторного экзамена, экзаменатор не находится на борту.</div></div>
+<div class="step note-step"><div class="step-text">Зелёный = команды рулевого (на немецком!).</div></div>
+<div class="step note-step"><div class="step-text">Красный = указания шкотового.</div></div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Wende</span>
+        <span class="maneuver-title-ru">Поворот оверштаг (Wende)</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Klar zur Wende?</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Vorschoter:</span><div class="step-text command-text">Ist klar!</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Ree!</div></div>
+<div class="step instruction-step"><div class="step-text">Anluven; Bug geht durch den Wind.<br>Ruder gerade, sobald Vorsegel back steht.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Vorsegel über!</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Готовы к повороту оверштаг?</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Шкотовый:</span><div class="step-text command-text">Готов!</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Ree! (Поворот!)</div></div>
+<div class="step instruction-step"><div class="step-text">Приводиться; нос проходит через ветер.<br>Руль прямо, как только стаксель заполаскивает на другой стороне.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Стаксель на другой борт!</div></div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Halse</span>
+        <span class="maneuver-title-ru">Поворот фордевинд (Halse)</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step instruction-step"><div class="step-text">Eine Halse sollte aus einem stabilen Raumwindkurs gefahren werden.<br>Ggf. Raumwindkurs aufnehmen (abfallen, Schoten fieren).</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Klar zur Halse?</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Vorschoter:</span><div class="step-text command-text">Ist klar!</div></div>
+<div class="step instruction-step"><div class="step-text">Großschot dichtholen, dabei sicheren Raumwindkurs halten.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Rund achtern!</div></div>
+<div class="step instruction-step"><div class="step-text">Abfallen; Heck geht durch den Wind.<br>Wenn Großsegel umschlägt, muss die Großschot zügig gefiert werden.<br>Das Vorsegel wird vom Vorschoter übergeholt.</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step instruction-step"><div class="step-text">Фордевинд выполняется со стабильного курса бакштаг.<br>При необходимости лечь на бакштаг (увалиться, потравить шкоты).</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Готовы к повороту фордевинд?</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Шкотовый:</span><div class="step-text command-text">Готов!</div></div>
+<div class="step instruction-step"><div class="step-text">Выбрать грота-шкот, удерживая безопасный курс бакштаг.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Поворот через корму!</div></div>
+<div class="step instruction-step"><div class="step-text">Увалиться; корма проходит через ветер.<br>Когда грот перебросится — быстро потравить грота-шкот.<br>Шкотовый перебрасывает стаксель.</div></div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Schiften</span>
+        <span class="maneuver-title-ru">Перекладка парусов (Schiften)</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step instruction-step"><div class="step-text">Bedeutung: auf einem Vorwindkurs das Vorsegel und/oder Großsegel auf die jeweils andere Seite bewegen, ohne dabei den Kurs zu ändern.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Klar zum Schiften?</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Vorschoter:</span><div class="step-text command-text">Ist klar!</div></div>
+<div class="step instruction-step"><div class="step-text">Vorwindkurs halten.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Rund achtern!</div></div>
+<div class="step instruction-step"><div class="step-text">In das Großschotbündel greifen und Großbaum herüberziehen.<br>Das Vorsegel wird vom Vorschoter übergeholt.</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step instruction-step"><div class="step-text">Смысл: на курсе фордевинд перенести стаксель и/или грот на другой борт без изменения курса.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Готовы к перекладке?</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Шкотовый:</span><div class="step-text command-text">Готов!</div></div>
+<div class="step instruction-step"><div class="step-text">Держать курс фордевинд.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Поворот через корму!</div></div>
+<div class="step instruction-step"><div class="step-text">Взяться за грота-шкот и перетянуть гик.<br>Шкотовый перебрасывает стаксель.</div></div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Mann / Boje über Bord (MOB) mit Q-Wende</span>
+        <span class="maneuver-title-ru">Человек / буй за бортом (MOB) — Q-поворот</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Mann / Boje über Bord an Steuerbord / Backbord!<br>Mann / Boje im Blick behalten!<br>Markierungsmittel ausbringen, Rettungsmittel bereithalten!<br>Luve an / Falle ab / Bleibe auf — Halbwindkurs!</div></div>
+<div class="step instruction-step"><div class="step-text">Crewmitglieder direkt ansprechen. Position des MOB zeigen lassen.<br>Schoten dem neuen Kurs anpassen; ca. 5 Bootslängen wegfahren.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Klar zur Q-Wende?</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Vorschoter:</span><div class="step-text command-text">Ist klar.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Ree!</div></div>
+<div class="step instruction-step"><div class="step-text">Anluven; Bug geht durch den Wind.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Vorsegel über! Neuer Kurs Halbwindkurs!</div></div>
+<div class="step instruction-step"><div class="step-text">Schoten dem neuen Kurs anpassen.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Klar zum Aufnehmen an Steuerbord / Backbord!<br>Klarmachen zum Aufschießer!</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Vorschoter:</span><div class="step-text command-text">Ist klar.</div></div>
+<div class="step instruction-step"><div class="step-text">In den Wind schießen.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Rudergänger:</span><div class="step-text command-text">Schoten los!<br>Mann / Boje an Bord nehmen!</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Человек / буй за бортом по правому / левому борту!<br>Не терять из виду!<br>Выбросить маркер, приготовить спасательные средства!<br>Привестись / увалиться / оставаться — на галфвинде!</div></div>
+<div class="step instruction-step"><div class="step-text">Обращаться к экипажу лично. Пусть показывают на MOB.<br>Шкоты под новый курс; отойти ~5 длин лодки.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Готовы к Q-повороту?</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Шкотовый:</span><div class="step-text command-text">Готов.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Ree! (Поворот!)</div></div>
+<div class="step instruction-step"><div class="step-text">Приводиться; нос проходит через ветер.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Стаксель на другой борт! Новый курс — галфвинд!</div></div>
+<div class="step instruction-step"><div class="step-text">Шкоты под новый курс.</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Приготовиться к подъёму по правому / левому борту!<br>Приготовиться к приведению в ветер!</div></div>
+<div class="step role-step" style="border-left-color: #c62828"><span class="role-label" style="color: #c62828">Шкотовый:</span><div class="step-text command-text">Готов.</div></div>
+<div class="step instruction-step"><div class="step-text">Привестись в ветер (Aufschießer).</div></div>
+<div class="step role-step" style="border-left-color: #2e7d32"><span class="role-label" style="color: #2e7d32">Рулевой:</span><div class="step-text command-text">Шкоты раздёрнуть!<br>Принять человека / буй на борт!</div></div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="maneuver">
+      <div class="maneuver-header">
+        <span class="maneuver-title-de">Anlegen und Ablegen</span>
+        <span class="maneuver-title-ru">Швартовка и отход</span>
+      </div>
+      <div class="columns">
+        <div class="col col-de">
+          <div class="step note-step"><div class="step-text">Das Anlegen und Ablegen verläuft je nach Situation unterschiedlich. Wichtig sind klare Anweisungen bezüglich der Handhabung der Segel, Leinen und Fender sowie des Setzens und Bergens der Segel. Die Manöver müssen vorher mit der gesamten Crew ausführlich durchgesprochen werden.</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="col col-ru">
+          <div class="step note-step"><div class="step-text">Швартовка и отход зависят от ситуации. Важны чёткие указания по работе с парусами, концами и кранцами, а также по постановке и уборке парусов. Все манёвры должны быть подробно обговорены с экипажем заранее.</div></div>
+        </div>
+      </div>
+    </div>
+    
+<div class="footer">SBF Binnen — Kommandos für die praktische Prüfung (Motor + Segeln) — DE / RU</div>
+</body>
+</html>

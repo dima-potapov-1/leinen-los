@@ -1,0 +1,2833 @@
+[
+  {
+    "de": "das Fahrzeug",
+    "ru": "судно, транспортное средство",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Fahrzeug unter Segel.",
+    "example_ru": "Судно под парусом.",
+    "example_q_id": 184
+  },
+  {
+    "de": "das Kleinfahrzeug",
+    "ru": "малое судно (до 20 м)",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Kleinfahrzeug unter Segel.",
+    "example_ru": "Малое судно под парусом.",
+    "example_q_id": 193
+  },
+  {
+    "de": "das Sportboot",
+    "ru": "прогулочное/спортивное судно",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "In der Sportbootvermietungsverordnung.",
+    "example_ru": "В Положении об аренде прогулочных судов.",
+    "example_q_id": 38
+  },
+  {
+    "de": "das Segelboot",
+    "ru": "парусная лодка",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Warum soll ein gut getrimmtes Segelboot leicht luvgierig sein?",
+    "example_ru": "Вопрос 293: Почему хорошо отрегулированное парусное судно должно быть слегка наветренным?",
+    "example_q_id": 293
+  },
+  {
+    "de": "das Motorboot",
+    "ru": "моторная лодка",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Wie weichen zwei Motorboote aus, die sich auf entgegengesetzten Kursen nähern?",
+    "example_ru": "Вопрос 14: Как два моторных судна уступают дорогу, когда приближаются на противоположных курсах?",
+    "example_q_id": 14
+  },
+  {
+    "de": "das Boot",
+    "ru": "лодка",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Boot A, weil luvseitig.",
+    "example_ru": "Лодка A, потому что на наветренном борту.",
+    "example_q_id": 188
+  },
+  {
+    "de": "das Schiff",
+    "ru": "корабль, судно",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Ab 15 m Schiffslänge.",
+    "example_ru": "От 15 метров длины судна.",
+    "example_q_id": 236
+  },
+  {
+    "de": "das Großfahrzeug",
+    "ru": "большое судно",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "das Segelfahrzeug",
+    "ru": "парусное судно",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Die für ein Segelfahrzeug vorgeschriebenen Lichter.",
+    "example_ru": "Огни, предписанные для парусного судна.",
+    "example_q_id": 13
+  },
+  {
+    "de": "der Verband",
+    "ru": "состав судов (буксирный, толкаемый)",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Schubverband von vorne.",
+    "example_ru": "Толкаемый состав спереди.",
+    "example_q_id": 192
+  },
+  {
+    "de": "der Schleppverband",
+    "ru": "буксирный состав",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Fahrzeug eines Schleppverbandes.",
+    "example_ru": "Судно в составе буксирного состава.",
+    "example_q_id": 121
+  },
+  {
+    "de": "der Bug",
+    "ru": "нос судна",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Der Bug dreht nach Backbord.",
+    "example_ru": "Нос поворачивает на левый борт.",
+    "example_q_id": 41
+  },
+  {
+    "de": "das Heck",
+    "ru": "корма судна",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Topp- und Hecklicht.",
+    "example_ru": "Топовый огонь и кормовой огонь.",
+    "example_q_id": 139
+  },
+  {
+    "de": "Backbord",
+    "ru": "левый борт",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Wenden über Backbord.",
+    "example_ru": "Поворот оверштаг на левый борт.",
+    "example_q_id": 162
+  },
+  {
+    "de": "Steuerbord",
+    "ru": "правый борт",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Wenden über Steuerbord.",
+    "example_ru": "Поворот оверштаг на правый борт.",
+    "example_q_id": 162
+  },
+  {
+    "de": "die Backbordseite",
+    "ru": "левая сторона судна",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Überholen an der Backbordseite des Vorausfahrenden.",
+    "example_ru": "Обгон по левому борту впереди идущего судна.",
+    "example_q_id": 164
+  },
+  {
+    "de": "die Steuerbordseite",
+    "ru": "правая сторона судна",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Schubverband von Steuerbordseite.",
+    "example_ru": "Толкаемый состав с правого борта.",
+    "example_q_id": 124
+  },
+  {
+    "de": "der Mast",
+    "ru": "мачта",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Eine Zweifarbenlaterne an oder nahe der Mastspitze.",
+    "example_ru": "Двухцветный фонарь на или около вершины мачты.",
+    "example_q_id": 12
+  },
+  {
+    "de": "der Kiel",
+    "ru": "киль",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Der Kiel lässt sich aufholen.",
+    "example_ru": "Киль можно убрать.",
+    "example_q_id": 255
+  },
+  {
+    "de": "das Ruder",
+    "ru": "руль",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Durch den Abstand von Propeller und Ruderblatt.",
+    "example_ru": "Из-за расстояния между винтом и пером руля.",
+    "example_q_id": 51
+  },
+  {
+    "de": "das Steuer",
+    "ru": "штурвал, руль",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Wenden über Steuerbord.",
+    "example_ru": "Поворот оверштаг на правый борт.",
+    "example_q_id": 162
+  },
+  {
+    "de": "das Deck",
+    "ru": "палуба",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Tankdeckel ist offen.",
+    "example_ru": "Крышка бака открыта.",
+    "example_q_id": 57
+  },
+  {
+    "de": "der Bord",
+    "ru": "борт",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Wenden über Backbord.",
+    "example_ru": "Поворот оверштаг на левый борт.",
+    "example_q_id": 162
+  },
+  {
+    "de": "das Großsegel",
+    "ru": "грот (главный парус)",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "An den Trimmfäden im Großsegel.",
+    "example_ru": "По триммерам в гроте.",
+    "example_q_id": 274
+  },
+  {
+    "de": "die Fock",
+    "ru": "стаксель (передний парус)",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Durch die Fock oder ein Fall.",
+    "example_ru": "Фоком или фалом.",
+    "example_q_id": 300
+  },
+  {
+    "de": "die Leine",
+    "ru": "швартовый трос, линь",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Durch die Vor- oder die Achterleine.",
+    "example_ru": "Носовым или кормовым концом.",
+    "example_q_id": 300
+  },
+  {
+    "de": "das Tau",
+    "ru": "канат, трос",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Bei zweifelhafter Tauglichkeit wegen Alkoholmissbrauch.",
+    "example_ru": "В случае сомнительной пригодности из-за злоупотребления алкоголем.",
+    "example_q_id": 75
+  },
+  {
+    "de": "der Anker",
+    "ru": "якорь",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Ankern.",
+    "example_ru": "Якорение.",
+    "example_q_id": 103
+  },
+  {
+    "de": "die Antriebsmaschine",
+    "ru": "двигатель (привод)",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Fahrverbot für Fahrzeuge ohne Antriebsmaschine.",
+    "example_ru": "Запрет движения для судов без двигателя.",
+    "example_q_id": 157
+  },
+  {
+    "de": "der Maschinenantrieb",
+    "ru": "машинный привод",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Fahrzeug mit Maschinenantrieb.",
+    "example_ru": "Судно с двигателем.",
+    "example_q_id": 184
+  },
+  {
+    "de": "die Länge",
+    "ru": "длина",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Ab 15 m Schiffslänge.",
+    "example_ru": "От 15 метров длины судна.",
+    "example_q_id": 236
+  },
+  {
+    "de": "der Tiefgang",
+    "ru": "осадка судна",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 1 — Судно и его части / Fahrzeug und seine Teile",
+    "example_de": "Sein Tiefgang ist größer.",
+    "example_ru": "Его осадка больше.",
+    "example_q_id": 255
+  },
+  {
+    "de": "die Wasserstraße",
+    "ru": "водный путь",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Auf allen Seewasserstraßen.",
+    "example_ru": "На всех морских водных путях.",
+    "example_q_id": 74
+  },
+  {
+    "de": "die Binnenschifffahrtsstraße",
+    "ru": "внутренний водный путь",
+    "tags": [
+      "N",
+      "R"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Die der Binnenschifffahrtsstraßen-Ordnung.",
+    "example_ru": "Правила внутреннего водного пути.",
+    "example_q_id": 191
+  },
+  {
+    "de": "das Fahrwasser",
+    "ru": "фарватер, судовой ход",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Außerhalb des Fahrwassers.",
+    "example_ru": "Вне фарватера.",
+    "example_q_id": 221
+  },
+  {
+    "de": "die Fahrrinne",
+    "ru": "судоходный канал",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Außerhalb der Fahrrinne.",
+    "example_ru": "Вне судоходного канала.",
+    "example_q_id": 221
+  },
+  {
+    "de": "die Fahrrinnenseite",
+    "ru": "сторона судоходного канала",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Welche Fahrrinnenseite hat ein Talfahrer an seiner Backbordseite?",
+    "example_ru": "Вопрос 218: Какая сторона фарватера находится у судна, следующего вниз по течению на левом борту?",
+    "example_q_id": 218
+  },
+  {
+    "de": "die Nebenwasserstraße",
+    "ru": "второстепенный водный путь",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Verbot der Einfahrt in einen Hafen oder eine Nebenwasserstraße.",
+    "example_ru": "Запрет входа в порт или на второстепенный водный путь.",
+    "example_q_id": 199
+  },
+  {
+    "de": "der Hafen",
+    "ru": "порт, гавань",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Durch Aushang bei Hafenämtern und Schleusen.",
+    "example_ru": "Через объявления, размещённые в портовых управлениях и шлюзах.",
+    "example_q_id": 90
+  },
+  {
+    "de": "die Schleuse",
+    "ru": "шлюз",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Schleuse.",
+    "example_ru": "Шлюз.",
+    "example_q_id": 204
+  },
+  {
+    "de": "der Kanal",
+    "ru": "канал",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "der Fluss",
+    "ru": "река",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Wie beeinflusst ein Unterliekstrecker den Trimm des Segels?",
+    "example_ru": "Вопрос 290: Как натяжение нижней шкаторины влияет на настройку паруса?",
+    "example_q_id": 290
+  },
+  {
+    "de": "der Strom",
+    "ru": "течение; большая река",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Ein Fehlerstromschutzschalter.",
+    "example_ru": "Устройство защитного отключения.",
+    "example_q_id": 209
+  },
+  {
+    "de": "die Strömung",
+    "ru": "течение (воды)",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Die Fahrt mit der Strömung.",
+    "example_ru": "Путешествие по течению.",
+    "example_q_id": 95
+  },
+  {
+    "de": "das Ufer",
+    "ru": "берег",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Im Abstand von 10 m zum Ufer fahren.",
+    "example_ru": "Двигаться на расстоянии 10 м от берега.",
+    "example_q_id": 225
+  },
+  {
+    "de": "der See",
+    "ru": "озеро (der); море (die See)",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Auf allen Seewasserstraßen.",
+    "example_ru": "На всех морских водных путях.",
+    "example_q_id": 74
+  },
+  {
+    "de": "die Boje",
+    "ru": "буй",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Was ist mit Schwert und Ruder einer Jolle zu tun, wenn das Boot an einer Boje liegen gelassen wird?",
+    "example_ru": "Вопрос 296: Что следует сделать с швертом и рулём шлюпки, когда лодка оставлена на швартовке к буйку?",
+    "example_q_id": 296
+  },
+  {
+    "de": "die Tonne",
+    "ru": "бакен, навигационный знак",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "Durch rote Tonnen.",
+    "example_ru": "Красными буями.",
+    "example_q_id": 158
+  },
+  {
+    "de": "die Bake",
+    "ru": "створный знак",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "das Leuchtfeuer",
+    "ru": "навигационный огонь, маяк",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 2 — Водные пути / Wasserstraßen",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "die Fahrt",
+    "ru": "движение, ход, рейс",
+    "tags": [
+      "N",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Der Fahrtwind.",
+    "example_ru": "Встречный ветер.",
+    "example_q_id": 275
+  },
+  {
+    "de": "die Geschwindigkeit",
+    "ru": "скорость",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Es hält Kurs und Geschwindigkeit bei.",
+    "example_ru": "Оно сохраняет курс и скорость.",
+    "example_q_id": 140
+  },
+  {
+    "de": "der Kurs",
+    "ru": "курс",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Auf Amwindkurs.",
+    "example_ru": "На крутом бейдевинде.",
+    "example_q_id": 276
+  },
+  {
+    "de": "die Kursänderung",
+    "ru": "изменение курса",
+    "tags": [
+      "N",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Kursänderung nach Backbord.",
+    "example_ru": "Изменение курса на левый борт.",
+    "example_q_id": 162
+  },
+  {
+    "de": "die Fahrtrichtung",
+    "ru": "направление движения",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Empfohlene Fahrtrichtung.",
+    "example_ru": "Рекомендуемое направление движения.",
+    "example_q_id": 198
+  },
+  {
+    "de": "die Richtung",
+    "ru": "направление",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Die Windrichtung.",
+    "example_ru": "Направление ветра.",
+    "example_q_id": 275
+  },
+  {
+    "de": "die Bergfahrt",
+    "ru": "движение вверх по течению",
+    "tags": [
+      "N",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Bei der Bergfahrt liegt die rechte Uferseite rechts.",
+    "example_ru": "При движении вверх по течению правый берег находится справа.",
+    "example_q_id": 94
+  },
+  {
+    "de": "die Talfahrt",
+    "ru": "движение вниз по течению",
+    "tags": [
+      "N",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Fahrzeug in der Talfahrt.",
+    "example_ru": "Судно, идущее вниз по течению.",
+    "example_q_id": 184
+  },
+  {
+    "de": "die Rückwärtsfahrt",
+    "ru": "задний ход",
+    "tags": [
+      "N",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Segel bergen, Motor starten und in Rückwärtsfahrt das Ufer ansteuern.",
+    "example_ru": "Убрать паруса, запустить двигатель и направиться к берегу задним ходом.",
+    "example_q_id": 265
+  },
+  {
+    "de": "die Vorbeifahrt",
+    "ru": "проход мимо",
+    "tags": [
+      "N",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Fahrrinnenspaltung. Vorbeifahrt an beiden Seiten möglich.",
+    "example_ru": "Разделение фарватера. Проход возможен с обеих сторон.",
+    "example_q_id": 100
+  },
+  {
+    "de": "die Durchfahrt",
+    "ru": "проход, проезд",
+    "tags": [
+      "N",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Durchfahrt für Kleinfahrzeuge.",
+    "example_ru": "Проход для малых судов.",
+    "example_q_id": 196
+  },
+  {
+    "de": "ausweichen",
+    "ru": "уступать дорогу, уклоняться",
+    "tags": [
+      "V",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Es muss ausweichen.",
+    "example_ru": "Оно должно уступить дорогу.",
+    "example_q_id": 141
+  },
+  {
+    "de": "überholen",
+    "ru": "обгонять",
+    "tags": [
+      "V",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Überholen.",
+    "example_ru": "Обгон.",
+    "example_q_id": 103
+  },
+  {
+    "de": "begegnen",
+    "ru": "встречаться (о судах)",
+    "tags": [
+      "V",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Begegnen.",
+    "example_ru": "Расхождение.",
+    "example_q_id": 103
+  },
+  {
+    "de": "kreuzen",
+    "ru": "пересекать (курс)",
+    "tags": [
+      "V",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Zwei Motorboote nähern sich auf kreuzenden Kursen. Es besteht die Gefahr eines Zusammenstoßes. Wer ist ausweichpflichtig?",
+    "example_ru": "Вопрос 15: Два моторных судна приближаются на пересекающихся курсах. Существует опасность столкновения. Какое судно обязано уступить дорогу?",
+    "example_q_id": 15
+  },
+  {
+    "de": "anlegen",
+    "ru": "причаливать, швартоваться",
+    "tags": [
+      "V",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Welches ist der günstigste Anlaufwinkel beim Anlegen?",
+    "example_ru": "Вопрос 40: Какой угол подхода наиболее благоприятен при швартовке?",
+    "example_q_id": 40
+  },
+  {
+    "de": "ablegen",
+    "ru": "отчаливать",
+    "tags": [
+      "V",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "festmachen",
+    "ru": "швартоваться (привязывать)",
+    "tags": [
+      "V",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Ankern und Festmachen verboten.",
+    "example_ru": "Якорная стоянка и швартовка запрещены.",
+    "example_q_id": 22
+  },
+  {
+    "de": "ankern",
+    "ru": "стоять на якоре",
+    "tags": [
+      "V",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Ankern.",
+    "example_ru": "Якорение.",
+    "example_q_id": 103
+  },
+  {
+    "de": "stillliegen",
+    "ru": "стоять (о судне, без хода)",
+    "tags": [
+      "V",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Ein stillliegender Schubverband.",
+    "example_ru": "Неподвижный толкаемый состав.",
+    "example_q_id": 104
+  },
+  {
+    "de": "wenden",
+    "ru": "разворачиваться",
+    "tags": [
+      "V",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Wenden.",
+    "example_ru": "Поворот оверштаг.",
+    "example_q_id": 103
+  },
+  {
+    "de": "drehen",
+    "ru": "поворачивать",
+    "tags": [
+      "V",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Was ist unter einem linksdrehenden Propeller zu verstehen?",
+    "example_ru": "Вопрос 45: Что подразумевается под левосторонним винтом?",
+    "example_q_id": 45
+  },
+  {
+    "de": "manövrieren",
+    "ru": "маневрировать",
+    "tags": [
+      "V",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Sie hilft beim Manövrieren.",
+    "example_ru": "Это помогает при маневрировании.",
+    "example_q_id": 47
+  },
+  {
+    "de": "manövrierunfähig",
+    "ru": "неуправляемый (о судне)",
+    "tags": [
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Fahrzeug ist manövrierunfähig.",
+    "example_ru": "Судно не управляется.",
+    "example_q_id": 159
+  },
+  {
+    "de": "der Kollisionskurs",
+    "ru": "курс столкновения",
+    "tags": [
+      "N",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Zwei Kleinfahrzeuge unter Segel liegen auf Kollisionskurs. Wer ist ausweichpflichtig?",
+    "example_ru": "Вопрос 186: Два малых судна под парусом находятся на курсе столкновения. Какое судно обязано уступить дорогу?",
+    "example_q_id": 186
+  },
+  {
+    "de": "der Gegenverkehr",
+    "ru": "встречное движение",
+    "tags": [
+      "N",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Einfahrt frei, Gegenverkehr gesperrt.",
+    "example_ru": "Вход разрешен, встречное движение запрещено.",
+    "example_q_id": 30
+  },
+  {
+    "de": "der Abstand",
+    "ru": "дистанция, расстояние",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Im Abstand von 10 m zum Ufer fahren.",
+    "example_ru": "Двигаться на расстоянии 10 м от берега.",
+    "example_q_id": 225
+  },
+  {
+    "de": "ausweichpflichtig",
+    "ru": "обязан уступить дорогу",
+    "tags": [
+      "M",
+      "R"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Beide sind ausweichpflichtig.",
+    "example_ru": "Оба обязаны уступить дорогу.",
+    "example_q_id": 184
+  },
+  {
+    "de": "der Vorrang",
+    "ru": "преимущество, приоритет",
+    "tags": [
+      "R",
+      "M"
+    ],
+    "block": "Block 3 — Движение и маневры / Fahrt und Manöver",
+    "example_de": "Fahrzeuge mit Vorrang an einer Schleuse.",
+    "example_ru": "Суда с приоритетом в шлюзе.",
+    "example_q_id": 121
+  },
+  {
+    "de": "das Segel",
+    "ru": "парус",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Fahrzeug unter Segel.",
+    "example_ru": "Судно под парусом.",
+    "example_q_id": 184
+  },
+  {
+    "de": "segeln",
+    "ru": "ходить под парусом",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Abfallen, um maximale Höhe zu segeln.",
+    "example_ru": "Упасть, чтобы идти на максимальной высоте.",
+    "example_q_id": 281
+  },
+  {
+    "de": "der Wind",
+    "ru": "ветер",
+    "tags": [
+      "W"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Der Fahrtwind.",
+    "example_ru": "Встречный ветер.",
+    "example_q_id": 275
+  },
+  {
+    "de": "Luv",
+    "ru": "наветренная сторона",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Boot A, weil luvseitig.",
+    "example_ru": "Лодка A, потому что на наветренном борту.",
+    "example_q_id": 188
+  },
+  {
+    "de": "Lee",
+    "ru": "подветренная сторона",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Boot C, weil leeseitig.",
+    "example_ru": "Лодка C, потому что на подветренном борту.",
+    "example_q_id": 188
+  },
+  {
+    "de": "der Vorwindkurs",
+    "ru": "курс по ветру (фордевинд)",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Auf Vorwindkurs.",
+    "example_ru": "На попутном курсе.",
+    "example_q_id": 276
+  },
+  {
+    "de": "der Halbwindkurs",
+    "ru": "курс галфвинд (полветра)",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Auf Halbwindkurs.",
+    "example_ru": "На галфвинд.",
+    "example_q_id": 276
+  },
+  {
+    "de": "der Amwindkurs",
+    "ru": "курс бейдевинд (против ветра)",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Auf Amwindkurs.",
+    "example_ru": "На крутом бейдевинде.",
+    "example_q_id": 276
+  },
+  {
+    "de": "die Krängung",
+    "ru": "крен (судна)",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Die Abdrift wird größer, die Krängung nimmt zu.",
+    "example_ru": "Дрейф увеличивается, крен увеличивается.",
+    "example_q_id": 283
+  },
+  {
+    "de": "kentern",
+    "ru": "опрокинуться, перевернуться",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Killen lässt das Boot bei stärkerem Wind kentern.",
+    "example_ru": "Трепетание приводит к опрокидыванию судна при сильном ветре.",
+    "example_q_id": 272
+  },
+  {
+    "de": "die Bö",
+    "ru": "шквал, порыв ветра",
+    "tags": [
+      "W"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Segel etwas fieren, um die Bö in Krängung umzusetzen.",
+    "example_ru": "Немного ослабить паруса, чтобы преобразовать порыв в крен.",
+    "example_q_id": 281
+  },
+  {
+    "de": "reffen",
+    "ru": "брать рифы (уменьшать парус)",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Der Erleichterung des Reffens.",
+    "example_ru": "Для облегчения рифления.",
+    "example_q_id": 271
+  },
+  {
+    "de": "bergen",
+    "ru": "убирать (парус); спасать",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Segel bergen, Motor starten und in Rückwärtsfahrt das Ufer ansteuern.",
+    "example_ru": "Убрать паруса, запустить двигатель и направиться к берегу задним ходом.",
+    "example_q_id": 265
+  },
+  {
+    "de": "halsen",
+    "ru": "делать поворот фордевинд",
+    "tags": [
+      "V",
+      "M"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "die Halse",
+    "ru": "поворот фордевинд",
+    "tags": [
+      "N",
+      "M"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Halse.",
+    "example_ru": "Фордевинд.",
+    "example_q_id": 298
+  },
+  {
+    "de": "die Wende",
+    "ru": "поворот оверштаг",
+    "tags": [
+      "N",
+      "M"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Wende.",
+    "example_ru": "Поворот оверштаг.",
+    "example_q_id": 298
+  },
+  {
+    "de": "achtern",
+    "ru": "на корме, позади",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Schubverband von achtern.",
+    "example_ru": "Толкаемый состав с кормы.",
+    "example_q_id": 124
+  },
+  {
+    "de": "voraus",
+    "ru": "впереди (по курсу)",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Überholen an der Backbordseite des Vorausfahrenden.",
+    "example_ru": "Обгон по левому борту впереди идущего судна.",
+    "example_q_id": 164
+  },
+  {
+    "de": "querab",
+    "ru": "на траверзе",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "Ein Kleinfahrzeug A segelt nachts auf Vorwindkurs stromab, Großsegel an Steuerbord. Backbord querab kommt ein grünes Seitenlicht eines Bootes B immer näher, das kein Topplicht führt. Wer ist ausweichpflichtig?",
+    "example_ru": "Вопрос 187: Малое судно A идет под парусом по ветру ночью, грот на правом борту. С левого борта приближается зеленый бортовой огонь судна B, которое не имеет топового огня. Кто обязан уступить дорогу?",
+    "example_q_id": 187
+  },
+  {
+    "de": "dwars",
+    "ru": "поперёк, на траверзе",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 4 — Парусный спорт / Segeln",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "die Verordnung",
+    "ru": "постановление, предписание",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "In der Sportbootvermietungsverordnung.",
+    "example_ru": "В Положении об аренде прогулочных судов.",
+    "example_q_id": 38
+  },
+  {
+    "de": "die Ordnung",
+    "ru": "порядок, правила",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "In der Sportbootvermietungsverordnung.",
+    "example_ru": "В Положении об аренде прогулочных судов.",
+    "example_q_id": 38
+  },
+  {
+    "de": "die Vorschrift",
+    "ru": "предписание, правило",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Um die jeweils geltenden Vorschriften einhalten zu können.",
+    "example_ru": "Чтобы иметь возможность соблюдать применимые правила.",
+    "example_q_id": 227
+  },
+  {
+    "de": "der Geltungsbereich",
+    "ru": "область действия (закона)",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Der Sportbootführerschein mit dem Geltungsbereich Seeschifffahrtsstraßen.",
+    "example_ru": "Удостоверение на управление прогулочным судном с областью действия на морских водных путях.",
+    "example_q_id": 228
+  },
+  {
+    "de": "die Binnenschiffsuntersuchungsordnung",
+    "ru": "правила освидетельствования судов",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "In der Binnenschiffsuntersuchungsordnung.",
+    "example_ru": "В Правилах осмотра внутренних судов.",
+    "example_q_id": 81
+  },
+  {
+    "de": "der Sportbootführerschein",
+    "ru": "удостоверение на управление спортивным судном",
+    "tags": [
+      "R",
+      "P"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "In der Sportbootführerscheinverordnung.",
+    "example_ru": "В Положении об удостоверении на управление прогулочным судном.",
+    "example_q_id": 38
+  },
+  {
+    "de": "der Schiffsführer",
+    "ru": "капитан, судоводитель",
+    "tags": [
+      "P"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Der verantwortliche Schiffsführer muss gewählt werden.",
+    "example_ru": "Ответственный капитан должен быть избран.",
+    "example_q_id": 1
+  },
+  {
+    "de": "die Zulassung",
+    "ru": "допуск, разрешение",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "die Kennzeichnung",
+    "ru": "маркировка, обозначение",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Welche Kennzeichnungsarten für Sportboote gibt es?",
+    "example_ru": "Вопрос 232: Какие существуют виды идентификации для прогулочных судов?",
+    "example_q_id": 232
+  },
+  {
+    "de": "gestattet",
+    "ru": "разрешено, допустимо",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Queren des Fahrwassers ist gestattet.",
+    "example_ru": "Пересечение фарватера разрешено.",
+    "example_q_id": 26
+  },
+  {
+    "de": "verboten",
+    "ru": "запрещено",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Was ist in Kanälen verboten?",
+    "example_ru": "Вопрос 103: Что запрещено в каналах?",
+    "example_q_id": 103
+  },
+  {
+    "de": "erlaubt",
+    "ru": "разрешено",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Durchfahrt nur neben der Tafel erlaubt.",
+    "example_ru": "Проход разрешён только рядом с знаком.",
+    "example_q_id": 114
+  },
+  {
+    "de": "das Verbot",
+    "ru": "запрет",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Wendeverbot.",
+    "example_ru": "Запрет поворота оверштаг.",
+    "example_q_id": 202
+  },
+  {
+    "de": "die Pflicht",
+    "ru": "обязанность",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Beide sind ausweichpflichtig.",
+    "example_ru": "Оба обязаны уступить дорогу.",
+    "example_q_id": 184
+  },
+  {
+    "de": "die Genehmigung",
+    "ru": "разрешение, одобрение",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Genehmigungsfreie Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern.",
+    "example_ru": "Учебный участок для катания на водных лыжах или гидроциклах, не требующий разрешения.",
+    "example_q_id": 25
+  },
+  {
+    "de": "die Verantwortung",
+    "ru": "ответственность",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Ein Inhaber eines Sportbootführerscheins muss die Verantwortung übernehmen.",
+    "example_ru": "Владелец удостоверения на управление прогулочным судном должен взять на себя ответственность.",
+    "example_q_id": 1
+  },
+  {
+    "de": "verantwortlich",
+    "ru": "ответственный",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Der verantwortliche Schiffsführer muss gewählt werden.",
+    "example_ru": "Ответственный капитан должен быть избран.",
+    "example_q_id": 1
+  },
+  {
+    "de": "verpflichtet",
+    "ru": "обязан",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Fahrzeuge begegnen sich an Steuerbord. Dieses Zeichen gilt nicht für Kleinfahrzeuge, verpflichtet aber zu erhöhter Aufmerksamkeit.",
+    "example_ru": "Суда встречаются на правом борту. Этот знак не применяется к малым судам, но требует повышенного внимания.",
+    "example_q_id": 171
+  },
+  {
+    "de": "die Sorgfaltspflicht",
+    "ru": "обязанность проявлять осторожность",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Was beinhaltet die allgemeine Sorgfaltspflicht?",
+    "example_ru": "Вопрос 76: Что включает в себя общая обязанность заботы?",
+    "example_q_id": 76
+  },
+  {
+    "de": "die Wasserschutzpolizei",
+    "ru": "водная полиция",
+    "tags": [
+      "R",
+      "P"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Die Wasserschutzpolizei.",
+    "example_ru": "Водная полиция.",
+    "example_q_id": 235
+  },
+  {
+    "de": "das Fahrtenbuch",
+    "ru": "бортовой журнал",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "die Untersuchungskommission",
+    "ru": "комиссия по расследованию",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 5 — Правила и регулирование / Regeln und Vorschriften",
+    "example_de": "Es sind bei Arbeiten mit Unterwasseranstrichen die Richtlinien der Schiffsuntersuchungskommission zu beachten.",
+    "example_ru": "При работе с подводными красками необходимо соблюдать руководящие принципы комиссии по инспекции судов.",
+    "example_q_id": 216
+  },
+  {
+    "de": "das Tafelzeichen",
+    "ru": "навигационный щит, знак",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Was bedeuten diese Tafelzeichen?",
+    "example_ru": "Вопрос 108: Что означают эти навигационные знаки?",
+    "example_q_id": 108
+  },
+  {
+    "de": "das Sichtzeichen",
+    "ru": "визуальный знак/сигнал",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Was bedeuten diese Sichtzeichen?",
+    "example_ru": "Вопрос 146: Что означают эти визуальные сигналы?",
+    "example_q_id": 146
+  },
+  {
+    "de": "das Schallsignal",
+    "ru": "звуковой сигнал",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Was bedeutet dieses Schallsignal?",
+    "example_ru": "Вопрос 162: Что означает этот звуковой сигнал?",
+    "example_q_id": 162
+  },
+  {
+    "de": "das Zeichen",
+    "ru": "знак",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Nur amtliche Kennzeichen.",
+    "example_ru": "Только официальные идентификационные знаки.",
+    "example_q_id": 232
+  },
+  {
+    "de": "die Bedeutung",
+    "ru": "значение",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Welche Bedeutung hat folgendes Schallsignal?",
+    "example_ru": "Вопрос 16: Каково значение следующего звукового сигнала?",
+    "example_q_id": 16
+  },
+  {
+    "de": "bedeuten",
+    "ru": "означать",
+    "tags": [
+      "V",
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Was bedeuten diese Lichter?",
+    "example_ru": "Вопрос 120: Что означают эти огни?",
+    "example_q_id": 120
+  },
+  {
+    "de": "bedeutet",
+    "ru": "означает",
+    "tags": [
+      "V",
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Was bedeutet Radarfahrt?",
+    "example_ru": "Вопрос 253: Что означает радарная навигация?",
+    "example_q_id": 253
+  },
+  {
+    "de": "das Licht",
+    "ru": "огонь, свет",
+    "tags": [
+      "S",
+      "C"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Seitenlichter.",
+    "example_ru": "Бортовые огни.",
+    "example_q_id": 139
+  },
+  {
+    "de": "die Lichter",
+    "ru": "огни",
+    "tags": [
+      "S",
+      "C"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Seitenlichter.",
+    "example_ru": "Бортовые огни.",
+    "example_q_id": 139
+  },
+  {
+    "de": "das Rundumlicht",
+    "ru": "круговой огонь",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Weißes Rundumlicht.",
+    "example_ru": "Белый круговой огонь.",
+    "example_q_id": 135
+  },
+  {
+    "de": "die Seitenlichter",
+    "ru": "бортовые огни",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Seitenlichter.",
+    "example_ru": "Бортовые огни.",
+    "example_q_id": 139
+  },
+  {
+    "de": "das Topplicht",
+    "ru": "топовый огонь",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Ein weißes Topplicht und ein weißes Hecklicht.",
+    "example_ru": "Белый топовый огонь и белый кормовой огонь.",
+    "example_q_id": 105
+  },
+  {
+    "de": "das Hecklicht",
+    "ru": "кормовой огонь",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Topp- und Hecklicht.",
+    "example_ru": "Топовый огонь и кормовой огонь.",
+    "example_q_id": 139
+  },
+  {
+    "de": "das Funkellicht",
+    "ru": "проблесковый огонь",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Weißes Funkellicht.",
+    "example_ru": "Белый проблесковый огонь.",
+    "example_q_id": 136
+  },
+  {
+    "de": "die Flagge",
+    "ru": "флаг",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Eine rote Flagge zeigen.",
+    "example_ru": "Показать красный флаг.",
+    "example_q_id": 250
+  },
+  {
+    "de": "der Wimpel",
+    "ru": "вымпел",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Welches Fahrzeug führt am Bug einen roten Wimpel?",
+    "example_ru": "Вопрос 247: Какое судно несет на носу красный вымпел?",
+    "example_q_id": 247
+  },
+  {
+    "de": "der Signalkörper",
+    "ru": "сигнальная фигура",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Sofort ankern und einen Notruf absetzen, Signalkörper (blauer Kegel) setzen.",
+    "example_ru": "Немедленно бросить якорь и отправить сигнал бедствия, установить сигнальный знак (синий конус).",
+    "example_q_id": 265
+  },
+  {
+    "de": "der Kegel",
+    "ru": "конус (сигнальная фигура)",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Einen schwarzen Kegel, Spitze oben.",
+    "example_ru": "Черный конус, вершиной вверх.",
+    "example_q_id": 7
+  },
+  {
+    "de": "der Ball",
+    "ru": "шар (сигнальная фигура)",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Durch Umpumpen von Wasserballast.",
+    "example_ru": "Путём перекачки водяного балласта.",
+    "example_q_id": 262
+  },
+  {
+    "de": "der Zylinder",
+    "ru": "цилиндр (сигнальная фигура)",
+    "tags": [
+      "S"
+    ],
+    "block": "Block 6 — Знаки и сигналы / Zeichen und Signale",
+    "example_de": "Stangen mit Toppzeichen: roter Kegel, Spitze nach oben, oder rot-weiß gestreifte Schwimmstange mit rotem Zylinder.",
+    "example_ru": "Шесты с топовыми знаками: красный конус, вершина вверх, или красно-белая полосатая плавучая штанга с красным цилиндром.",
+    "example_q_id": 101
+  },
+  {
+    "de": "rot",
+    "ru": "красный",
+    "tags": [
+      "C"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "Durch rote Tonnen.",
+    "example_ru": "Красными буями.",
+    "example_q_id": 158
+  },
+  {
+    "de": "grün",
+    "ru": "зелёный",
+    "tags": [
+      "C"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "Durch grüne Tonnen.",
+    "example_ru": "Зелёными буями.",
+    "example_q_id": 158
+  },
+  {
+    "de": "weiß",
+    "ru": "белый",
+    "tags": [
+      "C"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "Weißes Rundumlicht.",
+    "example_ru": "Белый круговой огонь.",
+    "example_q_id": 135
+  },
+  {
+    "de": "gelb",
+    "ru": "жёлтый",
+    "tags": [
+      "C"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "Durch gelbe Tonnen.",
+    "example_ru": "Жёлтыми буями.",
+    "example_q_id": 158
+  },
+  {
+    "de": "blau",
+    "ru": "синий, голубой",
+    "tags": [
+      "C"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "Was bedeutet auf einem Fahrzeug ein blaues Licht?",
+    "example_ru": "Вопрос 126: Что означает синий огонь на судне?",
+    "example_q_id": 126
+  },
+  {
+    "de": "schwarz",
+    "ru": "чёрный",
+    "tags": [
+      "C"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "Einen schwarzen Rhombus.",
+    "example_ru": "Черный ромб.",
+    "example_q_id": 7
+  },
+  {
+    "de": "hell",
+    "ru": "яркий, светлый",
+    "tags": [
+      "C"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "dunkel",
+    "ru": "тёмный",
+    "tags": [
+      "C"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "Dunkelheit, Nebel, Schneefall, starker Regen.",
+    "example_ru": "Темнота, туман, снегопад, сильный дождь.",
+    "example_q_id": 205
+  },
+  {
+    "de": "sichtbar",
+    "ru": "видимый",
+    "tags": [
+      "C"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "Ein von allen Seiten sichtbares weißes Licht.",
+    "example_ru": "Круговой белый огонь.",
+    "example_q_id": 139
+  },
+  {
+    "de": "unsichtbar",
+    "ru": "невидимый",
+    "tags": [
+      "C"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "die Sicht",
+    "ru": "видимость",
+    "tags": [
+      "C",
+      "W"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "Was bedeuten diese Sichtzeichen?",
+    "example_ru": "Вопрос 146: Что означают эти визуальные сигналы?",
+    "example_q_id": 146
+  },
+  {
+    "de": "die Sichtweite",
+    "ru": "дальность видимости",
+    "tags": [
+      "C"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "Zu welcher Tageszeit und bei welchen Sichtweiten darf auf den erlaubten Gewässerabschnitten Wasserski gelaufen werden?",
+    "example_ru": "Вопрос 222: В какое время суток и при какой видимости разрешено катание на водных лыжах на разрешённых участках водоёмов?",
+    "example_q_id": 222
+  },
+  {
+    "de": "übereinander",
+    "ru": "один над другим",
+    "tags": [
+      "C"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "Zwei weiße Lichter übereinander.",
+    "example_ru": "Два белых огня один над другим.",
+    "example_q_id": 135
+  },
+  {
+    "de": "nebeneinander",
+    "ru": "рядом, бок о бок",
+    "tags": [
+      "C"
+    ],
+    "block": "Block 7 — Цвета и визуальные описания / Farben und Sichtbarkeit",
+    "example_de": "Killen führt zu Beschädigungen an nebeneinander liegenden Schiffen.",
+    "example_ru": "Трепетание приводит к повреждению соседних судов.",
+    "example_q_id": 272
+  },
+  {
+    "de": "die Gefahr",
+    "ru": "опасность",
+    "tags": [
+      "E"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "Gefahr eines Zusammenstoßes.",
+    "example_ru": "Опасность столкновения.",
+    "example_q_id": 169
+  },
+  {
+    "de": "gefährlich",
+    "ru": "опасный",
+    "tags": [
+      "E"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "Warum ist eine Patenthalse gefährlich?",
+    "example_ru": "Вопрос 297: Почему случайный фордевинд опасен?",
+    "example_q_id": 297
+  },
+  {
+    "de": "die Rettungsweste",
+    "ru": "спасательный жилет",
+    "tags": [
+      "E"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "Rettungsweste anlegen. Segel setzen, versuchen die Gewässermitte anzulaufen.",
+    "example_ru": "Надеть спасательный жилет. Поставить паруса, попытаться дойти до середины водоема.",
+    "example_q_id": 217
+  },
+  {
+    "de": "die Schwimmweste",
+    "ru": "плавательный жилет",
+    "tags": [
+      "E"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "das Rettungsmittel",
+    "ru": "спасательное средство",
+    "tags": [
+      "E"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "Wie oft muss man aufblasbare Rettungsmittel warten lassen?",
+    "example_ru": "Вопрос 67: Как часто необходимо обслуживать надувные спасательные средства?",
+    "example_q_id": 67
+  },
+  {
+    "de": "der Rettungsring",
+    "ru": "спасательный круг",
+    "tags": [
+      "E"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "der Feuerlöscher",
+    "ru": "огнетушитель",
+    "tags": [
+      "E"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "CO2-Feuerlöscher, mindestens alle 2 Jahre.",
+    "example_ru": "Огнетушитель с CO2, не реже одного раза в 2 года.",
+    "example_q_id": 68
+  },
+  {
+    "de": "die Hilfe",
+    "ru": "помощь",
+    "tags": [
+      "E"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "Durch das Ausreiten mit Hilfe des Trapezes.",
+    "example_ru": "С помощью выхода на трапеции.",
+    "example_q_id": 266
+  },
+  {
+    "de": "die Notlage",
+    "ru": "аварийная ситуация",
+    "tags": [
+      "E"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "der Notruf",
+    "ru": "сигнал бедствия",
+    "tags": [
+      "E"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "Sofort ankern und einen Notruf absetzen, Signalkörper (blauer Kegel) setzen.",
+    "example_ru": "Немедленно бросить якорь и отправить сигнал бедствия, установить сигнальный знак (синий конус).",
+    "example_q_id": 265
+  },
+  {
+    "de": "der Notfall",
+    "ru": "экстренный случай",
+    "tags": [
+      "E"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "Weil es im Notfall von selbst in den Wind schießt.",
+    "example_ru": "Потому что в экстренной ситуации оно само повернется к ветру.",
+    "example_q_id": 293
+  },
+  {
+    "de": "sinken",
+    "ru": "тонуть",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "gesunken",
+    "ru": "затонувший",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.",
+    "example_ru": "Севшее на мель или затонувшее судно. Проход не разрешён.",
+    "example_q_id": 145
+  },
+  {
+    "de": "retten",
+    "ru": "спасать",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "bergen",
+    "ru": "поднимать (из воды), спасать",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "Segel bergen, Motor starten und in Rückwärtsfahrt das Ufer ansteuern.",
+    "example_ru": "Убрать паруса, запустить двигатель и направиться к берегу задним ходом.",
+    "example_q_id": 265
+  },
+  {
+    "de": "die Kollision",
+    "ru": "столкновение",
+    "tags": [
+      "E"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "Zwei Kleinfahrzeuge unter Segel liegen auf Kollisionskurs. Wer ist ausweichpflichtig?",
+    "example_ru": "Вопрос 186: Два малых судна под парусом находятся на курсе столкновения. Какое судно обязано уступить дорогу?",
+    "example_q_id": 186
+  },
+  {
+    "de": "der Unfall",
+    "ru": "несчастный случай, авария",
+    "tags": [
+      "E"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "Hilfe leisten und so lange am Unfallort bleiben, bis ein weiterer Beistand nicht mehr erforderlich ist; Notsignal geben.",
+    "example_ru": "Оказать помощь и оставаться на месте происшествия до тех пор, пока дальнейшая помощь не будет больше необходима; подать сигнал бедствия.",
+    "example_q_id": 70
+  },
+  {
+    "de": "kentern",
+    "ru": "перевернуться (о судне)",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "Killen lässt das Boot bei stärkerem Wind kentern.",
+    "example_ru": "Трепетание приводит к опрокидыванию судна при сильном ветре.",
+    "example_q_id": 272
+  },
+  {
+    "de": "das Leck",
+    "ru": "течь, пробоина",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "die Grundberührung",
+    "ru": "касание дна",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 8 — Безопасность и спасение / Sicherheit und Rettung",
+    "example_de": "Weil in diesen Zonen die Gefahr von Grundberührungen besteht.",
+    "example_ru": "Потому что в этих зонах существует опасность касания дна.",
+    "example_q_id": 33
+  },
+  {
+    "de": "der Wellenschlag",
+    "ru": "волнение (от прохождения судна)",
+    "tags": [
+      "W",
+      "N"
+    ],
+    "block": "Block 9 — Погода и вода / Wetter und Wasser",
+    "example_de": "Sog und Wellenschlag vermeiden.",
+    "example_ru": "Избегать попутной волны и засасывания.",
+    "example_q_id": 19
+  },
+  {
+    "de": "die Welle",
+    "ru": "волна",
+    "tags": [
+      "W"
+    ],
+    "block": "Block 9 — Погода и вода / Wetter und Wasser",
+    "example_de": "Schraube an der Welle lose.",
+    "example_ru": "Винт на валу ослаблен.",
+    "example_q_id": 57
+  },
+  {
+    "de": "der Sog",
+    "ru": "присасывание, тяга (от судна)",
+    "tags": [
+      "W",
+      "N"
+    ],
+    "block": "Block 9 — Погода и вода / Wetter und Wasser",
+    "example_de": "Sog und Wellenschlag vermeiden.",
+    "example_ru": "Избегать попутной волны и засасывания.",
+    "example_q_id": 19
+  },
+  {
+    "de": "die Bö",
+    "ru": "шквал",
+    "tags": [
+      "W"
+    ],
+    "block": "Block 9 — Погода и вода / Wetter und Wasser",
+    "example_de": "Segel etwas fieren, um die Bö in Krängung umzusetzen.",
+    "example_ru": "Немного ослабить паруса, чтобы преобразовать порыв в крен.",
+    "example_q_id": 281
+  },
+  {
+    "de": "der Sturm",
+    "ru": "шторм",
+    "tags": [
+      "W"
+    ],
+    "block": "Block 9 — Погода и вода / Wetter und Wasser",
+    "example_de": "Schlechtes Wetter, Starkwind oder Sturm.",
+    "example_ru": "Плохая погода, сильный ветер или шторм.",
+    "example_q_id": 219
+  },
+  {
+    "de": "das Gewitter",
+    "ru": "гроза",
+    "tags": [
+      "W"
+    ],
+    "block": "Block 9 — Погода и вода / Wetter und Wasser",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "der Nebel",
+    "ru": "туман",
+    "tags": [
+      "W"
+    ],
+    "block": "Block 9 — Погода и вода / Wetter und Wasser",
+    "example_de": "Nebel, Schneefall, starker Regen.",
+    "example_ru": "Туман, снегопад, сильный дождь.",
+    "example_q_id": 205
+  },
+  {
+    "de": "die Temperatur",
+    "ru": "температура",
+    "tags": [
+      "W"
+    ],
+    "block": "Block 9 — Погода и вода / Wetter und Wasser",
+    "example_de": "Besseres Wetter, steigende Temperatur.",
+    "example_ru": "Улучшение погоды, повышение температуры.",
+    "example_q_id": 219
+  },
+  {
+    "de": "das Hochwasser",
+    "ru": "паводок, высокая вода",
+    "tags": [
+      "W"
+    ],
+    "block": "Block 9 — Погода и вода / Wetter und Wasser",
+    "example_de": "Ab Hochwassermarke I nur im Fahrwasser.",
+    "example_ru": "От отметки высокого уровня воды I только в судоходном канале.",
+    "example_q_id": 224
+  },
+  {
+    "de": "das Niedrigwasser",
+    "ru": "низкая вода",
+    "tags": [
+      "W"
+    ],
+    "block": "Block 9 — Погода и вода / Wetter und Wasser",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "die Wassertiefe",
+    "ru": "глубина воды",
+    "tags": [
+      "W"
+    ],
+    "block": "Block 9 — Погода и вода / Wetter und Wasser",
+    "example_de": "Weil dadurch Einflüsse von Wellen und Wassertiefe ausgeglichen werden.",
+    "example_ru": "Потому что это уравновешивает влияние волн и глубины воды.",
+    "example_q_id": 35
+  },
+  {
+    "de": "die Unterkühlung",
+    "ru": "переохлаждение",
+    "tags": [
+      "W",
+      "E"
+    ],
+    "block": "Block 9 — Погода и вода / Wetter und Wasser",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "vermeiden",
+    "ru": "избегать",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Sog und Wellenschlag vermeiden.",
+    "example_ru": "Избегать попутной волны и засасывания.",
+    "example_q_id": 19
+  },
+  {
+    "de": "beachten",
+    "ru": "соблюдать, обращать внимание",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Er hat das Verbot der Schifffahrt bei Nacht zu beachten.",
+    "example_ru": "Он должен соблюдать запрет на плавание ночью.",
+    "example_q_id": 238
+  },
+  {
+    "de": "verhalten (sich)",
+    "ru": "вести себя",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Die 15 Verhaltensregeln für Wassersportler.",
+    "example_ru": "15 правил поведения для любителей водного спорта.",
+    "example_q_id": 31
+  },
+  {
+    "de": "führen",
+    "ru": "управлять, вести",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Wie ist ein Überholmanöver durchzuführen?",
+    "example_ru": "Вопрос 174: Как следует выполнять манёвр обгона?",
+    "example_q_id": 174
+  },
+  {
+    "de": "fahren",
+    "ru": "ехать, двигаться (по воде)",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Eine Halse fahren.",
+    "example_ru": "Выполнить фордевинд.",
+    "example_q_id": 299
+  },
+  {
+    "de": "gelten",
+    "ru": "действовать, быть действительным",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Um die jeweils geltenden Vorschriften einhalten zu können.",
+    "example_ru": "Чтобы иметь возможность соблюдать применимые правила.",
+    "example_q_id": 227
+  },
+  {
+    "de": "bestimmen",
+    "ru": "определять, устанавливать",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "einhalten",
+    "ru": "соблюдать",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Um die jeweils geltenden Vorschriften einhalten zu können.",
+    "example_ru": "Чтобы иметь возможность соблюдать применимые правила.",
+    "example_q_id": 227
+  },
+  {
+    "de": "verringern",
+    "ru": "уменьшать, снижать",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Die Möglichkeit durch zusätzlichen Innenballast die Krängung zu verringern.",
+    "example_ru": "Возможность уменьшить крен за счет дополнительного внутреннего балласта.",
+    "example_q_id": 259
+  },
+  {
+    "de": "vermindern",
+    "ru": "уменьшать",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Schutzbedürftiges Fahrzeug, Geschwindigkeit vermindern.",
+    "example_ru": "Судно, требующее защиты, уменьшить скорость.",
+    "example_q_id": 249
+  },
+  {
+    "de": "erhöhen",
+    "ru": "увеличивать, повышать",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Geschwindigkeit erhöhen, um das Begegnungsmanöver zügig durchzuführen.",
+    "example_ru": "Увеличить скорость, чтобы быстро выполнить манёвр расхождения.",
+    "example_q_id": 36
+  },
+  {
+    "de": "behindern",
+    "ru": "препятствовать, мешать",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Wie sind Anker am Tage bezeichnet, die die Schifffahrt behindern können?",
+    "example_ru": "Вопрос 106: Как обозначаются якоря в дневное время, которые могут препятствовать судоходству?",
+    "example_q_id": 106
+  },
+  {
+    "de": "gefährden",
+    "ru": "подвергать опасности",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Überall, ohne die Schifffahrt zu gefährden.",
+    "example_ru": "Везде, не подвергая опасности судоходство.",
+    "example_q_id": 221
+  },
+  {
+    "de": "anzeigen",
+    "ru": "показывать, указывать; сообщать",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "kennzeichnen",
+    "ru": "обозначать, маркировать",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "erkennen",
+    "ru": "распознавать",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Woran kann man erkennen, ob der Anker hält?",
+    "example_ru": "Вопрос 39: Как определить, держит ли якорь?",
+    "example_q_id": 39
+  },
+  {
+    "de": "befahren",
+    "ru": "плыть по (водному пути)",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Wasserstraße, die jederzeit sicher befahren werden kann; keine Gefahr durch Seegang.",
+    "example_ru": "Водный путь, который можно безопасно проходить в любое время; нет опасности от морских условий.",
+    "example_q_id": 19
+  },
+  {
+    "de": "einfahren",
+    "ru": "входить (в шлюз, порт)",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Das aus- und die einfahrenden Fahrzeuge passieren sich an der Backbordseite, das Kleinfahrzeug hat Vorrang.",
+    "example_ru": "Выходящее и входящее суда проходят друг друга по левому борту, малое судно имеет приоритет.",
+    "example_q_id": 172
+  },
+  {
+    "de": "ausfahren",
+    "ru": "выходить (из шлюза, порта)",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Überholen an der Backbordseite des Vorausfahrenden.",
+    "example_ru": "Обгон по левому борту впереди идущего судна.",
+    "example_q_id": 164
+  },
+  {
+    "de": "vorbeifahren",
+    "ru": "проходить мимо",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "heranfahren",
+    "ru": "подходить, приближаться",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "Das heranfahrende Fahrzeug anleuchten.",
+    "example_ru": "Осветить приближающееся судно.",
+    "example_q_id": 133
+  },
+  {
+    "de": "umkehren",
+    "ru": "разворачиваться",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "unterlassen",
+    "ru": "воздерживаться от",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "verursachen",
+    "ru": "причинять",
+    "tags": [
+      "V"
+    ],
+    "block": "Block 10 — Ключевые глаголы / Wichtige Verben",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "rechts",
+    "ru": "справа, направо",
+    "tags": [],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "Die Seite in Fahrtrichtung rechts.",
+    "example_ru": "Сторона справа по направлению движения.",
+    "example_q_id": 8
+  },
+  {
+    "de": "links",
+    "ru": "слева, налево",
+    "tags": [],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "Die Seite in Fahrtrichtung links.",
+    "example_ru": "Сторона слева по направлению движения.",
+    "example_q_id": 8
+  },
+  {
+    "de": "vorne",
+    "ru": "впереди",
+    "tags": [],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "Schubverband von vorne.",
+    "example_ru": "Толкаемый состав спереди.",
+    "example_q_id": 192
+  },
+  {
+    "de": "hinten",
+    "ru": "сзади",
+    "tags": [],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "Das Versetzen nach hinten.",
+    "example_ru": "Смещение назад.",
+    "example_q_id": 46
+  },
+  {
+    "de": "oben",
+    "ru": "вверху, наверху",
+    "tags": [],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "Die Handlampe nach oben halten.",
+    "example_ru": "Держать ручной фонарь вверх.",
+    "example_q_id": 133
+  },
+  {
+    "de": "unten",
+    "ru": "внизу",
+    "tags": [],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "Einen schwarzen Kegel, Spitze unten.",
+    "example_ru": "Черный конус, вершиной вниз.",
+    "example_q_id": 7
+  },
+  {
+    "de": "quer",
+    "ru": "поперёк",
+    "tags": [],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "Queren des Fahrwassers ist gestattet.",
+    "example_ru": "Пересечение фарватера разрешено.",
+    "example_q_id": 26
+  },
+  {
+    "de": "längs",
+    "ru": "вдоль",
+    "tags": [],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "Geschleppte oder längsseits gekuppelte Kleinfahrzeuge.",
+    "example_ru": "Буксируемые или сцепленные борт о борт малые суда.",
+    "example_q_id": 178
+  },
+  {
+    "de": "voraus",
+    "ru": "впереди по курсу",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "Überholen an der Backbordseite des Vorausfahrenden.",
+    "example_ru": "Обгон по левому борту впереди идущего судна.",
+    "example_q_id": 164
+  },
+  {
+    "de": "achtern",
+    "ru": "на корме, позади",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "Schubverband von achtern.",
+    "example_ru": "Толкаемый состав с кормы.",
+    "example_q_id": 124
+  },
+  {
+    "de": "mittschiffs",
+    "ru": "на миделе (посередине судна)",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "seitlich",
+    "ru": "сбоку, боковой",
+    "tags": [],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "Das seitliche Versetzen des Bugs.",
+    "example_ru": "Боковое смещение носа.",
+    "example_q_id": 46
+  },
+  {
+    "de": "gegenüber",
+    "ru": "напротив",
+    "tags": [],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "C gegenüber A und B, B gegenüber A.",
+    "example_ru": "C по отношению к A и B, B по отношению к A.",
+    "example_q_id": 189
+  },
+  {
+    "de": "außerhalb",
+    "ru": "за пределами, снаружи",
+    "tags": [],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "Außerhalb der Fahrrinne.",
+    "example_ru": "Вне судоходного канала.",
+    "example_q_id": 221
+  },
+  {
+    "de": "innerhalb",
+    "ru": "в пределах, внутри",
+    "tags": [],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "Welche Maßnahmen sind zu treffen, wenn das Fahrzeug innerhalb des Fahrwassers bzw der Fahrrinne Grundberührung hat?",
+    "example_ru": "Вопрос 87: Какие меры следует предпринять, если судно касается грунта внутри фарватера или канала?",
+    "example_q_id": 87
+  },
+  {
+    "de": "stromaufwärts",
+    "ru": "вверх по течению",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "stromabwärts",
+    "ru": "вниз по течению",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 11 — Направления и позиции / Richtungen und Positionen",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "ausweichpflichtig",
+    "ru": "обязанный уступить дорогу",
+    "tags": [
+      "R"
+    ],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "Beide sind ausweichpflichtig.",
+    "example_ru": "Оба обязаны уступить дорогу.",
+    "example_q_id": 184
+  },
+  {
+    "de": "frei",
+    "ru": "свободный",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "Frei fahrende Fähre.",
+    "example_ru": "Паром, находящийся под управлением.",
+    "example_q_id": 124
+  },
+  {
+    "de": "empfohlen",
+    "ru": "рекомендуемый",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "Empfohlene Fahrtrichtung.",
+    "example_ru": "Рекомендуемое направление движения.",
+    "example_q_id": 198
+  },
+  {
+    "de": "gesperrt",
+    "ru": "закрытый, перекрытый",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "Anlage dauerhaft gesperrt.",
+    "example_ru": "Объект постоянно закрыт.",
+    "example_q_id": 28
+  },
+  {
+    "de": "eingeschränkt",
+    "ru": "ограниченный",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "stillstehend",
+    "ru": "неподвижный",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "treibend",
+    "ru": "дрейфующий",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "schwimmend",
+    "ru": "плавающий",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
+    "example_ru": "Плавучее оборудование в работе. Проход не разрешён.",
+    "example_q_id": 145
+  },
+  {
+    "de": "befestigt",
+    "ru": "закреплённый",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  },
+  {
+    "de": "geladen",
+    "ru": "гружёный",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "Ein Fahrzeug, das brennbare Stoffe geladen hat.",
+    "example_ru": "Судно, перевозящее легковоспламеняющиеся вещества.",
+    "example_q_id": 247
+  },
+  {
+    "de": "gesunken",
+    "ru": "затонувший",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.",
+    "example_ru": "Севшее на мель или затонувшее судно. Проход не разрешён.",
+    "example_q_id": 145
+  },
+  {
+    "de": "sicher",
+    "ru": "безопасный",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "Sicherheitstor.",
+    "example_ru": "Предохранительные ворота.",
+    "example_q_id": 204
+  },
+  {
+    "de": "dicht",
+    "ru": "плотный; близко",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "Dichtholen und Anluven.",
+    "example_ru": "Подтянуть парус и привести к ветру.",
+    "example_q_id": 299
+  },
+  {
+    "de": "möglich",
+    "ru": "возможный",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "Überholen nicht möglich.",
+    "example_ru": "Обгон невозможен.",
+    "example_q_id": 159
+  },
+  {
+    "de": "nötig",
+    "ru": "необходимый",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "Verringerung der Geschwindigkeit und nötigenfalls vom Rechtsfahrgebot abweichen.",
+    "example_ru": "Уменьшить скорость и при необходимости отклониться от правила держаться правой стороны.",
+    "example_q_id": 61
+  },
+  {
+    "de": "sofort",
+    "ru": "немедленно",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "Bleib-weg-Signal, Gefahrenbereich sofort verlassen.",
+    "example_ru": "Сигнал \"Держитесь в стороне\", немедленно покиньте опасную зону.",
+    "example_q_id": 16
+  },
+  {
+    "de": "gleichzeitig",
+    "ru": "одновременно",
+    "tags": [],
+    "block": "Block 12 — Прилагательные из экзамена / Prüfungsadjektive",
+    "example_de": "Wenn es gleichzeitig mit Maschinenkraft fährt.",
+    "example_ru": "Когда оно одновременно движется с использованием механической силы.",
+    "example_q_id": 6
+  },
+  {
+    "de": "die Seite",
+    "ru": "сторона",
+    "tags": [],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Seitenlichter.",
+    "example_ru": "Бортовые огни.",
+    "example_q_id": 139
+  },
+  {
+    "de": "die Stelle",
+    "ru": "место, позиция",
+    "tags": [],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Durch Verstellen des Travellers.",
+    "example_ru": "С помощью регулировки траверса.",
+    "example_q_id": 266
+  },
+  {
+    "de": "der Bereich",
+    "ru": "область, зона",
+    "tags": [],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Auf den Bundeswasserstraßen im Binnenbereich.",
+    "example_ru": "На федеральных водных путях во внутренней области.",
+    "example_q_id": 74
+  },
+  {
+    "de": "die Arbeit",
+    "ru": "работа",
+    "tags": [],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
+    "example_ru": "Плавучее оборудование в работе. Проход не разрешён.",
+    "example_q_id": 145
+  },
+  {
+    "de": "die Stoffe",
+    "ru": "вещества, материалы",
+    "tags": [],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Ein Fahrzeug, das brennbare Stoffe geladen hat.",
+    "example_ru": "Судно, перевозящее легковоспламеняющиеся вещества.",
+    "example_q_id": 247
+  },
+  {
+    "de": "der Teil",
+    "ru": "часть",
+    "tags": [],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Gleichmäßig verteilen.",
+    "example_ru": "Равномерно распределить.",
+    "example_q_id": 43
+  },
+  {
+    "de": "die Nacht",
+    "ru": "ночь",
+    "tags": [],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Eine Fahrt bei Nacht mit Radar.",
+    "example_ru": "Плавание ночью с использованием радара.",
+    "example_q_id": 253
+  },
+  {
+    "de": "der Tag",
+    "ru": "день",
+    "tags": [],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Eine Fahrt am Tage mit Radar.",
+    "example_ru": "Плавание днём с использованием радара.",
+    "example_q_id": 253
+  },
+  {
+    "de": "das Jahr",
+    "ru": "год",
+    "tags": [],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Mindestens 14 Jahre.",
+    "example_ru": "Не менее 14 лет.",
+    "example_q_id": 79
+  },
+  {
+    "de": "die Anlage",
+    "ru": "сооружение, установка",
+    "tags": [],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Schutzbedürftige Anlage.",
+    "example_ru": "Объект, требующий защиты.",
+    "example_q_id": 116
+  },
+  {
+    "de": "der Verkehr",
+    "ru": "движение, транспорт",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Einfahrt frei, Gegenverkehr gesperrt.",
+    "example_ru": "Вход разрешен, встречное движение запрещено.",
+    "example_q_id": 30
+  },
+  {
+    "de": "das Gerät",
+    "ru": "прибор, устройство",
+    "tags": [],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt nicht gestattet.",
+    "example_ru": "Плавучее оборудование в работе. Проход не разрешён.",
+    "example_q_id": 145
+  },
+  {
+    "de": "die Schifffahrt",
+    "ru": "судоходство",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Sperrung der Schifffahrt.",
+    "example_ru": "Закрытие судоходства.",
+    "example_q_id": 196
+  },
+  {
+    "de": "die Besatzung",
+    "ru": "экипаж",
+    "tags": [
+      "N",
+      "P"
+    ],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Killen führt zu Verletzungen der Besatzung.",
+    "example_ru": "Трепетание приводит к травмам экипажа.",
+    "example_q_id": 272
+  },
+  {
+    "de": "die Ladung",
+    "ru": "груз",
+    "tags": [
+      "N"
+    ],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "Ein geringer Ladungsstrom ist ungefährlich.",
+    "example_ru": "Низкий зарядный ток безвреден.",
+    "example_q_id": 209
+  },
+  {
+    "de": "die Mannschaft",
+    "ru": "команда, экипаж",
+    "tags": [
+      "P"
+    ],
+    "block": "Block 13 — Существительные из правил / Regelwerk-Substantive",
+    "example_de": "",
+    "example_ru": "",
+    "example_q_id": null
+  }
+]

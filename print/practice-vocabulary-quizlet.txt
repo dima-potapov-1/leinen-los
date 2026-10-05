@@ -1,0 +1,96 @@
+der Rudergänger,рулевой | 📝 Rudergänger: Klar zum Ablegen? | → Рулевой: Готовы к отходу?
+die Mannschaft,экипаж, команда | 📝 Mannschaft: Fender & Leinen klar! | → Экипаж: Кранцы и концы готовы!
+der Prüfer,экзаменатор | 📝 Prüfer: Nehmen Sie Kurs auf! | → Экзаменатор: Возьмите курс!
+der Vorschoter,шкотовый (передний матрос) | 📝 Vorschoter: Ist klar! | → Шкотовый: Готов!
+das Crewmitglied,член экипажа | 📝 Crewmitglieder direkt ansprechen. | → Обращаться к членам экипажа лично.
+der Bug,нос судна | 📝 Bug abfendern! | → Отвести нос кранцами!
+das Heck,корма | 📝 Heck dreht sich vom Steg weg. | → Корма отходит от причала.
+Steuerbord,правый борт | 📝 Bereitmachen zum Bergen an Steuerbord. | → Приготовиться к подъёму по правому борту.
+Backbord,левый борт | 📝 Boje über Bord an Backbord! | → Буй за бортом по левому борту!
+der Steg,причал, пирс | 📝 Klar zum Anlegen am Steg? | → Готовы к швартовке у причала?
+das Ufer,берег | 📝 Klar zum Anlegen am Ufer? | → Готовы к швартовке у берега?
+die Maschine,двигатель, мотор | 📝 Maschine neutral. | → Двигатель нейтраль.
+das Ruder,руль | 📝 Ruder gerade, sobald Vorsegel back steht. | → Руль прямо, как только стаксель заполаскивает.
+das Vorsegel,стаксель (передний парус) | 📝 Vorsegel über! | → Стаксель на другой борт!
+das Großsegel,грот (главный парус) | 📝 Wenn Großsegel umschlägt. | → Когда грот перебросится.
+der Großbaum,гик (перекладина грота) | 📝 Großbaum herüberziehen. | → Перетянуть гик на другую сторону.
+die Leine,конец, линь, швартов | 📝 Alle anderen Leinen los! | → Все остальные концы отдать!
+die Vorspring,носовой шпринг | 📝 Vorspring auf Slip! | → Носовой шпринг на слип!
+auf Slip,на слип (для быстрой отдачи) | 📝 Vorspring auf Slip, alle anderen Leinen los! | → Носовой шпринг на слип, остальные концы отдать!
+der Fender,кранец | 📝 Fender & Leinen klar! | → Кранцы и концы готовы!
+abfendern,защитить кранцами | 📝 Bug abfendern! | → Отвести нос кранцами!
+die Schot,шкот | 📝 Schoten los! | → Шкоты раздёрнуть!
+die Großschot,грота-шкот | 📝 Großschot dichtholen. | → Выбрать грота-шкот.
+das Großschotbündel,пучок грота-шкота | 📝 In das Großschotbündel greifen. | → Взяться за пучок грота-шкота.
+der Vorwärtsgang,передний ход | 📝 Vorwärtsgang einlegen. | → Включить передний ход.
+der Rückwärtsgang,задний ход | 📝 Rückwärtsgang zum Aufstoppen. | → Задний ход для остановки.
+der Leerlauf,нейтраль, холостой ход | 📝 Leerlauf; Gegenlenken. | → Нейтраль; контр-руление.
+auskuppeln,выключить передачу, нейтраль | 📝 Maschine sofort auskuppeln. | → Немедленно выключить передачу.
+einlegen,включить (передачу) | 📝 Rückwärtsgang einlegen. | → Включить задний ход.
+neutral,нейтраль | 📝 Maschine neutral. | → Двигатель нейтраль.
+die Drehzahl,обороты (двигателя) | 📝 Eine geringe Drehzahl. | → Малые обороты.
+Vollgas,полный газ | 📝 Keine Vollgasmanöver am Steg. | → Никаких манёвров на полном газу у причала.
+lenken,рулить, управлять рулём | 📝 Komplett zum Steg lenken. | → Руль полностью к причалу.
+einlenken,поворачивать (руль) к | 📝 Zum Steg einlenken. | → Руль к причалу.
+gegenlenken,контр-руление | 📝 Leerlauf; Gegenlenken. | → Нейтраль; контр-руление.
+steuern,управлять, рулить (курсом) | 📝 In Rückwärtsfahrt das Ufer ansteuern. | → Задним ходом направиться к берегу.
+Ruder gerade,руль прямо | 📝 Ruder gerade, sobald Vorsegel back steht. | → Руль прямо, как только стаксель заполаскивает.
+ablegen,отходить от причала | 📝 Klar zum Ablegen? | → Готовы к отходу?
+anlegen,швартоваться к причалу | 📝 Klar zum Anlegen am Steg? | → Готовы к швартовке?
+festmachen,закрепить, пришвартовать | 📝 Das Boot festmachen! | → Закрепить судно!
+aufstoppen,остановить(ся) | 📝 Rückwärtsgang zum Aufstoppen. | → Задний ход для остановки.
+das Manöver,манёвр | 📝 Manöver beendet. | → Манёвр завершён.
+der Rundumblick,круговой обзор | 📝 Achtern Rundumblick ob Freiraum. | → Осмотр позади — свободно ли.
+der Freiraum,свободное пространство | 📝 Achtern Rundumblick ob Freiraum. | → Позади — свободное пространство?
+der spitze Winkel,острый угол | 📝 Im spitzen Winkel auf den Steg zufahren. | → Подходить к причалу под острым углом.
+die Wende auf engem Raum,разворот в ограниченном пространстве | 📝 Wende auf engem Raum über Steuerbord. | → Разворот в ограниченном пространстве через правый борт.
+der Gegenkurs,обратный курс | 📝 Bis der Gegenkurs fahrend anliegt. | → Пока не лёг на обратный курс.
+die Wende,поворот оверштаг | 📝 Klar zur Wende? | → Готовы к повороту оверштаг?
+die Halse,поворот фордевинд | 📝 Klar zur Halse? | → Готовы к повороту фордевинд?
+das Schiften,перекладка парусов | 📝 Klar zum Schiften? | → Готовы к перекладке?
+die Q-Wende,Q-поворот (спасательный) | 📝 Klar zur Q-Wende? | → Готовы к Q-повороту?
+der Aufschießer,приведение в ветер (остановка) | 📝 Klarmachen zum Aufschießer! | → Приготовиться к приведению в ветер!
+anluven,приводиться (к ветру) | 📝 Anluven; Bug geht durch den Wind. | → Приводиться; нос проходит через ветер.
+abfallen,увалиться (от ветра) | 📝 Abfallen; Heck geht durch den Wind. | → Увалиться; корма проходит через ветер.
+durch den Wind gehen,проходить через ветер | 📝 Bug geht durch den Wind. | → Нос проходит через ветер.
+back stehen,заполаскивать (о парусе) | 📝 Sobald Vorsegel back steht. | → Как только стаксель заполаскивает.
+dichtholen,выбрать (шкот), подтянуть | 📝 Großschot dichtholen. | → Выбрать грота-шкот.
+fieren,потравить (ослабить шкот) | 📝 Die Großschot zügig fieren. | → Быстро потравить грота-шкот.
+überholen (Segel),перебросить (парус на другую сторону) | 📝 Das Vorsegel wird vom Vorschoter übergeholt. | → Шкотовый перебрасывает стаксель.
+rund achtern,через корму (при повороте) | 📝 Rund achtern! | → Поворот через корму!
+in den Wind schießen,привестись в ветер | 📝 In den Wind schießen. | → Привестись в ветер.
+der Halbwindkurs,галфвинд (курс полветра) | 📝 Neuer Kurs Halbwindkurs! | → Новый курс — галфвинд!
+der Raumwindkurs,бакштаг (курс полный бейдевинд) | 📝 Aus einem stabilen Raumwindkurs. | → Со стабильного курса бакштаг.
+der Vorwindkurs,фордевинд (курс по ветру) | 📝 Vorwindkurs halten. | → Держать курс фордевинд.
+Luv,наветренная сторона | 📝 Luve an! | → Привестись к ветру!
+Lee,подветренная сторона | 📝 (Gegenüber von Luv) | → (Противоположно наветренной стороне)
+der Wind,ветер | 📝 Gegen Wind und Welle. | → Против ветра и волны.
+die Welle,волна | 📝 Mit Wind und Welle vom MOB wegfahren. | → Отойти по ветру и волне от MOB.
+Mann über Bord,человек за бортом | 📝 Mann über Bord an Steuerbord! | → Человек за бортом по правому борту!
+Boje über Bord,буй за бортом (на тренировке) | 📝 Boje über Bord an Backbord! | → Буй за бортом по левому борту!
+im Blick behalten,не терять из виду | 📝 Mann im Blick behalten! | → Не терять из виду!
+das Markierungsmittel,маркировочное средство | 📝 Markierungsmittel ausbringen! | → Выбросить маркер!
+das Rettungsmittel,спасательное средство | 📝 Rettungsmittel bereithalten! | → Приготовить спасательные средства!
+ausbringen,выбросить, развернуть | 📝 Markierungsmittel ausbringen! | → Выбросить маркировочное средство!
+bereithalten,держать наготове | 📝 Rettungsmittel bereithalten! | → Держать спасательные средства наготове!
+bergen,подобрать, поднять (из воды) | 📝 Bereitmachen zum Bergen an Steuerbord. | → Приготовиться к подъёму по правому борту.
+an Bord nehmen,принять на борт | 📝 Mann an Bord nehmen! | → Принять человека на борт!
+die Bootslänge,длина судна | 📝 Ca. 4 Bootslängen wegfahren. | → Отойти ~4 длины судна.
+geborgen,поднят, спасён | 📝 Mann ist geborgen. | → Человек поднят на борт.
+der Ernstfall,реальная ситуация, экстренный случай | 📝 Nur im Ernstfall gilt „Mann über Bord". | → Только в реальной ситуации говорят «Человек за бортом».
+klar,готов; свободно | 📝 Klar zum Ablegen? / Achtern frei! | → Готовы к отходу? / Позади свободно!
+klarmachen,приготовить | 📝 Leinen und Fender klarmachen! | → Приготовить концы и кранцы!
+los,отдать (конец) | 📝 Vorspring los! / Schoten los! | → Носовой шпринг отдать! / Шкоты раздёрнуть!
+frei,свободно, чисто | 📝 Achtern frei! | → Позади свободно!
+über,через, на другой борт | 📝 Leinen über! / Vorsegel über! | → Подать концы! / Стаксель на другой борт!
+fest,закреплён, натянут | 📝 Leinen sind fest. | → Концы закреплены.
+beendet,завершён | 📝 Manöver beendet. | → Манёвр завершён.
+Ree!,команда к повороту оверштаг | 📝 Ree! | → Ree! (= начинаем поворот оверштаг)
+Nehme Kurs auf,беру курс на | 📝 Nehme Kurs auf in Richtung Fernsehturm. | → Беру курс на телебашню.
+Kurs liegt an,курс установлен | 📝 Kurs 3-0-0 Grad liegt an. | → Курс 3-0-0 градусов установлен.
+achtern,позади (по корме) | 📝 Achtern Rundumblick ob Freiraum. | → Осмотр позади — свободно ли.
+mittschiffs,на миделе (посередине судна) | 📝 Mittschiffs neben dem MOB aufzustoppen. | → Остановиться на миделе рядом с MOB.
+der Ton,гудок, звук | 📝 Ein kurzer Ton. | → Один короткий гудок.
+kurz,короткий | 📝 Drei kurze Töne. | → Три коротких гудка.
+das Schallsignal,звуковой сигнал | 📝 Schallsignale zur Kursänderungen. | → Звуковые сигналы при изменении курса.
+die Kursänderung,изменение курса | 📝 Schallsignale zur Kursänderungen. | → Звуковые сигналы при изменении курса.
